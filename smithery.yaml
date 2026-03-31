@@ -1,0 +1,9 @@
+name: glp1search-mcp
+description: GLP-1 medication data and 18,000+ provider directory. Search clinics, compare medications, find cheapest providers.
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+  commandFunction: |-
+    (config) => ({ command: 'node', args: ['index.js'] })
