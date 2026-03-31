@@ -1,12 +1,15 @@
-# @glp1search/mcp-server
+# GLP1Search MCP Server
 
-MCP server for GLP-1 medication data and the largest provider directory. Search 18,000+ verified clinics, telehealth programs, and pharmacies from [GLP1Search.com](https://glp1search.com).
+MCP server for GLP-1 medication data and the largest provider directory in the US. Search 18,344 verified clinics, telehealth programs, and pharmacies. Built by [GLP1Search.com](https://glp1search.com).
+
+## Data
+
+- **18,344 providers** with contact info, ratings, pricing, and addresses
+- **8 medications** — semaglutide, tirzepatide, liraglutide, and more
+- **25 side effects** with management guidance
+- **15 FAQs** covering cost, safety, eligibility, and lifestyle
 
 ## Installation
-
-```bash
-npx @glp1search/mcp-server
-```
 
 ### Claude Desktop
 
@@ -17,7 +20,7 @@ Add to your `claude_desktop_config.json`:
   "mcpServers": {
     "glp1search": {
       "command": "npx",
-      "args": ["-y", "@glp1search/mcp-server"]
+      "args": ["-y", "github:Sndevore77/glp1search-mcp"]
     }
   }
 }
@@ -29,9 +32,18 @@ Add to your `claude_desktop_config.json`:
 {
   "glp1search": {
     "command": "npx",
-    "args": ["-y", "@glp1search/mcp-server"]
+    "args": ["-y", "github:Sndevore77/glp1search-mcp"]
   }
 }
+```
+
+### Manual
+
+```bash
+git clone https://github.com/Sndevore77/glp1search-mcp.git
+cd glp1search-mcp
+npm install
+node index.js
 ```
 
 ## Tools
@@ -52,37 +64,28 @@ search_providers({ query: "telehealth semaglutide", state: "Nationwide", limit: 
 
 ### get_provider
 
-Get full details for a specific provider.
+Get full details for a specific provider including ratings, contact info, and address.
 
 ```
 get_provider({ slug: "form-health" })
 ```
 
-**Parameters:**
-- `slug` (string, required) — Provider slug from search results
-
 ### compare_providers
 
-Compare 2-3 providers side by side.
+Compare 2-3 providers side by side on pricing, medications, and ratings.
 
 ```
 compare_providers({ slugs: ["ro", "hims", "form-health"] })
 ```
 
-**Parameters:**
-- `slugs` (string[], required) — 2-3 provider slugs to compare
-
 ### get_medication_info
 
-Get detailed information about a GLP-1 medication.
+Get detailed information about a GLP-1 medication — dosing, trials, costs, side effects.
 
 ```
 get_medication_info({ medication: "semaglutide" })
 get_medication_info({ medication: "ozempic" })
 ```
-
-**Parameters:**
-- `medication` (string, required) — Medication name or brand name
 
 ### list_medications
 
@@ -94,15 +97,11 @@ list_medications({})
 
 ### get_side_effect_info
 
-Get information about a specific side effect.
+Get side effect details — frequency, severity, management tips, when to see a doctor.
 
 ```
 get_side_effect_info({ effect: "nausea" })
-get_side_effect_info({ effect: "hair-loss" })
 ```
-
-**Parameters:**
-- `effect` (string, required) — Side effect name or slug
 
 ### find_cheapest_providers
 
@@ -110,36 +109,26 @@ Find the lowest-cost providers in a location.
 
 ```
 find_cheapest_providers({ location: "Texas", medication: "semaglutide" })
-find_cheapest_providers({ location: "Nationwide" })
 ```
-
-**Parameters:**
-- `location` (string, required) — State, city, or "Nationwide"
-- `medication` (string, optional) — Filter by medication
 
 ### get_faq
 
-Answer a GLP-1 related question from the knowledge base.
+Answer a GLP-1 question from the knowledge base.
 
 ```
 get_faq({ question: "How much weight can I lose on Ozempic?" })
-get_faq({ question: "What is the difference between 503A and 503B?" })
 ```
 
-**Parameters:**
-- `question` (string, required) — The question to answer
+## Use Cases
 
-## Data Coverage
-
-- **18,344 providers** across the United States
-- **8 medications** including approved and pipeline drugs
-- **13 side effects** with management guidance
-- **16 FAQs** covering cost, safety, diet, exercise, and more
-- **Provider types:** telehealth, local clinics, pharmacies, weight-loss centers, wellness centers, endocrinology, nutrition, dermatology, and more
+- **Patient research** — Find and compare GLP-1 providers by location and price
+- **Clinical Q&A** — Answer medication questions with cited, structured data
+- **Cost comparison** — Help users find affordable GLP-1 treatment options
+- **Side effect guidance** — Provide management strategies for common side effects
 
 ## About
 
-Built by [GLP1Search.com](https://glp1search.com) — the most comprehensive GLP-1 provider directory. Data is updated regularly from verified sources.
+Built by [GLP1Search.com](https://glp1search.com) — the most comprehensive GLP-1 provider directory. Updated regularly.
 
 ## License
 

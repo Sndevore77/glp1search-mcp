@@ -140,7 +140,7 @@ function parsePriceNumber(priceStr) {
 // ---------------------------------------------------------------------------
 
 const server = new McpServer({
-  name: "@glp1search/mcp-server",
+  name: "glp1search-mcp",
   version: "1.0.0",
 });
 
