@@ -1,0 +1,51 @@
+{
+  "name": "@glp1search/mcp-server",
+  "version": "1.0.0",
+  "description": "GLP-1 medication data, provider directory, and weight loss information. Search 18,000+ verified clinics and telehealth programs.",
+  "type": "module",
+  "bin": {
+    "glp1search-mcp": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "glp-1",
+    "weight-loss",
+    "semaglutide",
+    "tirzepatide",
+    "ozempic",
+    "wegovy",
+    "mounjaro",
+    "zepbound",
+    "health",
+    "medical",
+    "provider-directory",
+    "telehealth",
+    "model-context-protocol"
+  ],
+  "author": "GLP1Search.com",
+  "license": "MIT",
+  "homepage": "https://glp1search.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glp1search/mcp-server"
+  },
+  "bugs": {
+    "url": "https://github.com/glp1search/mcp-server/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "index.js",
+    "data/",
+    "README.md",
+    "LICENSE"
+  ]
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "what-are-glp1-medications",
+    "question": "What are GLP-1 medications?",
+    "answer": "GLP-1 (glucagon-like peptide-1) medications are a class of drugs that mimic a natural hormone produced in your gut. They work by slowing gastric emptying, reducing appetite, and improving blood sugar regulation. Originally developed for type 2 diabetes, several GLP-1 medications are now approved for chronic weight management. The most well-known are semaglutide (Ozempic/Wegovy) and tirzepatide (Mounjaro/Zepbound).",
+    "tags": ["basics", "overview"]
+  },
+  {
+    "slug": "how-do-glp1-medications-work",
+    "question": "How do GLP-1 medications work for weight loss?",
+    "answer": "GLP-1 medications work through several mechanisms: (1) They slow gastric emptying, making you feel full longer after eating. (2) They act on appetite centers in the brain to reduce hunger and cravings. (3) They improve insulin sensitivity and blood sugar regulation, which reduces fat storage signals. (4) Dual-action medications like tirzepatide also activate GIP receptors, enhancing the metabolic benefits. The result is reduced caloric intake and improved metabolic function, typically leading to 15-25% body weight loss over 12-18 months.",
+    "tags": ["basics", "mechanism"]
+  },
+  {
+    "slug": "semaglutide-vs-tirzepatide",
+    "question": "What is the difference between semaglutide and tirzepatide?",
+    "answer": "Semaglutide (Ozempic/Wegovy) targets the GLP-1 receptor only, while tirzepatide (Mounjaro/Zepbound) targets both GIP and GLP-1 receptors. In clinical trials, tirzepatide produced greater average weight loss (~21% vs ~15% of body weight). Both are weekly injections. Tirzepatide is generally more expensive, especially in compounded form. The choice between them depends on individual response, insurance coverage, cost, and provider recommendation. Some patients who plateau on one may switch to the other.",
+    "tags": ["medications", "comparison"]
+  },
+  {
+    "slug": "how-much-weight-can-i-lose",
+    "question": "How much weight can I lose on GLP-1 medications?",
+    "answer": "Clinical trial results show average weight loss of: Semaglutide (Wegovy) ~15% of body weight over 68 weeks; Tirzepatide (Zepbound) ~21% of body weight over 72 weeks. Individual results vary significantly. Some patients lose more, some less. Factors include starting weight, diet, exercise, dose, and individual metabolism. Weight loss is gradual and most significant in the first 12-18 months. Combining medication with diet and exercise typically produces better results.",
+    "tags": ["weight-loss", "expectations"]
+  },
+  {
+    "slug": "glp1-cost-without-insurance",
+    "question": "How much do GLP-1 medications cost without insurance?",
+    "answer": "Brand-name GLP-1 medications cost $900-$1,500/month without insurance. However, compounded versions are available at significantly lower prices: compounded semaglutide typically costs $100-$400/month and compounded tirzepatide $200-$600/month. Telehealth providers often offer the most competitive pricing for compounded medications. Some providers include the consultation fee in their monthly price, while others charge separately. Use GLP1Search.com to compare prices across 18,000+ providers.",
+    "tags": ["cost", "insurance", "pricing"]
+  },
+  {
+    "slug": "compounded-vs-brand-name",
+    "question": "What is the difference between compounded and brand-name GLP-1 medications?",
+    "answer": "Brand-name medications (Ozempic, Wegovy, Mounjaro, Zepbound) are manufactured by pharmaceutical companies and FDA-approved. Compounded medications are custom-prepared by compounding pharmacies (503A or 503B) using the same active ingredient. Key differences: (1) Cost - compounded is significantly cheaper ($100-400/month vs $900-1,500/month). (2) Regulation - brand-name has full FDA approval; compounded is regulated by state pharmacy boards. (3) Availability - compounded versions can legally be made when the brand-name is in shortage. (4) 503B pharmacies are FDA-registered outsourcing facilities with stricter oversight than 503A pharmacies.",
+    "tags": ["compounded", "cost", "pharmacy"]
+  },
+  {
+    "slug": "503a-vs-503b-pharmacy",
+    "question": "What is the difference between 503A and 503B pharmacies?",
+    "answer": "503A pharmacies are traditional compounding pharmacies that prepare medications based on individual prescriptions. They are regulated by state pharmacy boards. 503B pharmacies are FDA-registered outsourcing facilities that can produce larger batches without individual prescriptions and are subject to more rigorous FDA oversight, including current Good Manufacturing Practice (cGMP) requirements. For GLP-1 medications, 503B pharmacies generally offer more consistent quality control and batch testing, though both types can produce safe, effective compounded medications.",
+    "tags": ["pharmacy", "compounded", "regulation"]
+  },
+  {
+    "slug": "telehealth-vs-local-provider",
+    "question": "Should I use a telehealth provider or a local clinic for GLP-1 medications?",
+    "answer": "Both options have advantages. Telehealth providers typically offer: lower prices (especially for compounded medications), convenience (no in-person visits), faster access, and nationwide availability. Local clinics offer: in-person examinations, relationship with a local provider, potential insurance billing, and immediate physical care if needed. Many patients start with telehealth for cost and convenience. If you have complex health conditions, a local provider who can examine you may be preferable. You can search and compare both types on GLP1Search.com.",
+    "tags": ["telehealth", "provider", "comparison"]
+  },
+  {
+    "slug": "glp1-side-effects",
+    "question": "What are the most common side effects of GLP-1 medications?",
+    "answer": "The most common side effects are gastrointestinal: nausea (20-44%), diarrhea (10-30%), constipation (5-24%), vomiting (5-15%), and abdominal pain (5-20%). These are usually mild to moderate and improve within the first 4-8 weeks as your body adjusts. Starting at a low dose and titrating slowly helps minimize side effects. Less common but notable effects include fatigue, headache, and hair loss (typically from rapid weight loss). Rare but serious side effects include pancreatitis and gallbladder problems. Always discuss side effects with your prescribing provider.",
+    "tags": ["side-effects", "safety"]
+  },
+  {
+    "slug": "who-should-not-take-glp1",
+    "question": "Who should not take GLP-1 medications?",
+    "answer": "GLP-1 medications are not recommended for: (1) People with a personal or family history of medullary thyroid carcinoma (MTC). (2) People with Multiple Endocrine Neoplasia syndrome type 2 (MEN 2). (3) Those with a history of pancreatitis. (4) Pregnant or breastfeeding women (discontinue at least 2 months before planned pregnancy for semaglutide). (5) People with severe gastrointestinal diseases. (6) Those with a history of serious allergic reactions to GLP-1 medications. Always disclose your full medical history to your provider before starting treatment.",
+    "tags": ["safety", "contraindications"]
+  },
+  {
+    "slug": "how-long-do-i-take-glp1",
+    "question": "How long do I need to take GLP-1 medications?",
+    "answer": "Current medical consensus is that GLP-1 medications for weight management are typically long-term or indefinite treatments. Studies show that most patients regain a significant portion of lost weight within 1-2 years of stopping the medication. However, some patients successfully transition to lower maintenance doses, and research on optimal long-term protocols is ongoing. Discuss an exit strategy with your provider, which may include gradually reducing the dose while maintaining diet and exercise habits established during treatment.",
+    "tags": ["duration", "long-term"]
+  },
+  {
+    "slug": "glp1-and-exercise",
+    "question": "Should I exercise while taking GLP-1 medications?",
+    "answer": "Yes, exercise is strongly recommended while taking GLP-1 medications. Resistance training (strength training) is particularly important because 25-40% of weight lost can be lean muscle mass. A good program includes: (1) Resistance training 2-4 times per week to preserve muscle. (2) 150+ minutes of moderate cardio per week. (3) High protein intake (1.0-1.2g per pound of ideal body weight). Exercise enhances weight loss results, preserves muscle mass, improves cardiovascular health, and helps maintain weight loss long-term.",
+    "tags": ["exercise", "lifestyle", "muscle"]
+  },
+  {
+    "slug": "glp1-and-alcohol",
+    "question": "Can I drink alcohol while taking GLP-1 medications?",
+    "answer": "While there is no absolute contraindication, alcohol use should be approached cautiously with GLP-1 medications. Considerations: (1) GLP-1 medications can increase alcohol sensitivity and lower tolerance. (2) Alcohol can worsen gastrointestinal side effects like nausea. (3) Both GLP-1 medications and alcohol affect blood sugar, increasing hypoglycemia risk (especially in diabetic patients). (4) Alcohol is calorie-dense and can undermine weight loss efforts. Many patients report naturally reduced desire for alcohol while on GLP-1 medications. Moderate, occasional consumption is generally considered acceptable - discuss with your provider.",
+    "tags": ["alcohol", "lifestyle", "safety"]
+  },
+  {
+    "slug": "what-to-eat-on-glp1",
+    "question": "What should I eat while taking GLP-1 medications?",
+    "answer": "Focus on nutrient-dense foods since you will be eating less: (1) Prioritize protein at every meal (lean meats, fish, eggs, Greek yogurt, legumes) - aim for 1.0-1.2g per pound of ideal body weight daily. (2) Eat vegetables and fruits for vitamins and fiber. (3) Choose complex carbohydrates over refined ones. (4) Include healthy fats (avocado, nuts, olive oil). (5) Stay well hydrated - aim for 64+ oz of water daily. (6) Eat slowly and stop when satisfied. (7) Avoid high-fat, greasy, and very sugary foods which worsen GI side effects. Many patients find it helpful to eat smaller, more frequent meals.",
+    "tags": ["diet", "nutrition", "lifestyle"]
+  },
+  {
+    "slug": "insurance-coverage-glp1",
+    "question": "Does insurance cover GLP-1 medications for weight loss?",
+    "answer": "Coverage varies significantly: (1) For diabetes (Ozempic, Mounjaro): Most insurance plans cover these when prescribed for type 2 diabetes. (2) For weight loss (Wegovy, Zepbound): Coverage is inconsistent. Some employer plans and Medicare Part D cover weight loss medications; many do not. (3) Prior authorization is often required. (4) Alternatives when not covered: compounded medications ($100-600/month), manufacturer savings programs, patient assistance programs, or telehealth providers with competitive cash pricing. Check with your specific insurance plan and compare cash-pay options on GLP1Search.com.",
+    "tags": ["insurance", "cost", "coverage"]
+  },
+  {
+    "slug": "how-to-get-glp1-prescription",
+    "question": "How do I get a prescription for GLP-1 medications?",
+    "answer": "You can get a GLP-1 prescription through: (1) Your primary care physician or endocrinologist. (2) A weight loss clinic (search on GLP1Search.com). (3) A telehealth provider (often fastest and most affordable). The process typically involves: a medical evaluation (online or in-person), review of your health history, BMI assessment (generally BMI 30+ or 27+ with weight-related conditions), and lab work (some providers require this, others do not). Most telehealth providers can prescribe within 24-48 hours. GLP1Search.com lists 18,000+ providers you can compare.",
+    "tags": ["prescription", "getting-started", "provider"]
+  }
+]

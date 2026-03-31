@@ -1,0 +1,228 @@
+[
+  {
+    "slug": "nausea",
+    "name": "Nausea",
+    "frequency": "Very common (20-44% of patients)",
+    "severity": "Mild to moderate",
+    "duration": "Usually improves within 4-8 weeks as body adjusts",
+    "description": "Nausea is the most commonly reported side effect of GLP-1 medications. It occurs because these medications slow gastric emptying and affect appetite centers in the brain.",
+    "management": [
+      "Start at the lowest dose and titrate slowly",
+      "Eat smaller, more frequent meals",
+      "Avoid fatty, greasy, or spicy foods",
+      "Stay hydrated with small sips of water",
+      "Eat bland foods like crackers or toast when nauseous",
+      "Do not lie down immediately after eating",
+      "Talk to your provider about anti-nausea medication if severe"
+    ],
+    "whenToSeekHelp": "Contact your provider if nausea is severe, persistent beyond 8 weeks, or prevents you from eating or drinking.",
+    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide", "Dulaglutide", "Exenatide"]
+  },
+  {
+    "slug": "vomiting",
+    "name": "Vomiting",
+    "frequency": "Common (5-15% of patients)",
+    "severity": "Mild to moderate",
+    "duration": "Usually improves within first few weeks of each dose increase",
+    "description": "Vomiting can occur especially during dose increases. It is related to the slowed gastric emptying effect of GLP-1 medications.",
+    "management": [
+      "Eat slowly and stop eating when full",
+      "Avoid large meals",
+      "Stay upright after eating for at least 30 minutes",
+      "Try ginger tea or ginger supplements",
+      "Consider adjusting injection timing",
+      "Your provider may slow your dose titration schedule"
+    ],
+    "whenToSeekHelp": "Seek medical attention if you experience persistent vomiting, signs of dehydration, or vomiting blood.",
+    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide", "Dulaglutide", "Exenatide"]
+  },
+  {
+    "slug": "diarrhea",
+    "name": "Diarrhea",
+    "frequency": "Common (10-30% of patients)",
+    "severity": "Mild to moderate",
+    "duration": "Often resolves within the first month of treatment",
+    "description": "Diarrhea occurs as GLP-1 medications affect gut motility and digestion. It is more common during the initial weeks and dose increases.",
+    "management": [
+      "Stay well hydrated with water and electrolyte drinks",
+      "Avoid high-fat and high-fiber foods temporarily",
+      "Eat bland, easily digestible foods",
+      "Consider probiotics",
+      "Monitor for signs of dehydration"
+    ],
+    "whenToSeekHelp": "Contact your provider if diarrhea is severe, bloody, lasts more than a few days, or you show signs of dehydration.",
+    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide", "Dulaglutide", "Exenatide"]
+  },
+  {
+    "slug": "constipation",
+    "name": "Constipation",
+    "frequency": "Common (5-24% of patients)",
+    "severity": "Mild to moderate",
+    "duration": "May persist throughout treatment but often manageable",
+    "description": "Constipation is caused by slowed gastric emptying and reduced food intake. Eating less means less bulk moving through the digestive system.",
+    "management": [
+      "Increase fiber intake gradually",
+      "Drink plenty of water throughout the day",
+      "Stay physically active",
+      "Consider a stool softener or fiber supplement",
+      "Eat fruits, vegetables, and whole grains",
+      "Establish a regular bathroom routine"
+    ],
+    "whenToSeekHelp": "Contact your provider if constipation is severe, painful, lasts more than a week, or is accompanied by bloating and vomiting.",
+    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide", "Dulaglutide"]
+  },
+  {
+    "slug": "abdominal-pain",
+    "name": "Abdominal Pain",
+    "frequency": "Common (5-20% of patients)",
+    "severity": "Mild to moderate",
+    "duration": "Usually temporary, improving as the body adjusts",
+    "description": "Abdominal discomfort or pain can occur as GLP-1 medications change how your digestive system processes food. It is usually related to slowed gastric emptying.",
+    "management": [
+      "Eat smaller, more frequent meals",
+      "Avoid foods that trigger discomfort",
+      "Apply a warm compress to the abdomen",
+      "Avoid lying down immediately after eating",
+      "Track which foods worsen symptoms"
+    ],
+    "whenToSeekHelp": "Seek immediate medical attention for severe abdominal pain, especially if accompanied by fever, as this could indicate pancreatitis.",
+    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide", "Dulaglutide", "Exenatide"]
+  },
+  {
+    "slug": "injection-site-reactions",
+    "name": "Injection Site Reactions",
+    "frequency": "Common (2-10% of patients)",
+    "severity": "Mild",
+    "duration": "Usually resolves within hours to days",
+    "description": "Redness, swelling, itching, or bruising at the injection site. This is a normal immune response to subcutaneous injection.",
+    "management": [
+      "Rotate injection sites (abdomen, thigh, upper arm)",
+      "Allow the medication to reach room temperature before injecting",
+      "Apply ice before and after injection",
+      "Use proper injection technique",
+      "Do not inject into areas that are red, bruised, or tender"
+    ],
+    "whenToSeekHelp": "Contact your provider if you develop a large area of redness, significant swelling, or signs of infection at the injection site.",
+    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide", "Dulaglutide", "Exenatide"]
+  },
+  {
+    "slug": "headache",
+    "name": "Headache",
+    "frequency": "Common (10-14% of patients)",
+    "severity": "Mild to moderate",
+    "duration": "Usually resolves within the first few weeks",
+    "description": "Headaches can occur as your body adjusts to the medication, changes in blood sugar, or from reduced food intake and dehydration.",
+    "management": [
+      "Stay well hydrated",
+      "Maintain regular meals even if appetite is reduced",
+      "Get adequate sleep",
+      "Take over-the-counter pain relief as needed",
+      "Monitor blood sugar if diabetic"
+    ],
+    "whenToSeekHelp": "Contact your provider if headaches are severe, persistent, or accompanied by vision changes.",
+    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide"]
+  },
+  {
+    "slug": "fatigue",
+    "name": "Fatigue",
+    "frequency": "Common (5-11% of patients)",
+    "severity": "Mild to moderate",
+    "duration": "Often improves as the body adjusts over several weeks",
+    "description": "Fatigue and tiredness can result from reduced caloric intake, changes in blood sugar levels, or the body adjusting to the medication.",
+    "management": [
+      "Ensure adequate protein intake (0.8-1g per pound of body weight)",
+      "Maintain regular sleep schedule",
+      "Stay physically active with moderate exercise",
+      "Eat nutrient-dense foods rather than empty calories",
+      "Consider a multivitamin",
+      "Stay hydrated"
+    ],
+    "whenToSeekHelp": "Contact your provider if fatigue is severe or interfering with daily activities.",
+    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide"]
+  },
+  {
+    "slug": "gastroparesis",
+    "name": "Gastroparesis (Stomach Paralysis)",
+    "frequency": "Rare (<1% of patients)",
+    "severity": "Serious",
+    "duration": "May require medical intervention; usually resolves after stopping medication",
+    "description": "In rare cases, the slowed gastric emptying caused by GLP-1 medications can become severe enough to constitute gastroparesis, where the stomach takes much longer than normal to empty its contents.",
+    "management": [
+      "Report symptoms to your provider immediately",
+      "Your provider may reduce your dose or pause treatment",
+      "Eat very small, frequent meals",
+      "Avoid high-fat and high-fiber foods",
+      "Stay upright during and after meals"
+    ],
+    "whenToSeekHelp": "Seek medical attention if you experience severe nausea/vomiting that prevents eating, significant bloating, or stomach pain lasting more than a few days.",
+    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide"]
+  },
+  {
+    "slug": "pancreatitis",
+    "name": "Pancreatitis",
+    "frequency": "Rare (<0.5% of patients)",
+    "severity": "Serious - requires immediate medical attention",
+    "duration": "Requires treatment; medication must be discontinued",
+    "description": "Acute pancreatitis (inflammation of the pancreas) is a rare but serious potential side effect of GLP-1 medications. The exact mechanism is not fully understood.",
+    "management": [
+      "Stop the medication immediately and contact your provider",
+      "This requires emergency medical treatment",
+      "Do not restart GLP-1 medication without medical clearance",
+      "Monitor for symptoms during treatment"
+    ],
+    "whenToSeekHelp": "Seek emergency medical care immediately if you experience severe abdominal pain that radiates to your back, especially with nausea, vomiting, and fever.",
+    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide", "Dulaglutide", "Exenatide"]
+  },
+  {
+    "slug": "gallbladder-problems",
+    "name": "Gallbladder Problems",
+    "frequency": "Uncommon (1-3% of patients)",
+    "severity": "Moderate to serious",
+    "duration": "May require medical or surgical treatment",
+    "description": "Rapid weight loss from any cause, including GLP-1 medications, can increase the risk of gallstones and gallbladder inflammation (cholecystitis).",
+    "management": [
+      "Report any right upper abdominal pain to your provider",
+      "Maintain adequate fat intake (do not go extremely low fat)",
+      "Lose weight gradually rather than rapidly",
+      "Stay hydrated"
+    ],
+    "whenToSeekHelp": "Contact your provider if you experience pain in the upper right abdomen, especially after eating, with nausea or fever.",
+    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide"]
+  },
+  {
+    "slug": "hair-loss",
+    "name": "Hair Loss (Telogen Effluvium)",
+    "frequency": "Uncommon but frequently reported anecdotally",
+    "severity": "Mild to moderate",
+    "duration": "Usually temporary; hair regrowth occurs over 3-6 months",
+    "description": "Hair loss associated with GLP-1 medications is typically caused by rapid weight loss and caloric restriction rather than the medication directly. This type of hair loss (telogen effluvium) is triggered by physiological stress on the body.",
+    "management": [
+      "Ensure adequate protein intake (critical for hair health)",
+      "Take a biotin supplement",
+      "Maintain adequate caloric intake (not too aggressive a deficit)",
+      "Consider a multivitamin with iron, zinc, and vitamin D",
+      "Be patient - hair typically regrows once weight stabilizes",
+      "Consult a dermatologist if concerned"
+    ],
+    "whenToSeekHelp": "Consult your provider if hair loss is significant or does not improve after 6 months.",
+    "affectedMedications": ["Semaglutide", "Tirzepatide"]
+  },
+  {
+    "slug": "muscle-loss",
+    "name": "Muscle Loss (Lean Mass Reduction)",
+    "frequency": "Common with significant weight loss",
+    "severity": "Moderate",
+    "duration": "Ongoing concern during weight loss phase",
+    "description": "When losing weight with GLP-1 medications, 25-40% of weight lost may come from lean muscle mass rather than fat. This is a concern for maintaining metabolic health and physical function.",
+    "management": [
+      "Resistance training 2-4 times per week is critical",
+      "Consume 1.0-1.2g protein per pound of ideal body weight daily",
+      "Spread protein intake across all meals",
+      "Consider creatine supplementation",
+      "Work with a personal trainer if possible",
+      "Do not reduce calories too aggressively"
+    ],
+    "whenToSeekHelp": "Discuss with your provider if you notice significant weakness or functional decline.",
+    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide"]
+  }
+]

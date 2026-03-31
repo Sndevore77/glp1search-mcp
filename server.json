@@ -1,0 +1,44 @@
+{
+  "name": "@glp1search/mcp-server",
+  "description": "Access the largest GLP-1 provider directory. Search 18,000+ clinics, compare medications, check side effects.",
+  "version": "1.0.0",
+  "tools": [
+    {
+      "name": "search_providers",
+      "description": "Search 18,000+ GLP-1 medication providers by name, city, state, type, or medication."
+    },
+    {
+      "name": "get_provider",
+      "description": "Get full details for a specific GLP-1 provider by slug."
+    },
+    {
+      "name": "compare_providers",
+      "description": "Compare 2-3 GLP-1 providers side by side on pricing, ratings, and medications."
+    },
+    {
+      "name": "get_medication_info",
+      "description": "Get detailed info about a GLP-1 medication including dosing, cost, and weight loss data."
+    },
+    {
+      "name": "list_medications",
+      "description": "List all GLP-1 medications with key stats and approval status."
+    },
+    {
+      "name": "get_side_effect_info",
+      "description": "Get info about a GLP-1 side effect including management tips and when to seek help."
+    },
+    {
+      "name": "find_cheapest_providers",
+      "description": "Find lowest-cost GLP-1 providers in a specific state or city."
+    },
+    {
+      "name": "get_faq",
+      "description": "Answer common GLP-1 questions about medications, costs, side effects, and more."
+    }
+  ],
+  "homepage": "https://glp1search.com",
+  "repository": "https://github.com/glp1search/mcp-server",
+  "license": "MIT",
+  "categories": ["health", "medical", "directory"],
+  "transport": ["stdio"]
+}

@@ -1,0 +1,161 @@
+[
+  {
+    "slug": "semaglutide",
+    "name": "Semaglutide",
+    "brandNames": ["Ozempic", "Wegovy", "Rybelsus"],
+    "manufacturer": "Novo Nordisk",
+    "class": "GLP-1 receptor agonist",
+    "approvedFor": ["Type 2 diabetes (Ozempic)", "Chronic weight management (Wegovy)"],
+    "administration": "Weekly subcutaneous injection (Ozempic/Wegovy) or daily oral tablet (Rybelsus)",
+    "dosing": {
+      "weightLoss": "0.25mg weekly (weeks 1-4), titrate up to 2.4mg weekly over 16-20 weeks",
+      "diabetes": "0.25mg weekly (weeks 1-4), titrate up to 2mg weekly"
+    },
+    "averageWeightLoss": "~15% of body weight over 68 weeks (Wegovy)",
+    "commonSideEffects": ["Nausea", "Vomiting", "Diarrhea", "Constipation", "Abdominal pain"],
+    "compoundedAvailable": true,
+    "compoundedNote": "Compounded semaglutide available from 503A and 503B pharmacies at lower cost. FDA shortage status affects availability.",
+    "averageCost": {
+      "brand": "$1,000-$1,350/month without insurance",
+      "compounded": "$100-$400/month depending on provider and dose"
+    },
+    "description": "Semaglutide is the most widely prescribed GLP-1 medication for weight loss. Originally developed for type 2 diabetes as Ozempic, it was later approved at a higher dose as Wegovy specifically for chronic weight management. It works by mimicking the GLP-1 hormone, reducing appetite and slowing gastric emptying."
+  },
+  {
+    "slug": "tirzepatide",
+    "name": "Tirzepatide",
+    "brandNames": ["Mounjaro", "Zepbound"],
+    "manufacturer": "Eli Lilly",
+    "class": "Dual GIP/GLP-1 receptor agonist",
+    "approvedFor": ["Type 2 diabetes (Mounjaro)", "Chronic weight management (Zepbound)"],
+    "administration": "Weekly subcutaneous injection",
+    "dosing": {
+      "weightLoss": "2.5mg weekly (weeks 1-4), titrate up to 15mg weekly over 20+ weeks",
+      "diabetes": "2.5mg weekly (weeks 1-4), titrate up to 15mg weekly"
+    },
+    "averageWeightLoss": "~21% of body weight over 72 weeks (Zepbound 15mg)",
+    "commonSideEffects": ["Nausea", "Diarrhea", "Decreased appetite", "Vomiting", "Constipation"],
+    "compoundedAvailable": true,
+    "compoundedNote": "Compounded tirzepatide available from 503A and 503B pharmacies. Typically more expensive than compounded semaglutide.",
+    "averageCost": {
+      "brand": "$1,000-$1,200/month without insurance",
+      "compounded": "$200-$600/month depending on provider and dose"
+    },
+    "description": "Tirzepatide is a dual-action GIP/GLP-1 receptor agonist that has shown the highest weight loss results in clinical trials. It activates both the GIP and GLP-1 receptors, providing enhanced glucose control and appetite suppression compared to GLP-1-only medications."
+  },
+  {
+    "slug": "liraglutide",
+    "name": "Liraglutide",
+    "brandNames": ["Victoza", "Saxenda"],
+    "manufacturer": "Novo Nordisk",
+    "class": "GLP-1 receptor agonist",
+    "approvedFor": ["Type 2 diabetes (Victoza)", "Chronic weight management (Saxenda)"],
+    "administration": "Daily subcutaneous injection",
+    "dosing": {
+      "weightLoss": "0.6mg daily (week 1), titrate up to 3.0mg daily over 5 weeks",
+      "diabetes": "0.6mg daily (week 1), titrate up to 1.8mg daily"
+    },
+    "averageWeightLoss": "~8% of body weight over 56 weeks (Saxenda)",
+    "commonSideEffects": ["Nausea", "Diarrhea", "Constipation", "Vomiting", "Injection site reactions"],
+    "compoundedAvailable": false,
+    "averageCost": {
+      "brand": "$1,200-$1,500/month without insurance"
+    },
+    "description": "Liraglutide was one of the first GLP-1 medications approved for weight management (as Saxenda). It requires daily injections rather than weekly, which some patients find less convenient. While effective, it generally produces less weight loss than newer options like semaglutide and tirzepatide."
+  },
+  {
+    "slug": "dulaglutide",
+    "name": "Dulaglutide",
+    "brandNames": ["Trulicity"],
+    "manufacturer": "Eli Lilly",
+    "class": "GLP-1 receptor agonist",
+    "approvedFor": ["Type 2 diabetes"],
+    "administration": "Weekly subcutaneous injection",
+    "dosing": {
+      "diabetes": "0.75mg weekly, may increase to 1.5mg, 3.0mg, or 4.5mg weekly"
+    },
+    "averageWeightLoss": "~3-5% of body weight (not primary indication)",
+    "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting", "Abdominal pain", "Decreased appetite"],
+    "compoundedAvailable": false,
+    "averageCost": {
+      "brand": "$900-$1,100/month without insurance"
+    },
+    "description": "Dulaglutide (Trulicity) is approved for type 2 diabetes but not specifically for weight management. It can produce modest weight loss as a secondary benefit. It uses a pre-filled, easy-to-use pen that some patients prefer."
+  },
+  {
+    "slug": "exenatide",
+    "name": "Exenatide",
+    "brandNames": ["Byetta", "Bydureon"],
+    "manufacturer": "AstraZeneca",
+    "class": "GLP-1 receptor agonist",
+    "approvedFor": ["Type 2 diabetes"],
+    "administration": "Twice-daily injection (Byetta) or weekly injection (Bydureon)",
+    "dosing": {
+      "diabetes": "5mcg twice daily (Byetta) or 2mg weekly (Bydureon)"
+    },
+    "averageWeightLoss": "~2-4% of body weight (not primary indication)",
+    "commonSideEffects": ["Nausea", "Vomiting", "Diarrhea", "Dizziness", "Injection site reactions"],
+    "compoundedAvailable": false,
+    "averageCost": {
+      "brand": "$800-$1,000/month without insurance"
+    },
+    "description": "Exenatide was the first GLP-1 receptor agonist approved in the US. While effective for blood sugar control, it produces less weight loss than newer GLP-1 medications and is primarily used for type 2 diabetes management."
+  },
+  {
+    "slug": "survodutide",
+    "name": "Survodutide",
+    "brandNames": [],
+    "manufacturer": "Boehringer Ingelheim",
+    "class": "Dual glucagon/GLP-1 receptor agonist",
+    "approvedFor": ["In clinical trials - not yet approved"],
+    "administration": "Weekly subcutaneous injection",
+    "dosing": {
+      "trials": "Titrated up to 4.8mg or 6.0mg weekly in phase 3 trials"
+    },
+    "averageWeightLoss": "~19% of body weight in phase 2 trials",
+    "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting", "Constipation"],
+    "compoundedAvailable": false,
+    "averageCost": {
+      "brand": "Not yet available - expected 2026"
+    },
+    "description": "Survodutide is an investigational dual glucagon/GLP-1 receptor agonist in late-stage clinical trials. It works differently from tirzepatide by combining glucagon and GLP-1 activity (rather than GIP and GLP-1), which may offer advantages for liver fat reduction."
+  },
+  {
+    "slug": "orforglipron",
+    "name": "Orforglipron",
+    "brandNames": [],
+    "manufacturer": "Eli Lilly",
+    "class": "Oral non-peptide GLP-1 receptor agonist",
+    "approvedFor": ["In clinical trials - not yet approved"],
+    "administration": "Daily oral tablet",
+    "dosing": {
+      "trials": "12mg, 24mg, 36mg, or 45mg daily in phase 3 trials"
+    },
+    "averageWeightLoss": "~14.7% of body weight at 36 weeks (45mg dose, phase 2)",
+    "commonSideEffects": ["Nausea", "Vomiting", "Diarrhea", "Decreased appetite"],
+    "compoundedAvailable": false,
+    "averageCost": {
+      "brand": "Not yet available - expected 2026"
+    },
+    "description": "Orforglipron is an investigational oral GLP-1 receptor agonist that does not require injection. Unlike Rybelsus (oral semaglutide), it is a non-peptide molecule that can be taken without fasting restrictions and may be more affordable to manufacture."
+  },
+  {
+    "slug": "retatrutide",
+    "name": "Retatrutide",
+    "brandNames": [],
+    "manufacturer": "Eli Lilly",
+    "class": "Triple GIP/GLP-1/glucagon receptor agonist",
+    "approvedFor": ["In clinical trials - not yet approved"],
+    "administration": "Weekly subcutaneous injection",
+    "dosing": {
+      "trials": "Titrated up to 12mg weekly in phase 2 trials"
+    },
+    "averageWeightLoss": "~24% of body weight at 48 weeks (12mg dose, phase 2)",
+    "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting", "Constipation"],
+    "compoundedAvailable": false,
+    "averageCost": {
+      "brand": "Not yet available - expected 2027"
+    },
+    "description": "Retatrutide is an investigational triple-action receptor agonist targeting GIP, GLP-1, and glucagon receptors simultaneously. Phase 2 trials showed the highest weight loss of any obesity medication tested, with participants losing up to 24% of body weight."
+  }
+]
