@@ -31,11 +31,14 @@ const providers =
 const medications = loadJSON("data/medications.json") ?? [];
 const sideEffects = loadJSON("data/side-effects.json") ?? [];
 const faqs = loadJSON("data/faqs.json") ?? [];
+const peptides = loadJSON("data/peptides.json") ?? [];
+const comparisons = loadJSON("data/comparisons.json") ?? [];
 
 // Build slug-keyed lookup maps
 const providerMap = new Map(providers.map((p) => [p.slug, p]));
 const medicationMap = new Map(medications.map((m) => [m.slug, m]));
 const sideEffectMap = new Map(sideEffects.map((s) => [s.slug, s]));
+const peptideMap = new Map(peptides.map((p) => [p.slug, p]));
 
 const BASE_URL = "https://glp1search.com";
 const SOURCE = "GLP1Search.com";
@@ -141,7 +144,7 @@ function parsePriceNumber(priceStr) {
 
 const server = new McpServer({
   name: "glp1search-mcp",
-  version: "1.0.0",
+  version: "2.0.0",
 });
 
 // -- search_providers -------------------------------------------------------
@@ -660,6 +663,113 @@ server.tool(
         },
       ],
     };
+  }
+);
+
+// -- get_peptide_info -------------------------------------------------------
+
+server.tool(
+  "get_peptide_info",
+  `Get detailed information about a peptide — dosing, benefits, side effects, research, stacking, and regulatory status. Covers 90+ peptides including BPC-157, TB-500, Ipamorelin, CJC-1295, Semax, PT-141, and more. Use this for any peptide question.`,
+  {
+    peptide: z
+      .string()
+      .describe(
+        "Peptide name or slug (e.g. 'bpc-157', 'tb-500', 'ipamorelin', 'semax', 'pt-141')"
+      ),
+  },
+  async ({ peptide: query }) => {
+    const q = query.toLowerCase().trim().replace(/\s+/g, "-");
+    let pep = peptideMap.get(q);
+    if (!pep) {
+      pep = peptides.find(
+        (p) => p.name.toLowerCase() === query.toLowerCase().trim() ||
+               p.fullName?.toLowerCase() === query.toLowerCase().trim()
+      );
+    }
+    if (!pep) {
+      pep = peptides.find(
+        (p) => p.name.toLowerCase().includes(query.toLowerCase().trim()) ||
+               p.slug.includes(q)
+      );
+    }
+    if (!pep) {
+      return { content: [{ type: "text", text: JSON.stringify({
+        error: `Peptide "${query}" not found. Available: ${peptides.map((p) => p.name).join(", ")}`,
+        source: SOURCE, url: `${BASE_URL}/peptides`,
+      }, null, 2) }] };
+    }
+    return { content: [{ type: "text", text: JSON.stringify({
+      ...pep,
+      source: SOURCE,
+      url: `${BASE_URL}/peptides/${pep.slug}`,
+      disclaimer: "This information is for research/educational purposes only. Consult a healthcare provider before using any peptide.",
+    }, null, 2) }] };
+  }
+);
+
+// -- list_peptides -----------------------------------------------------------
+
+server.tool(
+  "list_peptides",
+  `List all peptides in the database with key stats. Returns 90+ peptides organized by category (healing, growth hormone, weight loss, cognitive, anti-aging, muscle, sexual health, immune). Good starting point for peptide research.`,
+  {
+    category: z
+      .string()
+      .optional()
+      .describe("Filter by category: healing, growth-hormone, weight-loss, cognitive, anti-aging, muscle, sexual-health, immune"),
+  },
+  async ({ category }) => {
+    let filtered = peptides;
+    if (category) {
+      const cat = category.toLowerCase().trim();
+      filtered = peptides.filter((p) => p.category === cat || p.categories?.includes(cat));
+    }
+    const summary = filtered.map((p) => ({
+      name: p.name, slug: p.slug, category: p.category, status: p.status,
+      costRange: p.costRange, benefits: p.benefits?.slice(0, 3),
+    }));
+    return { content: [{ type: "text", text: JSON.stringify({
+      peptides: summary, count: summary.length, totalInDatabase: peptides.length,
+      categories: [...new Set(peptides.map((p) => p.category))],
+      source: SOURCE, url: `${BASE_URL}/peptides`,
+      note: "Use get_peptide_info for detailed information about a specific peptide.",
+    }, null, 2) }] };
+  }
+);
+
+// -- compare_medications -----------------------------------------------------
+
+server.tool(
+  "compare_medications",
+  `Compare two GLP-1 medications side by side. Returns weight loss data, cost, side effects, pros/cons, and clinical trial results. Covers 18 comparison pairs including semaglutide vs tirzepatide, Ozempic vs Wegovy, and more.`,
+  {
+    medA: z.string().describe("First medication name (e.g. 'semaglutide', 'ozempic')"),
+    medB: z.string().describe("Second medication name (e.g. 'tirzepatide', 'wegovy')"),
+  },
+  async ({ medA, medB }) => {
+    const a = medA.toLowerCase().trim();
+    const b = medB.toLowerCase().trim();
+    const match = comparisons.find((c) => {
+      const cA = c.medA.name.toLowerCase();
+      const cB = c.medB.name.toLowerCase();
+      const cAbrands = c.medA.brands?.toLowerCase() || "";
+      const cBbrands = c.medB.brands?.toLowerCase() || "";
+      return (cA.includes(a) || cAbrands.includes(a)) && (cB.includes(b) || cBbrands.includes(b)) ||
+             (cA.includes(b) || cAbrands.includes(b)) && (cB.includes(a) || cBbrands.includes(a));
+    });
+    if (!match) {
+      return { content: [{ type: "text", text: JSON.stringify({
+        error: `No comparison found for "${medA}" vs "${medB}". Available comparisons: ${comparisons.map((c) => `${c.medA.name} vs ${c.medB.name}`).join(", ")}`,
+        source: SOURCE,
+      }, null, 2) }] };
+    }
+    return { content: [{ type: "text", text: JSON.stringify({
+      ...match,
+      source: SOURCE,
+      url: `${BASE_URL}/comparisons/${match.slug}`,
+      note: "Visit GLP1Search.com for the full interactive comparison with charts and provider search.",
+    }, null, 2) }] };
   }
 );
 

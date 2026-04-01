@@ -1,0 +1,884 @@
+[
+  {
+    "slug": "semaglutide-vs-tirzepatide",
+    "medA": {
+      "name": "Semaglutide",
+      "slug": "semaglutide",
+      "brands": "Ozempic / Wegovy",
+      "class": "GLP-1 RA",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~15%",
+      "cost": "$150-400/mo (compounded)",
+      "brandCost": "$1,000-1,400/mo",
+      "halfLife": "~7 days",
+      "fdaYear": 2021,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "STEP (16.9% weight loss)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting"],
+      "uniquePros": ["More data available", "Oral option exists", "Widely available"],
+      "uniqueCons": ["Less weight loss than tirzepatide", "GI side effects common"]
+    },
+    "medB": {
+      "name": "Tirzepatide",
+      "slug": "tirzepatide",
+      "brands": "Mounjaro / Zepbound",
+      "class": "GLP-1/GIP dual agonist",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~22%",
+      "cost": "$150-450/mo (compounded)",
+      "brandCost": "$1,000-1,200/mo",
+      "halfLife": "~5 days",
+      "fdaYear": 2022,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "SURMOUNT-1 (22.5% weight loss)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Decreased appetite"],
+      "uniquePros": ["Greater average weight loss", "Dual mechanism (GLP-1 + GIP)", "May improve insulin sensitivity more"],
+      "uniqueCons": ["Less long-term data", "No oral option yet", "Supply constraints"]
+    },
+    "verdict": "Tirzepatide shows greater weight loss in head-to-head trials (~22% vs ~15%), but semaglutide has a longer track record and more availability. Cost is similar for compounded versions.",
+    "bestFor": {
+      "medA": "Patients who want a well-studied medication with oral option",
+      "medB": "Patients seeking maximum weight loss with dual-action mechanism"
+    },
+    "headToHeadTrials": "SURMOUNT-5 showed tirzepatide achieved greater weight loss than semaglutide",
+    "searchVolume": "very-high",
+    "faqQuestions": [
+      {"q": "Is tirzepatide better than semaglutide?", "a": "Clinical trials suggest tirzepatide produces more weight loss on average (~22% vs ~15%), but individual results vary. Both are effective GLP-1 medications."},
+      {"q": "Can you switch from semaglutide to tirzepatide?", "a": "Yes, with your doctor's guidance. Typically you'd start tirzepatide at the lowest dose even if you were on a high dose of semaglutide."},
+      {"q": "Which has fewer side effects?", "a": "Both have similar GI side effect profiles. Some studies suggest tirzepatide may cause slightly less nausea at equivalent efficacy doses."}
+    ]
+  },
+  {
+    "slug": "ozempic-vs-wegovy",
+    "medA": {
+      "name": "Ozempic",
+      "slug": "ozempic",
+      "brands": "Ozempic",
+      "class": "GLP-1 RA (diabetes)",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~6-10%",
+      "cost": "$900-1,100/mo (brand)",
+      "brandCost": "$900-1,100/mo",
+      "halfLife": "~7 days",
+      "fdaYear": 2017,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "SUSTAIN (6-10% weight loss)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting"],
+      "uniquePros": ["Approved since 2017", "Covered by more insurance for diabetes", "Max dose 2mg"],
+      "uniqueCons": ["Not FDA-approved for weight loss", "Lower max dose than Wegovy", "Off-label use for obesity"]
+    },
+    "medB": {
+      "name": "Wegovy",
+      "slug": "wegovy",
+      "brands": "Wegovy",
+      "class": "GLP-1 RA (obesity)",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~15%",
+      "cost": "$1,300-1,400/mo (brand)",
+      "brandCost": "$1,300-1,400/mo",
+      "halfLife": "~7 days",
+      "fdaYear": 2021,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "STEP 1 (16.9% weight loss)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting"],
+      "uniquePros": ["FDA-approved for weight management", "Higher max dose (2.4mg)", "Cardiovascular benefit proven (SELECT trial)"],
+      "uniqueCons": ["More expensive than Ozempic", "Insurance coverage varies for obesity", "Supply shortages"]
+    },
+    "verdict": "Ozempic and Wegovy contain the same active ingredient (semaglutide). Wegovy is FDA-approved for weight loss at a higher dose (2.4mg vs 2mg) and has more weight-loss data. Ozempic is approved for type 2 diabetes and is often prescribed off-label for weight loss.",
+    "bestFor": {
+      "medA": "Patients with type 2 diabetes seeking weight loss as a secondary benefit",
+      "medB": "Patients primarily seeking FDA-approved weight management treatment"
+    },
+    "headToHeadTrials": "No direct head-to-head; same drug at different doses. STEP trials used Wegovy dosing (2.4mg).",
+    "searchVolume": "very-high",
+    "faqQuestions": [
+      {"q": "Are Ozempic and Wegovy the same drug?", "a": "Yes, both contain semaglutide made by Novo Nordisk. Ozempic is approved for type 2 diabetes (max 2mg), while Wegovy is approved for weight management (max 2.4mg)."},
+      {"q": "Can I use Ozempic instead of Wegovy for weight loss?", "a": "Many doctors prescribe Ozempic off-label for weight loss. However, Wegovy reaches a higher dose (2.4mg vs 2mg) and is specifically approved for obesity treatment."},
+      {"q": "Why is Ozempic cheaper than Wegovy?", "a": "Insurance coverage differs because Ozempic is approved for diabetes (commonly covered) while Wegovy is for weight management (less commonly covered). The list prices are similar."}
+    ]
+  },
+  {
+    "slug": "ozempic-vs-mounjaro",
+    "medA": {
+      "name": "Ozempic",
+      "slug": "ozempic",
+      "brands": "Ozempic (semaglutide)",
+      "class": "GLP-1 RA",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~6-10%",
+      "cost": "$900-1,100/mo (brand)",
+      "brandCost": "$900-1,100/mo",
+      "halfLife": "~7 days",
+      "fdaYear": 2017,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "SUSTAIN trials",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting"],
+      "uniquePros": ["Longer track record", "Well-studied safety profile", "Oral version available (Rybelsus)"],
+      "uniqueCons": ["Single-receptor mechanism", "Lower weight loss than Mounjaro"]
+    },
+    "medB": {
+      "name": "Mounjaro",
+      "slug": "mounjaro",
+      "brands": "Mounjaro (tirzepatide)",
+      "class": "GLP-1/GIP dual agonist",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~15-22%",
+      "cost": "$1,000-1,200/mo (brand)",
+      "brandCost": "$1,000-1,200/mo",
+      "halfLife": "~5 days",
+      "fdaYear": 2022,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "SURPASS trials (up to 22.5% weight loss)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Decreased appetite"],
+      "uniquePros": ["Dual mechanism targets GLP-1 and GIP", "Greater weight loss", "Strong A1C reduction"],
+      "uniqueCons": ["Only approved for diabetes (not obesity)", "Newer drug with less long-term data"]
+    },
+    "verdict": "Mounjaro (tirzepatide) achieves significantly more weight loss than Ozempic (semaglutide) due to its dual GLP-1/GIP mechanism. Both are FDA-approved for type 2 diabetes. For weight loss, Mounjaro is used off-label while its sister product Zepbound has the obesity approval.",
+    "bestFor": {
+      "medA": "Patients wanting a proven diabetes medication with good weight-loss side benefit",
+      "medB": "Patients with diabetes who also want maximum weight reduction"
+    },
+    "headToHeadTrials": "SURPASS-2 compared Mounjaro to Ozempic 1mg — tirzepatide showed superior A1C reduction and weight loss at all doses.",
+    "searchVolume": "very-high",
+    "faqQuestions": [
+      {"q": "Is Mounjaro better than Ozempic?", "a": "For weight loss, clinical data shows Mounjaro (tirzepatide) produces greater weight reduction than Ozempic (semaglutide). For blood sugar control, Mounjaro also showed superior A1C reduction in the SURPASS-2 trial."},
+      {"q": "Can I switch from Ozempic to Mounjaro?", "a": "Yes, your doctor can transition you. You would typically start Mounjaro at the lowest dose (2.5mg) regardless of your Ozempic dose, then titrate up."},
+      {"q": "Do they have the same side effects?", "a": "Both share similar GI side effects (nausea, diarrhea, vomiting). The frequency is comparable, though individual experiences vary."}
+    ]
+  },
+  {
+    "slug": "wegovy-vs-zepbound",
+    "medA": {
+      "name": "Wegovy",
+      "slug": "wegovy",
+      "brands": "Wegovy (semaglutide 2.4mg)",
+      "class": "GLP-1 RA",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~15%",
+      "cost": "$1,300-1,400/mo (brand)",
+      "brandCost": "$1,300-1,400/mo",
+      "halfLife": "~7 days",
+      "fdaYear": 2021,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "STEP 1 (16.9% weight loss)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting"],
+      "uniquePros": ["First GLP-1 approved for obesity", "Cardiovascular outcomes data (SELECT trial)", "Longer market presence"],
+      "uniqueCons": ["Less weight loss than Zepbound", "Single-receptor mechanism"]
+    },
+    "medB": {
+      "name": "Zepbound",
+      "slug": "zepbound",
+      "brands": "Zepbound (tirzepatide)",
+      "class": "GLP-1/GIP dual agonist",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~22%",
+      "cost": "$1,000-1,100/mo (brand)",
+      "brandCost": "$1,000-1,100/mo",
+      "halfLife": "~5 days",
+      "fdaYear": 2023,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "SURMOUNT-1 (22.5% weight loss)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Decreased appetite"],
+      "uniquePros": ["Greater average weight loss", "Dual mechanism (GLP-1 + GIP)", "Lower list price than Wegovy"],
+      "uniqueCons": ["No cardiovascular outcomes data yet for obesity indication", "Newer with less long-term safety data"]
+    },
+    "verdict": "Zepbound (tirzepatide) produces more weight loss than Wegovy (semaglutide) — roughly 22% vs 15%. Wegovy has cardiovascular outcomes data from the SELECT trial. Zepbound has a lower list price. Both are FDA-approved specifically for weight management.",
+    "bestFor": {
+      "medA": "Patients who prioritize cardiovascular protection and a longer safety track record",
+      "medB": "Patients seeking maximum weight loss with the FDA-approved obesity indication"
+    },
+    "headToHeadTrials": "SURMOUNT-5 directly compared tirzepatide to semaglutide for obesity, showing tirzepatide produced greater weight loss.",
+    "searchVolume": "very-high",
+    "faqQuestions": [
+      {"q": "Is Zepbound better than Wegovy for weight loss?", "a": "Clinical trials show Zepbound (tirzepatide) achieves ~22% weight loss vs ~15% for Wegovy (semaglutide). However, individual results vary and both are highly effective."},
+      {"q": "Which is cheaper, Wegovy or Zepbound?", "a": "Zepbound has a lower list price (~$1,060/mo vs ~$1,350/mo for Wegovy). Actual out-of-pocket costs depend on your insurance coverage and available savings programs."},
+      {"q": "Does insurance cover Wegovy or Zepbound?", "a": "Coverage varies widely. Some insurers cover one but not the other. Both manufacturers offer savings cards that can reduce costs significantly for eligible patients."}
+    ]
+  },
+  {
+    "slug": "semaglutide-vs-liraglutide",
+    "medA": {
+      "name": "Semaglutide",
+      "slug": "semaglutide",
+      "brands": "Ozempic / Wegovy",
+      "class": "GLP-1 RA",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~15%",
+      "cost": "$150-400/mo (compounded)",
+      "brandCost": "$1,000-1,400/mo",
+      "halfLife": "~7 days",
+      "fdaYear": 2021,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "STEP 1 (16.9% weight loss)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting"],
+      "uniquePros": ["Once-weekly dosing", "Greater weight loss", "Oral option available"],
+      "uniqueCons": ["Higher brand cost", "More potent GI side effects initially"]
+    },
+    "medB": {
+      "name": "Liraglutide",
+      "slug": "liraglutide",
+      "brands": "Victoza / Saxenda",
+      "class": "GLP-1 RA",
+      "administration": "Daily injection",
+      "avgWeightLoss": "~8%",
+      "cost": "$100-300/mo (compounded)",
+      "brandCost": "$1,300-1,500/mo",
+      "halfLife": "~13 hours",
+      "fdaYear": 2014,
+      "dosingFrequency": "Once daily",
+      "keyTrial": "SCALE (8% weight loss)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Constipation"],
+      "uniquePros": ["Longest GLP-1 track record for obesity", "Daily dosing allows fine-tuned adjustment", "Well-studied safety profile"],
+      "uniqueCons": ["Daily injections required", "Less weight loss than semaglutide", "Older generation"]
+    },
+    "verdict": "Semaglutide produces nearly twice the weight loss of liraglutide (~15% vs ~8%) with the convenience of weekly vs daily injections. Liraglutide has a longer safety record and daily dosing can allow more gradual titration for sensitive patients.",
+    "bestFor": {
+      "medA": "Most patients — better efficacy and convenience with weekly dosing",
+      "medB": "Patients who prefer daily dosing for gradual adjustment or cannot tolerate semaglutide"
+    },
+    "headToHeadTrials": "STEP 8 compared semaglutide 2.4mg weekly to liraglutide 3.0mg daily — semaglutide achieved 15.8% vs 6.4% weight loss.",
+    "searchVolume": "high",
+    "faqQuestions": [
+      {"q": "Is semaglutide better than liraglutide?", "a": "For weight loss, semaglutide is significantly more effective (~15% vs ~8%) and requires only weekly injections instead of daily. The STEP 8 trial directly confirmed semaglutide's superiority."},
+      {"q": "Why would anyone choose liraglutide over semaglutide?", "a": "Some patients prefer daily dosing for finer dose control, or they may not tolerate semaglutide. Liraglutide also has the longest safety track record among GLP-1s for obesity."},
+      {"q": "Can you switch from liraglutide to semaglutide?", "a": "Yes. Your doctor will typically stop liraglutide and start semaglutide at the lowest dose (0.25mg weekly), then titrate up over several weeks."}
+    ]
+  },
+  {
+    "slug": "tirzepatide-vs-liraglutide",
+    "medA": {
+      "name": "Tirzepatide",
+      "slug": "tirzepatide",
+      "brands": "Mounjaro / Zepbound",
+      "class": "GLP-1/GIP dual agonist",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~22%",
+      "cost": "$150-450/mo (compounded)",
+      "brandCost": "$1,000-1,200/mo",
+      "halfLife": "~5 days",
+      "fdaYear": 2022,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "SURMOUNT-1 (22.5% weight loss)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Decreased appetite"],
+      "uniquePros": ["Greatest weight loss of any GLP-1", "Dual mechanism", "Weekly dosing"],
+      "uniqueCons": ["Newest with least long-term data", "No oral option"]
+    },
+    "medB": {
+      "name": "Liraglutide",
+      "slug": "liraglutide",
+      "brands": "Victoza / Saxenda",
+      "class": "GLP-1 RA",
+      "administration": "Daily injection",
+      "avgWeightLoss": "~8%",
+      "cost": "$100-300/mo (compounded)",
+      "brandCost": "$1,300-1,500/mo",
+      "halfLife": "~13 hours",
+      "fdaYear": 2014,
+      "dosingFrequency": "Once daily",
+      "keyTrial": "SCALE (8% weight loss)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Constipation"],
+      "uniquePros": ["Longest safety record", "Daily dosing for fine adjustment", "Approved for adolescents"],
+      "uniqueCons": ["Daily injections", "Significantly less weight loss", "First-generation GLP-1"]
+    },
+    "verdict": "Tirzepatide achieves nearly three times the weight loss of liraglutide (~22% vs ~8%) with the added convenience of weekly dosing. Liraglutide remains an option for patients who need the longest safety track record or adolescent approval.",
+    "bestFor": {
+      "medA": "Patients seeking maximum weight loss with a next-generation medication",
+      "medB": "Adolescents or patients requiring the most-studied first-generation GLP-1"
+    },
+    "headToHeadTrials": "No direct head-to-head trial. Cross-trial comparisons show tirzepatide achieves approximately 2.5-3x the weight loss.",
+    "searchVolume": "medium",
+    "faqQuestions": [
+      {"q": "How much more weight loss does tirzepatide cause vs liraglutide?", "a": "Based on clinical trial data, tirzepatide produces roughly 22% body weight loss compared to about 8% for liraglutide — nearly three times as much."},
+      {"q": "Is liraglutide still worth taking?", "a": "Liraglutide can still be a good option for patients who want the longest-studied GLP-1, prefer daily dosing flexibility, or cannot access newer medications."},
+      {"q": "Can you switch from Saxenda to Mounjaro?", "a": "Yes, with your doctor's guidance. You would stop Saxenda and start Mounjaro at the lowest dose (2.5mg weekly), then titrate up over several months."}
+    ]
+  },
+  {
+    "slug": "ozempic-vs-saxenda",
+    "medA": {
+      "name": "Ozempic",
+      "slug": "ozempic",
+      "brands": "Ozempic (semaglutide)",
+      "class": "GLP-1 RA",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~6-10%",
+      "cost": "$900-1,100/mo (brand)",
+      "brandCost": "$900-1,100/mo",
+      "halfLife": "~7 days",
+      "fdaYear": 2017,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "SUSTAIN trials",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting"],
+      "uniquePros": ["Weekly dosing convenience", "More effective for weight loss", "Better A1C reduction"],
+      "uniqueCons": ["Not approved for weight loss", "Off-label use for obesity"]
+    },
+    "medB": {
+      "name": "Saxenda",
+      "slug": "saxenda",
+      "brands": "Saxenda (liraglutide 3mg)",
+      "class": "GLP-1 RA",
+      "administration": "Daily injection",
+      "avgWeightLoss": "~8%",
+      "cost": "$1,300-1,500/mo (brand)",
+      "brandCost": "$1,300-1,500/mo",
+      "halfLife": "~13 hours",
+      "fdaYear": 2014,
+      "dosingFrequency": "Once daily",
+      "keyTrial": "SCALE (8% weight loss)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Constipation"],
+      "uniquePros": ["FDA-approved for weight loss", "Approved for adolescents 12+", "Long safety track record"],
+      "uniqueCons": ["Daily injections required", "Less effective than semaglutide", "Higher brand cost"]
+    },
+    "verdict": "Ozempic (semaglutide) produces more weight loss than Saxenda (liraglutide) with the convenience of weekly dosing, even though Ozempic is technically off-label for obesity. Saxenda has the advantage of being FDA-approved for weight management and approved for teens.",
+    "bestFor": {
+      "medA": "Adults wanting more effective weight loss with weekly convenience",
+      "medB": "Adolescents or patients who need an FDA-approved weight loss medication specifically"
+    },
+    "headToHeadTrials": "STEP 8 compared semaglutide 2.4mg to liraglutide 3.0mg and showed semaglutide was far more effective.",
+    "searchVolume": "high",
+    "faqQuestions": [
+      {"q": "Is Ozempic better than Saxenda?", "a": "For weight loss, studies show semaglutide (Ozempic's ingredient) achieves roughly twice the weight loss of liraglutide (Saxenda's ingredient). Ozempic also has the advantage of weekly dosing."},
+      {"q": "Why is Saxenda more expensive than Ozempic?", "a": "Saxenda is priced as an obesity medication while Ozempic is a diabetes drug. Insurance coverage varies — many plans cover Ozempic for diabetes but not Saxenda for weight loss."},
+      {"q": "Can I take Saxenda and Ozempic together?", "a": "No, you should not take two GLP-1 receptor agonists simultaneously. Both work on the same receptor, and combining them increases side effect risk without added benefit."}
+    ]
+  },
+  {
+    "slug": "wegovy-vs-saxenda",
+    "medA": {
+      "name": "Wegovy",
+      "slug": "wegovy",
+      "brands": "Wegovy (semaglutide 2.4mg)",
+      "class": "GLP-1 RA",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~15%",
+      "cost": "$1,300-1,400/mo (brand)",
+      "brandCost": "$1,300-1,400/mo",
+      "halfLife": "~7 days",
+      "fdaYear": 2021,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "STEP 1 (16.9% weight loss)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting"],
+      "uniquePros": ["Nearly twice the weight loss", "Weekly dosing", "Cardiovascular benefit proven"],
+      "uniqueCons": ["Newer medication", "Supply shortages"]
+    },
+    "medB": {
+      "name": "Saxenda",
+      "slug": "saxenda",
+      "brands": "Saxenda (liraglutide 3mg)",
+      "class": "GLP-1 RA",
+      "administration": "Daily injection",
+      "avgWeightLoss": "~8%",
+      "cost": "$1,300-1,500/mo (brand)",
+      "brandCost": "$1,300-1,500/mo",
+      "halfLife": "~13 hours",
+      "fdaYear": 2014,
+      "dosingFrequency": "Once daily",
+      "keyTrial": "SCALE (8% weight loss)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Constipation"],
+      "uniquePros": ["Longer safety track record", "Approved for adolescents 12+", "More available (less shortage)"],
+      "uniqueCons": ["Daily injections", "Roughly half the weight loss", "First-generation GLP-1"]
+    },
+    "verdict": "Wegovy is the clear upgrade over Saxenda — nearly twice the weight loss (~15% vs ~8%) with weekly instead of daily injections. Both are FDA-approved for weight management. Saxenda remains relevant for adolescents and when Wegovy is unavailable.",
+    "bestFor": {
+      "medA": "Most adults seeking FDA-approved weight management with maximum efficacy",
+      "medB": "Adolescents (12+) or patients who cannot access Wegovy due to supply issues"
+    },
+    "headToHeadTrials": "STEP 8 directly compared semaglutide 2.4mg to liraglutide 3.0mg — semaglutide showed 15.8% vs 6.4% weight loss.",
+    "searchVolume": "high",
+    "faqQuestions": [
+      {"q": "Should I switch from Saxenda to Wegovy?", "a": "If you want greater weight loss with less frequent injections, Wegovy is the upgrade. Discuss with your doctor — they'll typically start you at the lowest Wegovy dose and titrate up."},
+      {"q": "Are Wegovy and Saxenda the same thing?", "a": "No. Wegovy contains semaglutide (newer, more potent) while Saxenda contains liraglutide (older, first-generation). Both are GLP-1 receptor agonists but different molecules."},
+      {"q": "Which has better insurance coverage?", "a": "Coverage varies by plan. Both are approved for weight management, but Saxenda has been available longer and may be on more formularies. Always check your specific plan."}
+    ]
+  },
+  {
+    "slug": "compounded-vs-brand-semaglutide",
+    "medA": {
+      "name": "Compounded Semaglutide",
+      "slug": "compounded-semaglutide",
+      "brands": "Various compounding pharmacies",
+      "class": "GLP-1 RA (compounded)",
+      "administration": "Weekly injection or sublingual",
+      "avgWeightLoss": "~12-15%",
+      "cost": "$150-400/mo",
+      "brandCost": "N/A",
+      "halfLife": "~7 days",
+      "fdaYear": null,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "No separate trials (same active ingredient)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting"],
+      "uniquePros": ["60-85% cheaper than brand", "More accessible (no shortage)", "Various formulations available"],
+      "uniqueCons": ["Not FDA-approved as a product", "Quality varies by pharmacy", "Legal status may change if shortages end"]
+    },
+    "medB": {
+      "name": "Brand Semaglutide",
+      "slug": "brand-semaglutide",
+      "brands": "Ozempic / Wegovy (Novo Nordisk)",
+      "class": "GLP-1 RA (brand)",
+      "administration": "Weekly injection (auto-injector pen)",
+      "avgWeightLoss": "~15%",
+      "cost": "$1,000-1,400/mo",
+      "brandCost": "$1,000-1,400/mo",
+      "halfLife": "~7 days",
+      "fdaYear": 2017,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "STEP and SUSTAIN programs",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting"],
+      "uniquePros": ["FDA-approved product", "Consistent quality (Novo Nordisk manufacturing)", "Clinical trial data applies directly"],
+      "uniqueCons": ["Expensive ($1,000+/mo)", "Supply shortages", "Requires insurance for affordability"]
+    },
+    "verdict": "Compounded semaglutide offers the same molecule at 60-85% lower cost, making GLP-1 treatment accessible to more patients. Brand versions offer FDA oversight and manufacturing consistency. The FDA allows compounding during active shortages. Choose based on budget and your comfort level with compounding pharmacy sourcing.",
+    "bestFor": {
+      "medA": "Patients who need affordable access or cannot get brand due to shortages",
+      "medB": "Patients who want FDA-approved product with guaranteed manufacturing standards"
+    },
+    "headToHeadTrials": "No head-to-head trials exist. Compounded versions use the same semaglutide molecule but are formulated by 503A/503B pharmacies.",
+    "searchVolume": "very-high",
+    "faqQuestions": [
+      {"q": "Is compounded semaglutide safe?", "a": "When sourced from licensed 503A or 503B pharmacies, compounded semaglutide uses the same active molecule. Look for pharmacies with USP 797/800 compliance and third-party testing."},
+      {"q": "Is compounded semaglutide as effective as Ozempic?", "a": "The active ingredient is the same. However, compounded versions may use different salts (e.g., semaglutide sodium vs acetate) and formulations, which could affect absorption. Most patients report comparable results."},
+      {"q": "Will compounded semaglutide be banned?", "a": "Compounding is allowed during FDA-declared shortages. If the shortage ends, compounders may need to stop production of copies. However, compounders can still make modified formulations like sublingual versions."}
+    ]
+  },
+  {
+    "slug": "compounded-vs-brand-tirzepatide",
+    "medA": {
+      "name": "Compounded Tirzepatide",
+      "slug": "compounded-tirzepatide",
+      "brands": "Various compounding pharmacies",
+      "class": "GLP-1/GIP dual agonist (compounded)",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~20-22%",
+      "cost": "$150-450/mo",
+      "brandCost": "N/A",
+      "halfLife": "~5 days",
+      "fdaYear": null,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "No separate trials (same active ingredient)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Decreased appetite"],
+      "uniquePros": ["Significantly cheaper than brand", "Available during shortages", "May offer different dose flexibility"],
+      "uniqueCons": ["Not FDA-approved as a product", "Quality varies", "Legal future uncertain"]
+    },
+    "medB": {
+      "name": "Brand Tirzepatide",
+      "slug": "brand-tirzepatide",
+      "brands": "Mounjaro / Zepbound (Eli Lilly)",
+      "class": "GLP-1/GIP dual agonist (brand)",
+      "administration": "Weekly injection (auto-injector pen)",
+      "avgWeightLoss": "~22%",
+      "cost": "$1,000-1,200/mo",
+      "brandCost": "$1,000-1,200/mo",
+      "halfLife": "~5 days",
+      "fdaYear": 2022,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "SURMOUNT and SURPASS programs",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Decreased appetite"],
+      "uniquePros": ["FDA-approved product", "Eli Lilly manufacturing quality", "Pre-filled pens for easy dosing"],
+      "uniqueCons": ["$1,000+/mo without insurance", "Supply can be limited"]
+    },
+    "verdict": "Compounded tirzepatide offers massive cost savings ($150-450 vs $1,000+/mo) with the same active molecule. Brand versions provide FDA-approved manufacturing and convenient pre-filled pens. Eli Lilly has been more aggressive in challenging compounders, so availability may be less stable than compounded semaglutide.",
+    "bestFor": {
+      "medA": "Cost-conscious patients comfortable with compounding pharmacy sourcing",
+      "medB": "Patients who want manufacturer-guaranteed quality and FDA-approved dosing devices"
+    },
+    "headToHeadTrials": "No head-to-head trials. Same molecule, different manufacturing process.",
+    "searchVolume": "high",
+    "faqQuestions": [
+      {"q": "Is compounded tirzepatide the same as Mounjaro?", "a": "It uses the same active molecule (tirzepatide) but is produced by compounding pharmacies rather than Eli Lilly. The formulation, concentration, and delivery device may differ."},
+      {"q": "Why is compounded tirzepatide so much cheaper?", "a": "Compounding pharmacies don't have the same R&D, marketing, and regulatory costs as brand manufacturers. They also operate under different FDA oversight during drug shortages."},
+      {"q": "How do I verify a compounding pharmacy is legitimate?", "a": "Check for state board of pharmacy licensure, 503A or 503B registration with the FDA, USP 797/800 compliance, and third-party testing certificates for potency and sterility."}
+    ]
+  },
+  {
+    "slug": "oral-vs-injectable-semaglutide",
+    "medA": {
+      "name": "Oral Semaglutide",
+      "slug": "oral-semaglutide",
+      "brands": "Rybelsus",
+      "class": "GLP-1 RA (oral)",
+      "administration": "Daily tablet",
+      "avgWeightLoss": "~5-8%",
+      "cost": "$900-1,000/mo (brand)",
+      "brandCost": "$900-1,000/mo",
+      "halfLife": "~7 days",
+      "fdaYear": 2019,
+      "dosingFrequency": "Once daily",
+      "keyTrial": "PIONEER (5-8% weight loss at 14mg)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Abdominal pain"],
+      "uniquePros": ["No injections needed", "Easy to take", "Good for needle-averse patients"],
+      "uniqueCons": ["Strict fasting requirements (30 min before food/water)", "Lower bioavailability", "Less weight loss than injectable"]
+    },
+    "medB": {
+      "name": "Injectable Semaglutide",
+      "slug": "injectable-semaglutide",
+      "brands": "Ozempic / Wegovy",
+      "class": "GLP-1 RA (injectable)",
+      "administration": "Weekly subcutaneous injection",
+      "avgWeightLoss": "~15%",
+      "cost": "$1,000-1,400/mo (brand)",
+      "brandCost": "$1,000-1,400/mo",
+      "halfLife": "~7 days",
+      "fdaYear": 2017,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "STEP 1 (16.9% weight loss at 2.4mg)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting"],
+      "uniquePros": ["Significantly more weight loss", "Weekly convenience", "Higher bioavailability"],
+      "uniqueCons": ["Requires injection", "Needle-phobic patients may struggle", "Injection site reactions possible"]
+    },
+    "verdict": "Injectable semaglutide (Ozempic/Wegovy) produces roughly twice the weight loss of oral semaglutide (Rybelsus) — ~15% vs ~5-8%. The oral form is ideal for patients who cannot tolerate injections, but the injectable form is far superior for weight loss. A higher-dose oral semaglutide (25mg and 50mg) is in development and may close this gap.",
+    "bestFor": {
+      "medA": "Needle-averse patients or those wanting a pill-based GLP-1 option",
+      "medB": "Patients prioritizing maximum weight loss with weekly dosing convenience"
+    },
+    "headToHeadTrials": "PIONEER studies tested oral doses up to 14mg. Higher oral doses (25mg, 50mg) showed weight loss closer to injectable in Phase 3 trials.",
+    "searchVolume": "high",
+    "faqQuestions": [
+      {"q": "Is Rybelsus as effective as Ozempic for weight loss?", "a": "No. Rybelsus at its current max dose (14mg) produces about 5-8% weight loss, while injectable Ozempic/Wegovy produces 10-17%. The oral form has lower bioavailability."},
+      {"q": "Can I take Rybelsus instead of injecting Ozempic?", "a": "Yes, but expect less weight loss. Rybelsus requires strict fasting (take on empty stomach with max 4oz water, wait 30 minutes before eating). Discuss the trade-offs with your doctor."},
+      {"q": "Is a higher-dose oral semaglutide coming?", "a": "Yes. Novo Nordisk has developed oral semaglutide at 25mg and 50mg doses, which showed weight loss much closer to injectable versions in clinical trials. FDA approval is expected."}
+    ]
+  },
+  {
+    "slug": "semaglutide-vs-retatrutide",
+    "medA": {
+      "name": "Semaglutide",
+      "slug": "semaglutide",
+      "brands": "Ozempic / Wegovy",
+      "class": "GLP-1 RA",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~15%",
+      "cost": "$150-400/mo (compounded)",
+      "brandCost": "$1,000-1,400/mo",
+      "halfLife": "~7 days",
+      "fdaYear": 2021,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "STEP 1 (16.9% weight loss)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting"],
+      "uniquePros": ["FDA-approved and available now", "Extensive clinical data", "Compounded versions available"],
+      "uniqueCons": ["Less weight loss than retatrutide (based on early data)", "Single-receptor mechanism"]
+    },
+    "medB": {
+      "name": "Retatrutide",
+      "slug": "retatrutide",
+      "brands": "Not yet approved",
+      "class": "GLP-1/GIP/Glucagon triple agonist",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~24%",
+      "cost": "Not yet available",
+      "brandCost": "Not yet available",
+      "halfLife": "~6 days",
+      "fdaYear": null,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "Phase 2 (up to 24.2% weight loss at 48 weeks)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting"],
+      "uniquePros": ["Triple mechanism (GLP-1 + GIP + glucagon)", "Potentially greatest weight loss yet", "May preserve lean mass better"],
+      "uniqueCons": ["Not FDA-approved", "Only Phase 2 data available", "Timeline to market uncertain"]
+    },
+    "verdict": "Retatrutide's Phase 2 data shows ~24% weight loss at 48 weeks — potentially exceeding even tirzepatide. However, it is not yet approved or available. Semaglutide is the proven, available option today. If retatrutide's Phase 3 trials confirm these results, it could become the most effective obesity medication.",
+    "bestFor": {
+      "medA": "Patients who need treatment now with a proven, available medication",
+      "medB": "Future option — currently only available through clinical trials"
+    },
+    "headToHeadTrials": "No head-to-head trials yet. Retatrutide is in Phase 3 development by Eli Lilly.",
+    "searchVolume": "medium",
+    "faqQuestions": [
+      {"q": "When will retatrutide be available?", "a": "Retatrutide is currently in Phase 3 trials. If successful, FDA approval could come in 2026-2027. Until then, it is only available through clinical trials."},
+      {"q": "Is retatrutide better than semaglutide?", "a": "Early Phase 2 data suggests retatrutide may produce more weight loss (~24% vs ~15%), but Phase 3 data is needed to confirm. It also targets three receptors vs one for semaglutide."},
+      {"q": "How does the triple agonist mechanism work?", "a": "Retatrutide activates GLP-1 (appetite suppression), GIP (metabolic improvement), and glucagon (increased energy expenditure) receptors simultaneously, potentially creating a more comprehensive metabolic effect."}
+    ]
+  },
+  {
+    "slug": "tirzepatide-vs-retatrutide",
+    "medA": {
+      "name": "Tirzepatide",
+      "slug": "tirzepatide",
+      "brands": "Mounjaro / Zepbound",
+      "class": "GLP-1/GIP dual agonist",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~22%",
+      "cost": "$150-450/mo (compounded)",
+      "brandCost": "$1,000-1,200/mo",
+      "halfLife": "~5 days",
+      "fdaYear": 2022,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "SURMOUNT-1 (22.5% weight loss)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Decreased appetite"],
+      "uniquePros": ["FDA-approved and available now", "Strong clinical evidence", "Dual mechanism proven effective"],
+      "uniqueCons": ["Dual vs triple receptor", "May be surpassed by next-gen drugs"]
+    },
+    "medB": {
+      "name": "Retatrutide",
+      "slug": "retatrutide",
+      "brands": "Not yet approved",
+      "class": "GLP-1/GIP/Glucagon triple agonist",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~24%",
+      "cost": "Not yet available",
+      "brandCost": "Not yet available",
+      "halfLife": "~6 days",
+      "fdaYear": null,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "Phase 2 (up to 24.2% weight loss at 48 weeks)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting"],
+      "uniquePros": ["Triple receptor targeting", "Potentially more weight loss", "May boost energy expenditure via glucagon"],
+      "uniqueCons": ["Not yet available", "Only Phase 2 data", "Unknown pricing and insurance landscape"]
+    },
+    "verdict": "Both are Eli Lilly products. Tirzepatide is available now and highly effective (~22% weight loss). Retatrutide adds a third receptor (glucagon) and early data suggests slightly more weight loss (~24%), but it needs Phase 3 confirmation. Tirzepatide is the best available option today; retatrutide could be the future.",
+    "bestFor": {
+      "medA": "Patients who need the most effective available medication right now",
+      "medB": "Future option — currently in clinical trials, not commercially available"
+    },
+    "headToHeadTrials": "No head-to-head trials. Both from Eli Lilly; retatrutide is in Phase 3 while tirzepatide is commercially available.",
+    "searchVolume": "medium",
+    "faqQuestions": [
+      {"q": "Will retatrutide replace tirzepatide?", "a": "It is unlikely to fully replace tirzepatide. They may serve different patient populations. Eli Lilly will likely market both, as they do with Mounjaro and Zepbound today."},
+      {"q": "How much better is retatrutide than tirzepatide?", "a": "Phase 2 data shows retatrutide achieving ~24% weight loss at 48 weeks vs tirzepatide's ~22% at 72 weeks. The additional glucagon component may also improve liver fat and metabolic health."},
+      {"q": "Should I wait for retatrutide instead of starting tirzepatide?", "a": "No. Retatrutide is likely 1-2+ years from approval. If you need treatment now, tirzepatide is an excellent and proven option. You could always switch later if retatrutide proves superior."}
+    ]
+  },
+  {
+    "slug": "tirzepatide-vs-survodutide",
+    "medA": {
+      "name": "Tirzepatide",
+      "slug": "tirzepatide",
+      "brands": "Mounjaro / Zepbound",
+      "class": "GLP-1/GIP dual agonist",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~22%",
+      "cost": "$150-450/mo (compounded)",
+      "brandCost": "$1,000-1,200/mo",
+      "halfLife": "~5 days",
+      "fdaYear": 2022,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "SURMOUNT-1 (22.5% weight loss)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Decreased appetite"],
+      "uniquePros": ["FDA-approved and widely available", "Extensive Phase 3 data", "Proven dual mechanism"],
+      "uniqueCons": ["Does not target glucagon receptor", "GIP component less studied long-term"]
+    },
+    "medB": {
+      "name": "Survodutide",
+      "slug": "survodutide",
+      "brands": "Not yet approved (Boehringer Ingelheim)",
+      "class": "GLP-1/Glucagon dual agonist",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~19%",
+      "cost": "Not yet available",
+      "brandCost": "Not yet available",
+      "halfLife": "~7 days",
+      "fdaYear": null,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "Phase 2 (up to 18.7% weight loss at 46 weeks)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting"],
+      "uniquePros": ["GLP-1 + glucagon mechanism (different from tirzepatide)", "Strong liver fat reduction", "Promising MASH/NASH data"],
+      "uniqueCons": ["Not yet approved", "Slightly less weight loss than tirzepatide", "Limited long-term data"]
+    },
+    "verdict": "Tirzepatide (GLP-1/GIP) is available now and achieves ~22% weight loss. Survodutide (GLP-1/glucagon) shows ~19% in Phase 2 with a different mechanism that may be especially beneficial for liver disease (MASH). They target different secondary receptors, so the best choice may depend on the patient's full metabolic profile.",
+    "bestFor": {
+      "medA": "Patients wanting the most effective available weight loss medication today",
+      "medB": "Future option, especially for patients with fatty liver disease (MASH/NASH)"
+    },
+    "headToHeadTrials": "No direct comparison. Different mechanisms: tirzepatide targets GIP while survodutide targets glucagon.",
+    "searchVolume": "low",
+    "faqQuestions": [
+      {"q": "What is survodutide?", "a": "Survodutide is a dual GLP-1/glucagon receptor agonist being developed by Boehringer Ingelheim. Unlike tirzepatide (GLP-1/GIP), it pairs GLP-1 with glucagon, which may boost energy expenditure and improve liver fat."},
+      {"q": "When will survodutide be available?", "a": "Survodutide is in Phase 3 trials for obesity and MASH (fatty liver disease). Approval could come in 2026-2027 if trials succeed."},
+      {"q": "How does survodutide differ from tirzepatide?", "a": "Both use GLP-1, but tirzepatide adds GIP (improves insulin sensitivity) while survodutide adds glucagon (increases energy expenditure and reduces liver fat). They represent different approaches to dual-receptor therapy."}
+    ]
+  },
+  {
+    "slug": "glp1-vs-phentermine",
+    "medA": {
+      "name": "GLP-1 Medications",
+      "slug": "glp1",
+      "brands": "Ozempic / Wegovy / Mounjaro / Zepbound",
+      "class": "GLP-1 receptor agonists",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~15-22%",
+      "cost": "$150-450/mo (compounded)",
+      "brandCost": "$1,000-1,400/mo",
+      "halfLife": "5-7 days",
+      "fdaYear": 2021,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "STEP and SURMOUNT programs",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting"],
+      "uniquePros": ["Dramatically more weight loss", "Metabolic benefits beyond weight", "Long-acting with weekly dosing"],
+      "uniqueCons": ["Expensive", "Injectable", "GI side effects common"]
+    },
+    "medB": {
+      "name": "Phentermine",
+      "slug": "phentermine",
+      "brands": "Adipex-P / Lomaira",
+      "class": "Sympathomimetic amine (stimulant)",
+      "administration": "Daily oral tablet",
+      "avgWeightLoss": "~5-7%",
+      "cost": "$10-30/mo (generic)",
+      "brandCost": "$30-75/mo",
+      "halfLife": "~20 hours",
+      "fdaYear": 1959,
+      "dosingFrequency": "Once daily",
+      "keyTrial": "Various (5-7% weight loss over 12 weeks)",
+      "commonSideEffects": ["Increased heart rate", "Insomnia", "Dry mouth", "Anxiety"],
+      "uniquePros": ["Very affordable", "Oral tablet", "Fast-acting appetite suppression"],
+      "uniqueCons": ["Limited to 12-week use", "Stimulant side effects", "Weight regain after stopping", "Not for patients with heart conditions"]
+    },
+    "verdict": "GLP-1 medications produce 2-4x more weight loss than phentermine with a completely different mechanism and safety profile. Phentermine is far cheaper ($10-30/mo vs $150-1,400/mo) but is limited to short-term use (12 weeks) and carries cardiovascular risks. GLP-1s represent a paradigm shift in obesity treatment.",
+    "bestFor": {
+      "medA": "Patients seeking significant, sustained weight loss with metabolic benefits",
+      "medB": "Patients needing short-term appetite suppression on a tight budget who have no cardiovascular risk"
+    },
+    "headToHeadTrials": "STEP 9 compared semaglutide to phentermine-topiramate and showed comparable weight loss, though different side effect profiles.",
+    "searchVolume": "high",
+    "faqQuestions": [
+      {"q": "Are GLP-1s better than phentermine?", "a": "For sustained weight loss, yes. GLP-1s produce significantly more weight loss (15-22% vs 5-7%), can be used long-term, and have metabolic benefits. Phentermine is limited to 12 weeks and carries stimulant risks."},
+      {"q": "Can I take phentermine and a GLP-1 together?", "a": "Some doctors prescribe them together, especially during the GLP-1 titration period. However, this is off-label and should only be done under medical supervision."},
+      {"q": "Why would anyone choose phentermine over GLP-1s?", "a": "Cost is the main reason — phentermine is $10-30/mo vs $150-1,400/mo for GLP-1s. It also works immediately and is a simple pill. Some patients use it as a bridge while waiting for GLP-1 access."}
+    ]
+  },
+  {
+    "slug": "glp1-vs-bariatric-surgery",
+    "medA": {
+      "name": "GLP-1 Medications",
+      "slug": "glp1",
+      "brands": "Ozempic / Wegovy / Mounjaro / Zepbound",
+      "class": "GLP-1 receptor agonists",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~15-22%",
+      "cost": "$1,800-16,800/year",
+      "brandCost": "$12,000-16,800/year",
+      "halfLife": "5-7 days",
+      "fdaYear": 2021,
+      "dosingFrequency": "Once weekly (ongoing)",
+      "keyTrial": "STEP and SURMOUNT programs",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting"],
+      "uniquePros": ["Non-surgical", "Reversible", "Fewer acute risks", "Can titrate dose"],
+      "uniqueCons": ["Requires ongoing use", "Cumulative lifetime cost", "Weight regain if stopped", "Less weight loss than surgery"]
+    },
+    "medB": {
+      "name": "Bariatric Surgery",
+      "slug": "bariatric-surgery",
+      "brands": "Gastric Bypass / Gastric Sleeve / Duodenal Switch",
+      "class": "Surgical intervention",
+      "administration": "One-time surgery",
+      "avgWeightLoss": "~25-35%",
+      "cost": "$15,000-35,000 (one-time)",
+      "brandCost": "$15,000-35,000",
+      "halfLife": "Permanent anatomical change",
+      "fdaYear": null,
+      "dosingFrequency": "One-time procedure",
+      "keyTrial": "STAMPEDE, Swedish Obese Subjects Study",
+      "commonSideEffects": ["Dumping syndrome", "Nutritional deficiencies", "Gallstones", "Surgical complications"],
+      "uniquePros": ["Greatest sustained weight loss", "One-time procedure", "May resolve type 2 diabetes", "Long-term outcomes data (20+ years)"],
+      "uniqueCons": ["Irreversible", "Surgical risks", "Requires lifelong vitamin supplementation", "Recovery time"]
+    },
+    "verdict": "Bariatric surgery produces more weight loss (25-35%) than GLP-1 medications (15-22%) and is a one-time procedure. However, GLP-1s are non-surgical, reversible, and have fewer acute risks. For patients with BMI >40 or severe comorbidities, surgery may still be the best option. GLP-1s have made non-surgical treatment viable for the first time at near-surgical levels of weight loss.",
+    "bestFor": {
+      "medA": "Patients who prefer non-surgical treatment, have BMI 27-40, or want a reversible approach",
+      "medB": "Patients with BMI >40 or severe obesity-related comorbidities who want maximum one-time weight loss"
+    },
+    "headToHeadTrials": "STAMPEDE (10-year data) showed surgery superior for diabetes resolution. Newer studies comparing GLP-1s to surgery are ongoing.",
+    "searchVolume": "high",
+    "faqQuestions": [
+      {"q": "Can GLP-1s replace bariatric surgery?", "a": "For many patients with BMI 30-40, GLP-1 medications may achieve sufficient weight loss without surgery. For severe obesity (BMI >40) or when comorbidities require maximum weight loss, surgery may still be preferable."},
+      {"q": "Which is more cost-effective long-term?", "a": "Surgery has a high upfront cost ($15,000-35,000) but is one-time. GLP-1s cost $1,800-16,800/year indefinitely. Over 5-10 years, the cumulative cost of GLP-1s can exceed surgery costs."},
+      {"q": "Can I use GLP-1s after bariatric surgery?", "a": "Yes, some patients use GLP-1 medications after surgery if they experience weight regain. This combination approach is becoming more common and is supported by emerging clinical data."}
+    ]
+  },
+  {
+    "slug": "semaglutide-vs-orforglipron",
+    "medA": {
+      "name": "Semaglutide",
+      "slug": "semaglutide",
+      "brands": "Ozempic / Wegovy",
+      "class": "GLP-1 RA (peptide)",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~15%",
+      "cost": "$150-400/mo (compounded)",
+      "brandCost": "$1,000-1,400/mo",
+      "halfLife": "~7 days",
+      "fdaYear": 2021,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "STEP 1 (16.9% weight loss)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting"],
+      "uniquePros": ["FDA-approved and available now", "Extensive safety data", "Proven cardiovascular benefits"],
+      "uniqueCons": ["Requires injection", "Peptide-based (cold chain required)", "Expensive at brand pricing"]
+    },
+    "medB": {
+      "name": "Orforglipron",
+      "slug": "orforglipron",
+      "brands": "Not yet approved (Eli Lilly)",
+      "class": "GLP-1 RA (small molecule, oral)",
+      "administration": "Daily oral tablet",
+      "avgWeightLoss": "~14%",
+      "cost": "Not yet available",
+      "brandCost": "Not yet available (expected to be cheaper than injectables)",
+      "halfLife": "~29 hours",
+      "fdaYear": null,
+      "dosingFrequency": "Once daily",
+      "keyTrial": "Phase 2 (up to 14.7% weight loss at 36 weeks)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting"],
+      "uniquePros": ["Oral pill (no injections)", "Small molecule (easier to manufacture, no cold chain)", "May be cheaper to produce at scale"],
+      "uniqueCons": ["Not yet approved", "Slightly less weight loss in early data", "Daily dosing required"]
+    },
+    "verdict": "Orforglipron could be a game-changer as an oral small-molecule GLP-1 that approaches injectable semaglutide's weight loss (~14% vs ~15%). Unlike Rybelsus (oral semaglutide), orforglipron is a small molecule that is easier and cheaper to manufacture. If approved, it could dramatically lower the cost of GLP-1 therapy and eliminate the need for injections.",
+    "bestFor": {
+      "medA": "Patients who need effective treatment available today",
+      "medB": "Future option for patients who want injectable-level results from a daily pill"
+    },
+    "headToHeadTrials": "No head-to-head trials yet. Phase 3 trials (ACHIEVE program) are underway.",
+    "searchVolume": "medium",
+    "faqQuestions": [
+      {"q": "When will orforglipron be available?", "a": "Eli Lilly is conducting Phase 3 trials (ACHIEVE program). If successful, FDA approval could come in 2026-2027. It would be the first oral small-molecule GLP-1 for obesity."},
+      {"q": "How is orforglipron different from Rybelsus?", "a": "Rybelsus is oral semaglutide (a peptide that needs special absorption enhancement and fasting). Orforglipron is a small molecule — it absorbs more easily, doesn't require fasting, and is much cheaper to manufacture."},
+      {"q": "Could orforglipron make GLP-1s affordable?", "a": "Potentially, yes. Small molecules are far cheaper to produce than peptides. Without cold chain requirements and with simpler manufacturing, the cost could be significantly lower than current injectable GLP-1s."}
+    ]
+  },
+  {
+    "slug": "mounjaro-vs-zepbound",
+    "medA": {
+      "name": "Mounjaro",
+      "slug": "mounjaro",
+      "brands": "Mounjaro (tirzepatide)",
+      "class": "GLP-1/GIP dual agonist (diabetes)",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~15-22%",
+      "cost": "$1,000-1,200/mo (brand)",
+      "brandCost": "$1,000-1,200/mo",
+      "halfLife": "~5 days",
+      "fdaYear": 2022,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "SURPASS trials (A1C + weight)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Decreased appetite"],
+      "uniquePros": ["Approved for type 2 diabetes", "Better insurance coverage for diabetic patients", "Same molecule as Zepbound"],
+      "uniqueCons": ["Not FDA-approved for weight loss", "Off-label for obesity", "Diabetes-focused dosing guidance"]
+    },
+    "medB": {
+      "name": "Zepbound",
+      "slug": "zepbound",
+      "brands": "Zepbound (tirzepatide)",
+      "class": "GLP-1/GIP dual agonist (obesity)",
+      "administration": "Weekly injection",
+      "avgWeightLoss": "~22%",
+      "cost": "$1,000-1,100/mo (brand)",
+      "brandCost": "$1,000-1,100/mo",
+      "halfLife": "~5 days",
+      "fdaYear": 2023,
+      "dosingFrequency": "Once weekly",
+      "keyTrial": "SURMOUNT trials (22.5% weight loss)",
+      "commonSideEffects": ["Nausea", "Diarrhea", "Decreased appetite"],
+      "uniquePros": ["FDA-approved for weight management", "Obesity-specific dosing and titration", "Dedicated savings programs for obesity"],
+      "uniqueCons": ["Limited insurance coverage for obesity", "Same molecule as Mounjaro at higher cost"]
+    },
+    "verdict": "Mounjaro and Zepbound are the same drug (tirzepatide) by Eli Lilly, just like Ozempic and Wegovy are both semaglutide. Mounjaro is approved for type 2 diabetes; Zepbound is approved for weight management. The medication, device, and doses are identical. The difference is labeling, insurance coverage, and the prescribing context.",
+    "bestFor": {
+      "medA": "Patients with type 2 diabetes who will benefit from insurance coverage under the diabetes indication",
+      "medB": "Patients without diabetes who need the FDA-approved obesity indication for insurance or clinical purposes"
+    },
+    "headToHeadTrials": "No head-to-head needed — identical drug. SURPASS trials (diabetes) and SURMOUNT trials (obesity) both used tirzepatide.",
+    "searchVolume": "high",
+    "faqQuestions": [
+      {"q": "Are Mounjaro and Zepbound the same drug?", "a": "Yes, both contain tirzepatide made by Eli Lilly. Mounjaro is approved for type 2 diabetes, while Zepbound is approved for weight management. The auto-injector, doses, and medication are identical."},
+      {"q": "Why would my doctor prescribe one over the other?", "a": "If you have type 2 diabetes, you would be prescribed Mounjaro (diabetes indication). If you are seeking weight management without diabetes, you would be prescribed Zepbound (obesity indication). This affects insurance coverage."},
+      {"q": "Can I switch between Mounjaro and Zepbound?", "a": "Since they are the same medication, switching is seamless — same dose, same schedule. Your doctor might switch you if your insurance situation changes or if you develop/resolve type 2 diabetes."}
+    ]
+  }
+]
