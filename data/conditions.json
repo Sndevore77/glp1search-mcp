@@ -1,0 +1,1609 @@
+[
+  {
+    "slug": "type-2-diabetes",
+    "name": "Type 2 Diabetes",
+    "category": "metabolic",
+    "description": "Type 2 diabetes is the primary FDA-approved indication for several GLP-1 medications including semaglutide (Ozempic), dulaglutide (Trulicity), and tirzepatide (Mounjaro). These medications have revolutionized diabetes management by offering superior glycemic control alongside cardiovascular benefits.",
+    "sections": [
+      {
+        "heading": "How GLP-1 Medications Help",
+        "content": "GLP-1 receptor agonists work through multiple mechanisms to improve type 2 diabetes. They stimulate glucose-dependent insulin secretion from pancreatic beta cells, meaning they only increase insulin when blood sugar is elevated. They also suppress glucagon release, reduce hepatic glucose production, and slow gastric emptying to prevent post-meal blood sugar spikes. Beyond glucose control, GLP-1s promote weight loss by reducing appetite and increasing satiety through central nervous system effects. Recent studies show they provide cardiovascular protection, with semaglutide demonstrating significant reductions in major adverse cardiovascular events in the SUSTAIN-6 trial. For patients with type 2 diabetes and established cardiovascular disease, GLP-1s are now recommended as first-line therapy alongside metformin."
+      },
+      {
+        "heading": "Recommended Medications",
+        "content": "Semaglutide (Ozempic) offers the strongest HbA1c reduction at 1.8% and is administered weekly. Tirzepatide (Mounjaro), a dual GIP/GLP-1 agonist, achieves even greater HbA1c reductions up to 2.4% and superior weight loss. Dulaglutide (Trulicity) provides good efficacy with the convenience of a single-dose pen. Liraglutide (Victoza) requires daily injections but has the longest cardiovascular safety data. For patients prioritizing cardiovascular protection, semaglutide and dulaglutide have the strongest outcome data. Cost and insurance coverage often drive selection, with compounded semaglutide offering an affordable alternative during shortages. Your endocrinologist can help determine which agent best fits your diabetes severity, comorbidities, and lifestyle preferences."
+      },
+      {
+        "heading": "What to Expect",
+        "content": "Most patients see meaningful HbA1c improvements within 8-12 weeks of starting GLP-1 therapy. Initial weeks often involve dose titration to minimize gastrointestinal side effects like nausea and vomiting. Starting at low doses (0.25mg semaglutide, 2.5mg tirzepatide) and gradually increasing allows your body to adapt. Weight loss typically begins in weeks 2-4 and continues for 6-12 months, averaging 10-15% of body weight. Blood sugar monitoring frequency may decrease as HbA1c stabilizes. Some patients experience reduced medication burden as GLP-1s may allow discontinuation of sulfonylureas or insulin. Regular follow-ups every 3 months help optimize dosing and monitor for rare side effects like pancreatitis or gallbladder disease."
+      },
+      {
+        "heading": "Finding a Provider",
+        "content": "Managing type 2 diabetes with GLP-1 medications requires coordinated care between your primary care physician, endocrinologist, and care team. GLP1Search.com connects you with providers experienced in modern diabetes management, including telehealth options that offer convenient prescribing and monitoring. Look for providers who stay current with ADA/EASD guidelines and understand the nuances of GLP-1 selection. Many telehealth platforms specializing in metabolic health offer comprehensive diabetes care including GLP-1 prescriptions, continuous glucose monitoring, and nutrition support—all from home."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide",
+      "dulaglutide",
+      "exenatide"
+    ],
+    "keyStats": [
+      {
+        "label": "HbA1c reduction",
+        "value": "1.0-2.4%"
+      },
+      {
+        "label": "Weight loss",
+        "value": "10-22%"
+      },
+      {
+        "label": "CVD risk reduction",
+        "value": "26%"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Which GLP-1 is best for type 2 diabetes?",
+        "a": "Tirzepatide (Mounjaro) offers the greatest HbA1c reduction (up to 2.4%), while semaglutide (Ozempic) has the strongest cardiovascular outcome data. Selection depends on your A1c goals, heart disease history, and insurance coverage."
+      },
+      {
+        "q": "Can GLP-1s replace insulin?",
+        "a": "Some patients with type 2 diabetes can reduce or eliminate insulin when starting GLP-1s, particularly if their diabetes is well-controlled. Never discontinue insulin without medical supervision."
+      }
+    ],
+    "seraviaRelevance": "SeraVia Gut+ Balance helps manage GI side effects that often accompany diabetes treatment with GLP-1 medications.",
+    "relatedConditions": [
+      "obesity",
+      "insulin-resistance",
+      "metabolic-syndrome",
+      "prediabetes"
+    ],
+    "ctaText": "Find diabetes-focused GLP-1 providers near you"
+  },
+  {
+    "slug": "obesity",
+    "name": "Obesity",
+    "category": "weight",
+    "description": "Obesity (BMI ≥30) is now recognized as a chronic disease with FDA-approved GLP-1 treatments including semaglutide (Wegovy), tirzepatide (Zepbound), and liraglutide (Saxenda). These medications address the biological drivers of weight regain.",
+    "sections": [
+      {
+        "heading": "How GLP-1 Medications Help",
+        "content": "GLP-1 medications treat obesity by targeting the hormonal and neural pathways that defend against weight loss. When you lose weight, your body naturally increases hunger hormones and decreases satiety signals—a phenomenon called metabolic adaptation that drives weight regain. GLP-1s counteract this by mimicking natural satiety hormones, reducing appetite, increasing fullness, and dampening food cravings. They also slow gastric emptying, keeping food in your stomach longer. Unlike stimulant appetite suppressants, GLP-1s work through physiological mechanisms rather than simply masking hunger. Studies show sustained weight loss of 15-22% at one year, with many patients maintaining significant loss at 2+ years. This level of weight reduction can resolve or improve obesity-related conditions including type 2 diabetes, sleep apnea, and fatty liver disease."
+      },
+      {
+        "heading": "Recommended Medications",
+        "content": "Tirzepatide (Zepbound) achieves the highest weight loss at 20.9% average reduction, followed by semaglutide 2.4mg (Wegovy) at 14.9%. Liraglutide (Saxenda) offers 8-10% loss but requires daily injections. For patients with obesity and cardiovascular disease, Wegovy recently received FDA approval for cardiovascular risk reduction based on the SELECT trial. Compounded semaglutide and tirzepatide provide cost-effective alternatives during brand shortages, though quality varies by pharmacy. Retatrutide, a triple agonist in trials, has shown unprecedented 24% weight loss. Your provider will consider your weight loss goals, medical history, insurance coverage, and preference for injection frequency when selecting medication."
+      },
+      {
+        "heading": "What to Expect",
+        "content": "Weight loss typically begins within 2-4 weeks of starting GLP-1 therapy, with the most rapid loss occurring in months 3-6. Average weight loss plateaus around month 9-12 at 15-20% of starting weight for semaglutide and tirzepatide. During the first 2-4 weeks, you'll experience dose titration with gradually increasing doses to minimize nausea. Common side effects include nausea (44%), diarrhea (30%), and constipation (24%), which usually improve after 4-8 weeks. Many patients report reduced food noise and cravings, making dietary adherence easier. Weight loss often improves energy, mobility, sleep quality, and self-esteem. Maintenance dosing may be needed long-term to sustain results, as stopping medication typically leads to weight regain within 12 months."
+      },
+      {
+        "heading": "Finding a Provider",
+        "content": "Obesity medicine specialists, endocrinologists, and comprehensive weight management programs offer the expertise needed for successful GLP-1 treatment. GLP1Search.com helps you find providers who understand obesity as a chronic disease and offer evidence-based treatments beyond simple diet and exercise advice. Many telehealth platforms now specialize in medical weight loss with GLP-1s, providing convenient access to prescriptions, monitoring, and lifestyle support. Look for providers who offer comprehensive care including nutrition counseling, behavioral support, and management of obesity-related conditions."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Average weight loss",
+        "value": "15-22%"
+      },
+      {
+        "label": "Patients losing 10%+",
+        "value": "70-90%"
+      },
+      {
+        "label": "Maintenance at 2 years",
+        "value": "60-70%"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "How much weight will I lose on GLP-1 medications?",
+        "a": "Average weight loss is 15% with semaglutide (Wegovy) and 21% with tirzepatide (Zepbound) at one year. Individual results vary based on starting weight, adherence, and lifestyle factors."
+      },
+      {
+        "q": "Will I regain weight if I stop?",
+        "a": "Yes, most patients regain 60-80% of lost weight within 12 months of stopping medication. GLP-1s treat a biological condition, so ongoing treatment is typically needed for maintenance."
+      }
+    ],
+    "seraviaRelevance": "SeraVia Muscle+ Protect helps preserve lean muscle mass during rapid weight loss on GLP-1 medications.",
+    "relatedConditions": [
+      "type-2-diabetes",
+      "metabolic-syndrome",
+      "sleep-apnea",
+      "nafld"
+    ],
+    "ctaText": "Find obesity medicine specialists"
+  },
+  {
+    "slug": "pcos",
+    "name": "PCOS (Polycystic Ovary Syndrome)",
+    "category": "hormonal",
+    "description": "PCOS affects 1 in 10 women and is frequently associated with insulin resistance and weight gain. GLP-1 medications offer significant benefits for PCOS management beyond weight loss alone.",
+    "sections": [
+      {
+        "heading": "How GLP-1 Medications Help",
+        "content": "PCOS is fundamentally an insulin-resistant condition, even in lean women. GLP-1 medications address the root metabolic dysfunction by improving insulin sensitivity, reducing androgen levels, and promoting weight loss. Studies show GLP-1s can normalize menstrual cycles in 40-60% of women with PCOS, improve fertility outcomes, and reduce hirsutism. The weight loss achieved with GLP-1s (typically 10-15%) often restores ovulation in overweight women with PCOS. Additionally, GLP-1s may reduce the elevated cardiovascular risk associated with PCOS by improving lipid profiles and reducing inflammation. For women with PCOS and prediabetes or type 2 diabetes, GLP-1s offer dual benefits for metabolic and reproductive health. Some evidence suggests GLP-1s may directly affect ovarian function, though this requires further research."
+      },
+      {
+        "heading": "Recommended Medications",
+        "content": "While no GLP-1 is specifically FDA-approved for PCOS, semaglutide and liraglutide are increasingly prescribed off-label with excellent results. Liraglutide 3.0mg has the most PCOS-specific data, showing significant improvements in testosterone levels and menstrual regularity. Semaglutide offers superior weight loss and convenience with weekly dosing. Tirzepatide's dual mechanism may provide additional benefits for insulin-resistant PCOS, though PCOS-specific data is limited. Metformin remains first-line for PCOS metabolic management, but GLP-1s are considered when metformin is insufficient or poorly tolerated. Many reproductive endocrinologists now use GLP-1s as adjunct therapy for PCOS-related infertility, sometimes before IVF to improve outcomes."
+      },
+      {
+        "heading": "What to Expect",
+        "content": "Women with PCOS typically see significant improvements in metabolic markers within 8-12 weeks of starting GLP-1 therapy. Weight loss of 5-10% often restores menstrual regularity and improves fertility. Hirsutism and acne may gradually improve over 3-6 months as androgen levels decrease. Many women report improved energy, reduced carb cravings, and better mood stability. Side effects are similar to the general population, though some women report improvements in PCOS-related GI symptoms. If you're trying to conceive, discuss timing with your provider—GLP-1s should be stopped once pregnancy is confirmed. Regular monitoring of metabolic markers and menstrual cycles helps track progress."
+      },
+      {
+        "heading": "Finding a Provider",
+        "content": "PCOS management benefits from a team approach including reproductive endocrinology, gynecology, and metabolic health specialists. GLP1Search.com connects you with providers experienced in PCOS and GLP-1 therapy. Look for practitioners who understand the metabolic nature of PCOS beyond fertility concerns. Many telehealth platforms now offer specialized PCOS care with GLP-1 prescriptions, nutrition guidance for insulin resistance, and hormonal management—all coordinated through virtual visits."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Menstrual restoration",
+        "value": "40-60%"
+      },
+      {
+        "label": "Weight loss",
+        "value": "10-15%"
+      },
+      {
+        "label": "Testosterone reduction",
+        "value": "20-30%"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Can GLP-1s help me get pregnant with PCOS?",
+        "a": "Yes, by restoring ovulation through weight loss and metabolic improvement. Many women conceive naturally after 3-6 months on GLP-1 therapy. Stop medication immediately if pregnancy is suspected."
+      },
+      {
+        "q": "Do I need to have diabetes to use GLP-1s for PCOS?",
+        "a": "No, GLP-1s are increasingly prescribed off-label for PCOS even without diabetes, particularly for weight management and metabolic improvement. Insurance coverage varies."
+      }
+    ],
+    "seraviaRelevance": "SeraVia formulations support hormonal balance and metabolic health for women managing PCOS alongside GLP-1 therapy.",
+    "relatedConditions": [
+      "insulin-resistance",
+      "obesity",
+      "infertility",
+      "metabolic-syndrome"
+    ],
+    "ctaText": "Find PCOS specialists offering GLP-1 therapy"
+  },
+  {
+    "slug": "insulin-resistance",
+    "name": "Insulin Resistance",
+    "category": "metabolic",
+    "description": "Insulin resistance is the precursor to type 2 diabetes and a key driver of weight gain, fatigue, and metabolic dysfunction. GLP-1 medications directly address insulin resistance through multiple mechanisms.",
+    "sections": [
+      {
+        "heading": "How GLP-1 Medications Help",
+        "content": "GLP-1 medications improve insulin resistance through several pathways. They enhance insulin sensitivity in peripheral tissues including muscle and adipose tissue, allowing cells to respond more effectively to insulin. GLP-1s reduce lipotoxicity by promoting fat oxidation and reducing ectopic fat deposition in liver and muscle. They decrease inflammation—a key driver of insulin resistance—through anti-inflammatory effects on adipose tissue and immune cells. Weight loss of 10-15% further improves insulin sensitivity independent of the medication's direct effects. For patients with prediabetes, GLP-1s can prevent progression to type 2 diabetes. Even in lean individuals with insulin resistance, GLP-1s improve metabolic flexibility and glucose disposal."
+      },
+      {
+        "heading": "Recommended Medications",
+        "content": "Tirzepatide (Mounjaro) offers superior insulin sensitization through its dual GIP/GLP-1 mechanism, achieving the greatest improvements in HOMA-IR scores. Semaglutide provides excellent metabolic benefits with convenient weekly dosing. Liraglutide has extensive data for prediabetes prevention. For patients with significant insulin resistance but normal weight, lower GLP-1 doses may be effective without excessive weight loss. Some providers combine GLP-1s with metformin for synergistic insulin sensitization. Retatrutide, in development, shows unprecedented metabolic improvements. Compounded versions offer affordable access during brand shortages."
+      },
+      {
+        "heading": "What to Expect",
+        "content": "Fasting insulin and HOMA-IR typically improve within 4-8 weeks of starting GLP-1 therapy, often before significant weight loss occurs. Fasting glucose and HbA1c normalize in 2-3 months for most patients with prediabetes. Energy levels frequently improve as metabolic flexibility increases and reactive hypoglycemia decreases. Many patients report reduced carb cravings and more stable energy throughout the day. Weight loss of 5-10% provides additional insulin sensitizing benefits. Regular monitoring of metabolic markers helps track progress. Some patients can reduce or eliminate metformin as insulin sensitivity improves."
+      },
+      {
+        "heading": "Finding a Provider",
+        "content": "Functional medicine practitioners, endocrinologists, and metabolic health specialists understand the nuances of treating insulin resistance with GLP-1s. GLP1Search.com helps you find providers who look beyond simple glucose numbers to address root metabolic dysfunction. Many telehealth platforms offer comprehensive metabolic panels and personalized GLP-1 protocols for insulin resistance."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "HOMA-IR improvement",
+        "value": "30-50%"
+      },
+      {
+        "label": "Prediabetes reversal",
+        "value": "60-80%"
+      },
+      {
+        "label": "Fasting insulin reduction",
+        "value": "40-60%"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Can GLP-1s reverse insulin resistance?",
+        "a": "Yes, GLP-1s significantly improve insulin sensitivity through weight loss, reduced inflammation, and direct cellular effects. Many patients see normalization of fasting insulin and HOMA-IR."
+      },
+      {
+        "q": "Do I need to be overweight to use GLP-1s for insulin resistance?",
+        "a": "Not necessarily. Lean individuals with insulin resistance may benefit from lower doses. However, insurance coverage typically requires meeting BMI criteria."
+      }
+    ],
+    "seraviaRelevance": "SeraVia Energy+ Boost supports metabolic function and insulin sensitivity for those managing insulin resistance.",
+    "relatedConditions": [
+      "prediabetes",
+      "type-2-diabetes",
+      "metabolic-syndrome",
+      "pcos"
+    ],
+    "ctaText": "Find metabolic health specialists"
+  },
+  {
+    "slug": "metabolic-syndrome",
+    "name": "Metabolic Syndrome",
+    "category": "metabolic",
+    "description": "Metabolic syndrome—a cluster of conditions including high blood pressure, high blood sugar, excess body fat, and abnormal cholesterol—significantly increases cardiovascular risk. GLP-1 medications address all components simultaneously.",
+    "sections": [
+      {
+        "heading": "How GLP-1 Medications Help",
+        "content": "GLP-1 medications are uniquely positioned to treat metabolic syndrome by targeting its multiple components. They reduce waist circumference through appetite suppression and weight loss. They improve lipid profiles by reducing triglycerides and increasing HDL cholesterol. They lower blood pressure through weight loss and vasodilatory effects. They normalize fasting glucose and reduce HbA1c. They decrease systemic inflammation, a key driver of metabolic dysfunction. Studies show GLP-1s can resolve metabolic syndrome in 40-60% of treated patients within 6-12 months. The cardiovascular risk reduction achieved with GLP-1s (20-26% reduction in MACE) makes them ideal for metabolic syndrome patients at elevated cardiac risk."
+      },
+      {
+        "heading": "Recommended Medications",
+        "content": "Semaglutide and tirzepatide offer the most comprehensive metabolic benefits. Semaglutide has the strongest cardiovascular outcome data for patients with metabolic syndrome and established CVD. Tirzepatide provides superior weight loss and glycemic control. For patients with metabolic syndrome but normal glucose, lower doses may be sufficient. Combining GLP-1s with lifestyle interventions amplifies results. Some providers add SGLT2 inhibitors for additional cardiometabolic benefits."
+      },
+      {
+        "heading": "What to Expect",
+        "content": "Waist circumference typically decreases 2-4 inches within 3 months. Triglycerides drop 20-30% and HDL increases 5-10 mg/dL. Blood pressure improves 5-10 mmHg systolic. Fasting glucose normalizes in 2-3 months. Many patients see complete resolution of metabolic syndrome criteria within 6-9 months. Energy and overall wellbeing improve significantly. Regular monitoring tracks progress across all metabolic parameters."
+      },
+      {
+        "heading": "Finding a Provider",
+        "content": "Cardiometabolic specialists, preventive cardiologists, and comprehensive metabolic health programs offer integrated care for metabolic syndrome. GLP1Search.com connects you with providers who understand the interconnected nature of metabolic syndrome and offer comprehensive treatment approaches."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Metabolic syndrome resolution",
+        "value": "40-60%"
+      },
+      {
+        "label": "Waist reduction",
+        "value": "4-6 inches"
+      },
+      {
+        "label": "Triglyceride reduction",
+        "value": "20-30%"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Can GLP-1s cure metabolic syndrome?",
+        "a": "GLP-1s can resolve metabolic syndrome in 40-60% of patients by addressing all components: weight, glucose, lipids, and blood pressure."
+      }
+    ],
+    "seraviaRelevance": "SeraVia formulations support comprehensive metabolic health for those addressing multiple metabolic risk factors.",
+    "relatedConditions": [
+      "type-2-diabetes",
+      "obesity",
+      "insulin-resistance",
+      "cardiovascular-risk"
+    ],
+    "ctaText": "Find cardiometabolic specialists"
+  },
+  {
+    "slug": "nafld",
+    "name": "NAFLD",
+    "fullName": "Non-Alcoholic Fatty Liver Disease",
+    "category": "metabolic",
+    "description": "NAFLD is the most common chronic liver condition, affecting 25% of adults. It's strongly associated with obesity and insulin resistance. GLP-1 medications show remarkable benefits for liver health.",
+    "sections": [
+      {
+        "heading": "How GLP-1 Medications Help",
+        "content": "GLP-1 medications directly target the metabolic drivers of NAFLD. They reduce liver fat content by 30-50% through weight loss and improved insulin sensitivity. Semaglutide and tirzepatide activate pathways that reduce hepatic glucose production and fat synthesis. They decrease inflammation in liver tissue and may reverse fibrosis. Clinical trials show GLP-1s can resolve NASH (the inflammatory form of NAFLD) in 40-60% of patients. Even modest weight loss of 5-7% significantly improves liver enzymes and reduces steatosis. GLP-1s also reduce the risk of progression to cirrhosis and liver cancer. For patients with NAFLD and metabolic syndrome, GLP-1s offer multi-organ benefits beyond the liver."
+      },
+      {
+        "heading": "Treatment Monitoring",
+        "content": "Baseline liver function tests (AST, ALT) should be obtained before starting GLP-1s, with follow-up testing at 3-6 months. Many patients see normalization of liver enzymes within 3-4 months. Imaging (ultrasound or FibroScan) can quantify liver fat reduction. For patients with NASH, repeat biopsy may be considered after 12-18 months of treatment. SeraVia Detox+ Shield supports liver health during weight loss. Regular monitoring tracks both liver improvement and metabolic benefits."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Liver fat reduction",
+        "value": "30-50%"
+      },
+      {
+        "label": "NASH resolution",
+        "value": "40-60%"
+      },
+      {
+        "label": "ALT normalization",
+        "value": "3-4 months"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Can GLP-1s reverse fatty liver?",
+        "a": "Yes, studies show significant reduction in liver fat and resolution of NASH in 40-60% of patients with sustained weight loss."
+      }
+    ],
+    "seraviaRelevance": "SeraVia Detox+ Shield provides liver-supporting nutrients that complement GLP-1 therapy for NAFLD patients.",
+    "relatedConditions": [
+      "obesity",
+      "insulin-resistance",
+      "metabolic-syndrome",
+      "type-2-diabetes"
+    ],
+    "ctaText": "Find NAFLD specialists"
+  },
+  {
+    "slug": "sleep-apnea",
+    "name": "Sleep Apnea",
+    "category": "weight",
+    "description": "Obstructive sleep apnea affects 20-40% of obese adults and significantly increases cardiovascular risk. Weight loss from GLP-1s often dramatically improves or resolves sleep apnea.",
+    "sections": [
+      {
+        "heading": "How GLP-1 Medications Help",
+        "content": "GLP-1 medications reduce sleep apnea severity through multiple mechanisms. Weight loss of 10-15% typically reduces AHI (apnea-hypopnea index) by 25-50%. Reduced neck circumference decreases airway collapse. Improved metabolic health reduces inflammation in upper airway tissues. Many patients find they can reduce or eliminate CPAP use after significant weight loss. Even partial improvement makes CPAP therapy more tolerable and effective. The cardiovascular risk reduction from treating both sleep apnea and obesity is substantial."
+      },
+      {
+        "heading": "Monitoring and Expectations",
+        "content": "Baseline sleep study (polysomnography) documents starting severity. Repeat study after 20-30 pounds of weight loss to assess improvement. Many patients see significant improvement within 6-9 months. SeraVia formulations support energy and recovery during the weight loss phase. Coordination with sleep medicine specialists ensures safe CPAP adjustments."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "AHI reduction",
+        "value": "25-50%"
+      },
+      {
+        "label": "CPAP elimination possible",
+        "value": "30-40%"
+      },
+      {
+        "label": "Improvement timeline",
+        "value": "6-9 months"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Will I still need CPAP after losing weight on GLP-1s?",
+        "a": "30-40% of patients can eliminate CPAP after significant weight loss. Others need reduced pressures. Repeat sleep study required before stopping CPAP."
+      }
+    ],
+    "seraviaRelevance": "SeraVia Energy+ Boost supports daytime energy while adjusting to CPAP or during weight loss phase.",
+    "relatedConditions": [
+      "obesity",
+      "cardiovascular-risk",
+      "metabolic-syndrome"
+    ],
+    "ctaText": "Find sleep apnea and weight management specialists"
+  },
+  {
+    "slug": "cardiovascular-risk",
+    "name": "Cardiovascular Risk",
+    "category": "cardiovascular",
+    "description": "GLP-1 medications provide powerful cardiovascular protection, reducing major adverse cardiovascular events by 20-26% in high-risk patients.",
+    "sections": [
+      {
+        "heading": "Cardiovascular Benefits",
+        "content": "GLP-1 medications reduce cardiovascular risk through multiple pathways beyond weight loss. They improve endothelial function and reduce arterial inflammation. They lower blood pressure 5-10 mmHg systolic. They improve lipid profiles, reducing triglycerides 20-30% and increasing HDL. They reduce visceral fat, which drives cardiac risk. They improve heart rate variability and reduce arterial stiffness. The SELECT trial showed semaglutide reduced MACE by 20% in patients with obesity and CVD. SUSTAIN-6 demonstrated 26% reduction in cardiovascular events with semaglutide in diabetes patients."
+      },
+      {
+        "heading": "Who Benefits Most",
+        "content": "Patients with established cardiovascular disease, diabetes, or multiple risk factors benefit most. Those with obesity plus hypertension, dyslipidemia, or family history of heart disease see significant risk reduction. Even patients without diabetes experience cardiovascular benefits from weight loss and metabolic improvement."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "dulaglutide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "MACE reduction",
+        "value": "20-26%"
+      },
+      {
+        "label": "Blood pressure reduction",
+        "value": "5-10 mmHg"
+      },
+      {
+        "label": "Stroke risk reduction",
+        "value": "39%"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Do GLP-1s prevent heart attacks?",
+        "a": "Yes, semaglutide reduced major cardiovascular events by 20% and stroke by 39% in high-risk patients. FDA approved Wegovy for cardiovascular risk reduction."
+      }
+    ],
+    "seraviaRelevance": "SeraVia formulations support cardiovascular health alongside GLP-1 therapy for comprehensive risk reduction.",
+    "relatedConditions": [
+      "type-2-diabetes",
+      "obesity",
+      "metabolic-syndrome"
+    ],
+    "ctaText": "Find cardiometabolic specialists"
+  },
+  {
+    "slug": "prediabetes",
+    "name": "Prediabetes",
+    "category": "metabolic",
+    "description": "Prediabetes (HbA1c 5.7-6.4%) affects 88 million Americans and often progresses to type 2 diabetes. GLP-1 medications can prevent or delay this progression.",
+    "sections": [
+      {
+        "heading": "Prevention Benefits",
+        "content": "GLP-1 medications are highly effective at preventing progression from prediabetes to type 2 diabetes. They improve insulin sensitivity and beta-cell function. Weight loss of 7-10% often normalizes blood glucose. They reduce post-meal blood sugar spikes that drive progression. Studies show GLP-1s can achieve diabetes remission in early-stage patients. For high-risk prediabetics, GLP-1s offer more potent protection than metformin alone."
+      },
+      {
+        "heading": "Monitoring Progress",
+        "content": "Baseline HbA1c and fasting glucose establish starting point. Repeat testing at 3 months shows early improvement. Many patients achieve normal glucose within 6 months. Continue monitoring even after normalization to catch any recurrence. SeraVia Energy+ Boost supports metabolic health during the transition."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Progression prevention",
+        "value": "60-80%"
+      },
+      {
+        "label": "HbA1c reduction",
+        "value": "0.5-1.0%"
+      },
+      {
+        "label": "Time to normalization",
+        "value": "3-6 months"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Can GLP-1s reverse prediabetes?",
+        "a": "Yes, many patients achieve normal blood glucose within 3-6 months, effectively reversing prediabetes and preventing progression to diabetes."
+      }
+    ],
+    "seraviaRelevance": "SeraVia formulations support metabolic health and insulin sensitivity for prediabetic patients.",
+    "relatedConditions": [
+      "insulin-resistance",
+      "type-2-diabetes",
+      "obesity",
+      "metabolic-syndrome"
+    ],
+    "ctaText": "Find prediabetes specialists"
+  },
+  {
+    "slug": "binge-eating",
+    "name": "Binge Eating Disorder",
+    "category": "mental-health",
+    "description": "Binge eating disorder (BED) is the most common eating disorder, often co-occurring with obesity. GLP-1 medications can significantly reduce binge episodes.",
+    "sections": [
+      {
+        "heading": "How GLP-1s Help BED",
+        "content": "GLP-1 medications reduce binge eating through multiple mechanisms. They decrease the intensity of food cravings and food noise. They increase satiety, making it easier to stop eating. They reduce the reward value of highly palatable foods. They slow gastric emptying, creating physical fullness. Studies show 60-80% reduction in binge episodes. Many patients report the 'obsession with food' simply disappears. This allows space to address underlying emotional issues without constant food thoughts."
+      },
+      {
+        "heading": "Comprehensive Treatment",
+        "content": "GLP-1s work best for BED when combined with therapy. Cognitive behavioral therapy (CBT) addresses triggers and coping skills. Dialectical behavior therapy (DBT) helps emotion regulation. Medication reduces biological drive, therapy addresses psychological components. GLP1Search.com can help you find providers offering integrated BED treatment."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Binge episode reduction",
+        "value": "60-80%"
+      },
+      {
+        "label": "Food craving reduction",
+        "value": "Significant"
+      },
+      {
+        "label": "Sustained improvement",
+        "value": "While on medication"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Will GLP-1s cure my binge eating?",
+        "a": "They significantly reduce biological drive to binge, but therapy is usually needed for lasting behavioral change. Best results come from combined medication and therapy."
+      }
+    ],
+    "seraviaRelevance": "SeraVia formulations support mood and energy stability during BED recovery alongside GLP-1 therapy.",
+    "relatedConditions": [
+      "obesity",
+      "emotional-eating",
+      "food-addiction"
+    ],
+    "ctaText": "Find BED specialists offering GLP-1 therapy"
+  },
+  {
+    "slug": "emotional-eating",
+    "name": "Emotional Eating",
+    "category": "mental-health",
+    "description": "Emotional eating—using food to cope with stress, sadness, or boredom—affects millions. GLP-1 medications can break the cycle by reducing food cravings and reward.",
+    "sections": [
+      {
+        "heading": "Breaking the Cycle",
+        "content": "GLP-1 medications reduce the biological component of emotional eating. By decreasing food cravings and the reward value of comfort foods, they create space to develop healthier coping mechanisms. Many patients report that food no longer provides the same comfort or distraction, forcing development of alternative strategies. This biological change, combined with therapy, creates lasting behavioral change. The reduction in food noise allows patients to distinguish true hunger from emotional hunger."
+      },
+      {
+        "heading": "Developing New Skills",
+        "content": "While GLP-1s reduce drive to eat, developing alternative coping skills remains important. Therapy helps identify triggers and build new habits. Stress management techniques replace food-based coping. Support groups provide accountability. GLP-1s make these changes possible by removing the overwhelming biological urge to eat."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Craving reduction",
+        "value": "Significant"
+      },
+      {
+        "label": "Behavioral change support",
+        "value": "High"
+      },
+      {
+        "label": "Best with therapy",
+        "value": "Yes"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "I eat when stressed—will GLP-1s help?",
+        "a": "Yes, by reducing the biological reward from food, GLP-1s make it easier to develop alternative coping strategies. Combined with therapy, results are excellent."
+      }
+    ],
+    "seraviaRelevance": "SeraVia formulations support mood stability and stress resilience during emotional eating recovery.",
+    "relatedConditions": [
+      "binge-eating",
+      "obesity",
+      "stress"
+    ],
+    "ctaText": "Find emotional eating specialists"
+  },
+  {
+    "slug": "post-bariatric",
+    "name": "Post-Bariatric Surgery",
+    "category": "weight",
+    "description": "Some patients experience weight regain after bariatric surgery. GLP-1 medications can help achieve additional weight loss or maintain surgical results.",
+    "sections": [
+      {
+        "heading": "Adjunct to Surgery",
+        "content": "GLP-1 medications complement bariatric surgery in several ways. For post-surgical weight regain, GLP-1s can restart weight loss. They help patients get back on track after dietary lapses. They provide appetite control that may have diminished years after surgery. For patients who didn't achieve goal weight from surgery alone, GLP-1s offer additional loss. They also help manage blood sugar in post-surgical patients who develop diabetes."
+      },
+      {
+        "heading": "Special Considerations",
+        "content": "Post-surgical anatomy may affect medication absorption—work with experienced providers. Nutritional monitoring is crucial as malabsorption risks increase. Slower titration may be needed due to altered gastric anatomy. Bariatric surgeons and obesity medicine specialists should coordinate care."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Additional weight loss",
+        "value": "10-15%"
+      },
+      {
+        "label": "Regain prevention",
+        "value": "Effective"
+      },
+      {
+        "label": "Diabetes management",
+        "value": "Excellent"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Can I take GLP-1s after gastric bypass?",
+        "a": "Yes, many post-surgical patients benefit from GLP-1s for weight regain or diabetes. Work with providers experienced in post-bariatric care."
+      }
+    ],
+    "seraviaRelevance": "SeraVia formulations support nutritional status and healing in post-bariatric patients.",
+    "relatedConditions": [
+      "obesity",
+      "type-2-diabetes",
+      "malabsorption"
+    ],
+    "ctaText": "Find post-bariatric specialists"
+  },
+  {
+    "slug": "menopause-weight-gain",
+    "name": "Menopause-Related Weight Gain",
+    "category": "hormonal",
+    "description": "Hormonal changes during menopause often cause weight gain, particularly around the midsection. GLP-1 medications effectively address this stubborn weight.",
+    "sections": [
+      {
+        "heading": "Why Menopause Causes Weight Gain",
+        "content": "Declining estrogen shifts fat storage to the abdomen. Metabolic rate decreases 2-5% per decade. Insulin sensitivity worsens. Sleep disruption increases hunger hormones. Muscle mass declines without intervention. These factors create a perfect storm for weight gain that diet and exercise alone often can't overcome. GLP-1 medications address the biological drivers, making weight loss achievable again."
+      },
+      {
+        "heading": "Treatment Approach",
+        "content": "GLP-1s are particularly effective for menopausal weight gain. They counteract increased appetite and reduced satiety. They improve insulin sensitivity that declines with estrogen loss. They help preserve muscle mass when combined with resistance training. Many women achieve 15-20% weight loss, reversing menopausal weight gain. Combining with hormone replacement therapy (HRT) may enhance results—discuss with your provider."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Average weight loss",
+        "value": "15-20%"
+      },
+      {
+        "label": "Waist reduction",
+        "value": "Significant"
+      },
+      {
+        "label": "Metabolic improvement",
+        "value": "Substantial"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Will GLP-1s work for menopausal weight gain?",
+        "a": "Yes, very effectively. They address the biological changes of menopause that make weight loss difficult. Results often exceed what's possible with diet and exercise alone."
+      }
+    ],
+    "seraviaRelevance": "SeraVia formulations support hormonal balance and metabolic health for women navigating menopause and weight management.",
+    "relatedConditions": [
+      "obesity",
+      "insulin-resistance",
+      "metabolic-syndrome"
+    ],
+    "ctaText": "Find menopause and weight management specialists"
+  },
+  {
+    "slug": "thyroid-weight",
+    "name": "Thyroid-Related Weight Gain",
+    "category": "hormonal",
+    "description": "Hypothyroidism and subclinical thyroid dysfunction can cause weight gain and make weight loss difficult. GLP-1s can help when thyroid is optimally treated but weight remains stubborn.",
+    "sections": [
+      {
+        "heading": "When Thyroid Treatment Isn't Enough",
+        "content": "Even with optimal thyroid hormone replacement, many patients struggle with weight. Metabolic adaptation to hypothyroidism can persist. Insulin resistance often accompanies thyroid disease. Appetite regulation may remain impaired. GLP-1 medications address these residual metabolic issues independent of thyroid status. They can achieve weight loss even when TSH, T3, and T4 are normal."
+      },
+      {
+        "heading": "Coordinated Care",
+        "content": "Ensure thyroid is optimally treated before starting GLP-1s. Endocrinologist should manage both conditions. Some patients need T3-containing therapy for optimal metabolism. Monitor thyroid levels as weight loss may require dose adjustments. SeraVia formulations support overall metabolic health."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Weight loss with treated thyroid",
+        "value": "10-15%"
+      },
+      {
+        "label": "Success when thyroid optimal",
+        "value": "High"
+      },
+      {
+        "label": "Metabolic improvement",
+        "value": "Significant"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Can I take GLP-1s with hypothyroidism?",
+        "a": "Yes, very safely. Ensure thyroid is optimally treated first. GLP-1s address residual metabolic issues that persist even with normal thyroid levels."
+      }
+    ],
+    "seraviaRelevance": "SeraVia formulations support energy and metabolism alongside thyroid treatment and GLP-1 therapy.",
+    "relatedConditions": [
+      "obesity",
+      "metabolic-syndrome",
+      "insulin-resistance"
+    ],
+    "ctaText": "Find thyroid and weight specialists"
+  },
+  {
+    "slug": "aging-metabolism",
+    "name": "Age-Related Metabolic Decline",
+    "category": "aging",
+    "description": "Metabolic rate naturally declines with age, making weight management increasingly difficult. GLP-1 medications effectively counteract age-related metabolic changes.",
+    "sections": [
+      {
+        "heading": "Metabolic Changes with Age",
+        "content": "After 40, metabolic rate declines 2-5% per decade. Muscle mass decreases (sarcopenia) without intervention. Hormonal changes affect body composition. Insulin sensitivity worsens. Appetite regulation becomes less precise. These factors make weight gain almost inevitable and weight loss increasingly difficult. GLP-1 medications directly counteract these age-related changes by improving insulin sensitivity, reducing appetite, and enabling weight loss despite metabolic decline."
+      },
+      {
+        "heading": "Age-Specific Considerations",
+        "content": "Older adults benefit greatly from GLP-1s but need special attention to muscle and bone health. Protein intake should increase to 1-1.2g/pound. Resistance training becomes essential, not optional. SeraVia Muscle+ Protect and Bone+ Defense provide targeted support. DEXA scans monitor bone density during weight loss. Falls risk assessment is important as body changes affect balance."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Effective despite age",
+        "value": "Yes"
+      },
+      {
+        "label": "Metabolic improvement",
+        "value": "Significant"
+      },
+      {
+        "label": "Functional benefits",
+        "value": "High"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Am I too old for GLP-1s?",
+        "a": "No upper age limit. Patients in their 70s and 80s benefit from weight loss and metabolic improvement. Start conservatively with close monitoring."
+      }
+    ],
+    "seraviaRelevance": "SeraVia Muscle+ Protect and Bone+ Defense provide essential support for older adults on GLP-1s.",
+    "relatedConditions": [
+      "obesity",
+      "sarcopenia",
+      "osteoporosis",
+      "metabolic-syndrome"
+    ],
+    "ctaText": "Find geriatric weight management specialists"
+  },
+  {
+    "slug": "chronic-inflammation",
+    "name": "Chronic Inflammation",
+    "category": "metabolic",
+    "description": "Chronic low-grade inflammation drives metabolic disease and accelerates aging. GLP-1 medications have potent anti-inflammatory effects.",
+    "sections": [
+      {
+        "heading": "Anti-Inflammatory Benefits",
+        "content": "GLP-1 medications reduce systemic inflammation through multiple pathways. They lower C-reactive protein (CRP) and other inflammatory markers. They reduce inflammatory cytokine production in adipose tissue. They improve gut barrier function, reducing endotoxin leakage. They modulate immune cell function. These anti-inflammatory effects contribute to cardiovascular protection and metabolic improvement. Some research suggests benefits for inflammatory conditions beyond metabolic disease."
+      },
+      {
+        "heading": "Measuring Improvement",
+        "content": "Baseline inflammatory markers (CRP, ESR) establish starting point. Improvements seen within 3-6 months. Weight loss itself reduces inflammation. GLP-1s provide additional anti-inflammatory benefits beyond weight loss."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "CRP reduction",
+        "value": "30-50%"
+      },
+      {
+        "label": "Cytokine reduction",
+        "value": "Significant"
+      },
+      {
+        "label": "Timeline",
+        "value": "3-6 months"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Do GLP-1s reduce inflammation?",
+        "a": "Yes, significantly. They lower inflammatory markers independent of weight loss, contributing to cardiovascular and metabolic benefits."
+      }
+    ],
+    "seraviaRelevance": "SeraVia formulations provide antioxidant and anti-inflammatory support alongside GLP-1 therapy.",
+    "relatedConditions": [
+      "metabolic-syndrome",
+      "cardiovascular-risk",
+      "autoimmune"
+    ],
+    "ctaText": "Find anti-inflammatory health specialists"
+  },
+  {
+    "slug": "food-addiction",
+    "name": "Food Addiction",
+    "category": "mental-health",
+    "description": "Food addiction—compulsive overeating despite negative consequences—affects millions. GLP-1 medications can reduce the biological drive that underlies addictive eating behaviors.",
+    "sections": [
+      {
+        "heading": "Breaking Addiction Patterns",
+        "content": "GLP-1 medications reduce food addiction by targeting the brain's reward pathways. They decrease dopamine response to highly palatable foods. They reduce cravings and preoccupation with food. They increase satiety, making it easier to stop eating. Many patients report that foods they previously couldn't resist lose their appeal. This biological change creates space for behavioral interventions to work. The combination of reduced biological drive plus therapy offers the best outcomes for food addiction."
+      },
+      {
+        "heading": "Recovery Approach",
+        "content": "GLP-1s make recovery possible, but therapy addresses the psychological components. Cognitive behavioral therapy helps identify triggers and develop coping skills. Support groups provide accountability. Nutritional counseling establishes healthy patterns. GLP-1s provide the biological foundation that makes behavioral change sustainable."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Craving reduction",
+        "value": "Significant"
+      },
+      {
+        "label": "Addiction score improvement",
+        "value": "40-60%"
+      },
+      {
+        "label": "Sustained while on medication",
+        "value": "Yes"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Can GLP-1s cure food addiction?",
+        "a": "They significantly reduce biological drive, making recovery possible. Lasting change usually requires therapy to address psychological components."
+      }
+    ],
+    "seraviaRelevance": "SeraVia formulations support mood stability and neurotransmitter balance during food addiction recovery.",
+    "relatedConditions": [
+      "binge-eating",
+      "emotional-eating",
+      "obesity"
+    ],
+    "ctaText": "Find food addiction specialists"
+  },
+  {
+    "slug": "gout",
+    "name": "Gout",
+    "category": "metabolic",
+    "description": "Gout—a painful form of inflammatory arthritis—is strongly associated with obesity and metabolic syndrome. Weight loss from GLP-1s often dramatically improves gout.",
+    "sections": [
+      {
+        "heading": "How Weight Loss Helps Gout",
+        "content": "Obesity increases uric acid production and reduces excretion. Weight loss of 10-15% often normalizes uric acid levels. GLP-1 medications enable the weight loss needed to improve gout. They also reduce inflammation that contributes to gout flares. Many patients find they can reduce or eliminate uric acid-lowering medications after significant weight loss."
+      },
+      {
+        "heading": "Important Considerations",
+        "content": "Rapid weight loss can initially trigger gout flares as uric acid mobilizes from tissues. Stay well-hydrated and work with your rheumatologist. Preventive colchicine may be recommended during active weight loss phase. Monitor uric acid levels every 3 months. SeraVia formulations support overall metabolic health."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Uric acid reduction",
+        "value": "10-20%"
+      },
+      {
+        "label": "Flare reduction",
+        "value": "Significant"
+      },
+      {
+        "label": "Medication reduction possible",
+        "value": "Yes"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Will GLP-1s help my gout?",
+        "a": "Yes, weight loss from GLP-1s often normalizes uric acid levels and reduces gout flares. Work with your rheumatologist during the weight loss phase."
+      }
+    ],
+    "seraviaRelevance": "SeraVia formulations support joint health and metabolic function for gout patients.",
+    "relatedConditions": [
+      "obesity",
+      "metabolic-syndrome",
+      "chronic-inflammation"
+    ],
+    "ctaText": "Find gout and metabolic specialists"
+  },
+  {
+    "slug": "depression",
+    "name": "Depression",
+    "category": "mental-health",
+    "description": "Obesity and depression frequently co-occur, each worsening the other. GLP-1 medications may improve mood through weight loss, metabolic benefits, and direct brain effects.",
+    "sections": [
+      {
+        "heading": "Bidirectional Relationship",
+        "content": "Obesity increases depression risk through inflammation, stigma, and reduced quality of life. Depression increases obesity risk through emotional eating, medication side effects, and reduced activity. Breaking this cycle requires addressing both conditions. GLP-1 medications improve mood through weight loss and improved self-image. They reduce inflammation that contributes to depression. They improve energy and physical function. Some research suggests direct antidepressant effects through brain GLP-1 receptors. Many patients report improved mood even before significant weight loss."
+      },
+      {
+        "heading": "Integrated Treatment",
+        "content": "GLP-1s complement but don't replace depression treatment. Continue working with mental health providers. Therapy addresses psychological components. Medication manages biological factors. GLP1Search.com can help you find providers offering integrated mental health and weight management."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Mood improvement reported",
+        "value": "60-70%"
+      },
+      {
+        "label": "Quality of life improvement",
+        "value": "Significant"
+      },
+      {
+        "label": "Inflammation reduction",
+        "value": "Contributes to mood benefits"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Will GLP-1s help my depression?",
+        "a": "Many patients experience mood improvement from weight loss, better metabolic health, and reduced inflammation. However, GLP-1s are not antidepressants—continue mental health treatment."
+      }
+    ],
+    "seraviaRelevance": "SeraVia formulations support neurotransmitter balance and mood stability alongside depression and weight management treatment.",
+    "relatedConditions": [
+      "obesity",
+      "emotional-eating",
+      "binge-eating"
+    ],
+    "ctaText": "Find integrated mental health and weight specialists"
+  },
+  {
+    "slug": "infertility",
+    "name": "Infertility",
+    "category": "hormonal",
+    "description": "Obesity is a leading cause of infertility in both men and women. Weight loss from GLP-1s can restore fertility in many cases.",
+    "sections": [
+      {
+        "heading": "Fertility Benefits",
+        "content": "In women, GLP-1-induced weight loss restores ovulation in PCOS and improves IVF outcomes. A 10% weight loss often restores menstrual regularity. Improved egg quality and endometrial receptivity enhance conception. Reduced pregnancy complications including gestational diabetes and preeclampsia. In men, weight loss improves sperm quality and testosterone levels. Erectile function often improves with weight loss. Better metabolic health supports healthy pregnancy outcomes."
+      },
+      {
+        "heading": "Timing Considerations",
+        "content": "Stop GLP-1s immediately upon pregnancy confirmation. Plan conception after reaching goal weight and stopping medication. Some providers recommend 1-2 months off medication before trying to conceive. Ensure adequate nutrition pre-conception with folate and prenatal vitamins. SeraVia formulations support pre-conception health."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Ovulation restoration",
+        "value": "40-60%"
+      },
+      {
+        "label": "IVF improvement",
+        "value": "Significant"
+      },
+      {
+        "label": "Sperm quality improvement",
+        "value": "10-15%"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Can GLP-1s help me get pregnant?",
+        "a": "Yes, weight loss often restores fertility. Stop medication immediately when pregnancy is confirmed. Work with reproductive endocrinology for optimal timing."
+      }
+    ],
+    "seraviaRelevance": "SeraVia formulations support pre-conception health and fertility optimization alongside GLP-1-induced weight loss.",
+    "relatedConditions": [
+      "pcos",
+      "obesity",
+      "thyroid-weight",
+      "menopause-weight-gain"
+    ],
+    "ctaText": "Find fertility and weight management specialists"
+  },
+  {
+    "slug": "knee-pain",
+    "name": "Knee Osteoarthritis",
+    "category": "aging",
+    "description": "Knee osteoarthritis is strongly linked to obesity, with each pound of body weight adding 4 pounds of pressure to the knees. Weight loss from GLP-1s often dramatically reduces pain.",
+    "sections": [
+      {
+        "heading": "Weight Loss for Joint Health",
+        "content": "Every pound lost reduces knee pressure by 4 pounds. A 20-pound weight loss equals 80 pounds less pressure per step. Many patients report significant pain reduction after 10-15% weight loss. Improved mobility enables more activity, creating positive cycle. Reduced inflammation from weight loss decreases joint inflammation. Some patients delay or avoid knee replacement surgery through weight loss."
+      },
+      {
+        "heading": "Activity Considerations",
+        "content": "Low-impact exercise protects joints while losing weight. Swimming and cycling ideal for cardiovascular fitness. Resistance training supports muscle around joints. Physical therapy can guide safe exercise. SeraVia formulations support joint health and recovery."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Pain reduction",
+        "value": "30-50%"
+      },
+      {
+        "label": "Function improvement",
+        "value": "Significant"
+      },
+      {
+        "label": "Surgery delay/avoidance",
+        "value": "Common"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Will GLP-1s help my knee pain?",
+        "a": "Very likely. Even modest weight loss significantly reduces knee pressure and pain. Many patients report dramatic improvement after 20-30 pounds lost."
+      }
+    ],
+    "seraviaRelevance": "SeraVia formulations support joint health, mobility, and recovery during weight loss for knee osteoarthritis patients.",
+    "relatedConditions": [
+      "obesity",
+      "aging-metabolism",
+      "chronic-inflammation"
+    ],
+    "ctaText": "Find weight management specialists for joint health"
+  },
+  {
+    "slug": "fatty-liver-nash",
+    "name": "NASH",
+    "fullName": "Non-Alcoholic Steatohepatitis",
+    "category": "metabolic",
+    "description": "NASH is the inflammatory, progressive form of NAFLD that can lead to cirrhosis. GLP-1 medications are becoming a cornerstone of NASH treatment.",
+    "sections": [
+      {
+        "heading": "NASH Treatment Benefits",
+        "content": "NASH involves liver inflammation and damage beyond simple fat accumulation. GLP-1 medications resolve NASH in 40-60% of patients. They reduce liver fat, inflammation, and fibrosis markers. Tirzepatide shows particular promise for NASH resolution. Weight loss of 7-10% is the primary treatment target. GLP-1s achieve this consistently while improving metabolic health. They may prevent progression to cirrhosis and liver cancer."
+      },
+      {
+        "heading": "Monitoring and Care",
+        "content": "Liver specialists should monitor NASH treatment. Repeat FibroScan or imaging at 12 months. Liver enzymes typically normalize within 3-6 months. Biopsy may be repeated after 18-24 months to confirm resolution. SeraVia Detox+ Shield supports liver health."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "NASH resolution",
+        "value": "40-60%"
+      },
+      {
+        "label": "Fibrosis improvement",
+        "value": "20-40%"
+      },
+      {
+        "label": "Progression prevention",
+        "value": "Significant"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Can GLP-1s reverse NASH?",
+        "a": "Yes, studies show 40-60% of patients achieve NASH resolution with sustained weight loss. They may also improve fibrosis."
+      }
+    ],
+    "seraviaRelevance": "SeraVia Detox+ Shield provides liver-supporting nutrients for NASH patients on GLP-1 therapy.",
+    "relatedConditions": [
+      "nafld",
+      "obesity",
+      "insulin-resistance",
+      "metabolic-syndrome"
+    ],
+    "ctaText": "Find NASH specialists"
+  },
+  {
+    "slug": "hypertension",
+    "name": "Hypertension",
+    "category": "cardiovascular",
+    "description": "High blood pressure is common with obesity and metabolic disease. GLP-1 medications typically reduce blood pressure 5-10 mmHg through weight loss and metabolic benefits.",
+    "sections": [
+      {
+        "heading": "Blood Pressure Benefits",
+        "content": "GLP-1 medications reduce blood pressure through multiple mechanisms. Weight loss of 10-15% typically lowers systolic BP by 5-10 mmHg. Improved insulin sensitivity reduces sodium retention. Reduced sympathetic nervous system activity. Better endothelial function improves vascular compliance. Some patients can reduce or eliminate blood pressure medications. The cardiovascular protection from GLP-1s includes stroke and heart attack risk reduction."
+      },
+      {
+        "heading": "Monitoring",
+        "content": "Monitor blood pressure weekly when starting GLP-1s. Work with your provider to adjust BP medications as weight drops. Sudden BP drops can cause dizziness. SeraVia formulations support cardiovascular health."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Systolic BP reduction",
+        "value": "5-10 mmHg"
+      },
+      {
+        "label": "Medication reduction possible",
+        "value": "Yes"
+      },
+      {
+        "label": "Timeline",
+        "value": "1-3 months"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Will GLP-1s lower my blood pressure?",
+        "a": "Yes, typically 5-10 mmHg reduction through weight loss and metabolic improvement. Some patients can reduce BP medications."
+      }
+    ],
+    "seraviaRelevance": "SeraVia formulations support cardiovascular health and blood pressure management alongside GLP-1 therapy.",
+    "relatedConditions": [
+      "cardiovascular-risk",
+      "obesity",
+      "metabolic-syndrome"
+    ],
+    "ctaText": "Find hypertension and weight management specialists"
+  },
+  {
+    "slug": "dyslipidemia",
+    "name": "Dyslipidemia",
+    "category": "cardiovascular",
+    "description": "Abnormal cholesterol and triglycerides often accompany obesity. GLP-1 medications significantly improve lipid profiles beyond what statins alone achieve.",
+    "sections": [
+      {
+        "heading": "Lipid Improvements",
+        "content": "GLP-1 medications improve lipid profiles through weight loss and metabolic effects. Triglycerides typically drop 20-30%. HDL cholesterol increases 5-10 mg/dL. LDL particle size improves (less atherogenic). ApoB and non-HDL cholesterol decrease significantly. These improvements reduce cardiovascular risk independent of weight loss effects. Combined with statins, GLP-1s provide comprehensive lipid management."
+      },
+      {
+        "heading": "Treatment Approach",
+        "content": "Baseline lipid panel before starting GLP-1s. Repeat testing at 3-6 months. Continue statins if prescribed—synergistic benefits with GLP-1s. Some patients can reduce statin doses after significant weight loss. SeraVia formulations support cardiovascular health."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Triglyceride reduction",
+        "value": "20-30%"
+      },
+      {
+        "label": "HDL increase",
+        "value": "5-10 mg/dL"
+      },
+      {
+        "label": "ApoB reduction",
+        "value": "15-25%"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Will GLP-1s improve my cholesterol?",
+        "a": "Yes, significantly. Triglycerides drop 20-30%, HDL increases, and LDL quality improves. Combined with statins, comprehensive protection."
+      }
+    ],
+    "seraviaRelevance": "SeraVia formulations support cardiovascular health and lipid metabolism alongside GLP-1 therapy.",
+    "relatedConditions": [
+      "cardiovascular-risk",
+      "obesity",
+      "metabolic-syndrome"
+    ],
+    "ctaText": "Find lipid and weight management specialists"
+  },
+  {
+    "slug": "gastroesophageal-reflux",
+    "name": "GERD",
+    "fullName": "Gastroesophageal Reflux Disease",
+    "category": "metabolic",
+    "description": "Obesity is a major risk factor for GERD. Weight loss from GLP-1s often dramatically improves reflux symptoms.",
+    "sections": [
+      {
+        "heading": "How Weight Loss Helps GERD",
+        "content": "Excess abdominal fat increases pressure on the stomach, promoting reflux. Hiatal hernias are more common with obesity. Weight loss of 10-15% often resolves GERD symptoms. Reduced abdominal pressure decreases reflux episodes. Many patients can reduce or eliminate PPI medications after weight loss. Improved metabolic health may reduce esophageal inflammation."
+      },
+      {
+        "heading": "GLP-1 Considerations",
+        "content": "GLP-1s themselves can cause nausea and GI effects initially. These usually resolve within 4-8 weeks. The long-term benefit of weight loss typically outweighs temporary side effects. Take PPIs if needed during adjustment period. SeraVia Gut+ Balance supports digestive comfort."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Symptom resolution",
+        "value": "50-70%"
+      },
+      {
+        "label": "Medication reduction possible",
+        "value": "Yes"
+      },
+      {
+        "label": "Weight loss needed",
+        "value": "10-15%"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Will GLP-1s help my acid reflux?",
+        "a": "Yes, weight loss typically significantly improves or resolves GERD. Some patients eliminate PPIs after sustained weight loss."
+      }
+    ],
+    "seraviaRelevance": "SeraVia Gut+ Balance supports digestive comfort and helps manage any GI side effects during GLP-1 treatment.",
+    "relatedConditions": [
+      "obesity",
+      "nafld",
+      "metabolic-syndrome"
+    ],
+    "ctaText": "Find GERD and weight management specialists"
+  },
+  {
+    "slug": "urinary-incontinence",
+    "name": "Urinary Incontinence",
+    "category": "weight",
+    "description": "Excess weight increases pressure on the bladder and pelvic floor, causing stress incontinence. Weight loss from GLP-1s often significantly improves or resolves incontinence.",
+    "sections": [
+      {
+        "heading": "How Weight Loss Helps",
+        "content": "Each 5-pound weight loss reduces incontinence episodes by approximately 10%. Weight loss of 10-15% often dramatically improves symptoms. Reduced abdominal pressure on bladder. Improved pelvic floor function. Many women report significant quality of life improvement. Some patients eliminate need for pads or medications."
+      },
+      {
+        "heading": "Combined Approach",
+        "content": "Pelvic floor physical therapy complements weight loss. Kegel exercises strengthen supporting muscles. Weight loss makes physical therapy more effective. SeraVia formulations support overall wellness during treatment."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Episode reduction",
+        "value": "30-50%"
+      },
+      {
+        "label": "Complete resolution possible",
+        "value": "Yes"
+      },
+      {
+        "label": "Quality of life improvement",
+        "value": "Significant"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Will losing weight help my bladder control?",
+        "a": "Yes, very likely. Weight loss significantly reduces pressure on the bladder and pelvic floor, often resolving incontinence."
+      }
+    ],
+    "seraviaRelevance": "SeraVia formulations support pelvic health and overall wellness during weight loss for incontinence improvement.",
+    "relatedConditions": [
+      "obesity",
+      "menopause-weight-gain",
+      "aging-metabolism"
+    ],
+    "ctaText": "Find pelvic health and weight management specialists"
+  },
+  {
+    "slug": "cellulite",
+    "name": "Cellulite",
+    "category": "aesthetic",
+    "description": "Cellulite affects 85-95% of women and is influenced by genetics, hormones, and body composition. Weight loss from GLP-1s can reduce cellulite appearance.",
+    "sections": [
+      {
+        "heading": "How Weight Loss Affects Cellulite",
+        "content": "Cellulite results from fat protruding through connective tissue. Weight loss reduces fat volume, potentially improving appearance. Improved skin elasticity from weight loss helps. GLP-1-induced fat loss is systemic, affecting cellulite-prone areas. Results vary significantly based on genetics and skin quality."
+      },
+      {
+        "heading": "Realistic Expectations",
+        "content": "GLP-1s primarily address fat volume, not connective tissue structure. Some women see significant improvement; others see minimal change. Skin quality affects results—GHK-Cu and collagen support may help. SeraVia formulations support skin health during weight loss."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Improvement possible",
+        "value": "Variable"
+      },
+      {
+        "label": "Best results",
+        "value": "Mild-moderate cellulite"
+      },
+      {
+        "label": "Genetic factors",
+        "value": "Significant"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Will GLP-1s get rid of my cellulite?",
+        "a": "They may reduce appearance by decreasing fat volume, but don't eliminate cellulite completely. Results vary widely by individual."
+      }
+    ],
+    "seraviaRelevance": "SeraVia formulations support skin elasticity and collagen during weight loss, potentially improving cellulite appearance.",
+    "relatedConditions": [
+      "obesity",
+      "menopause-weight-gain"
+    ],
+    "ctaText": "Find body contouring and weight management specialists"
+  },
+  {
+    "slug": "stretch-marks",
+    "name": "Stretch Marks",
+    "category": "aesthetic",
+    "description": "Rapid weight changes can cause stretch marks. While GLP-1s cause weight loss, managing skin health during the process is important.",
+    "sections": [
+      {
+        "heading": "Prevention and Management",
+        "content": "Gradual weight loss (1-2 lbs/week) minimizes stretch mark risk. Hydration and collagen support skin elasticity. Some patients develop loose skin with rapid loss—slower is better for skin adaptation. Existing stretch marks won't disappear with weight loss. GHK-Cu and collagen peptides may support skin remodeling."
+      },
+      {
+        "heading": "Skin Health Support",
+        "content": "Adequate protein intake supports skin structure. Vitamin C and collagen support skin elasticity. Slower weight loss allows skin to adapt. SeraVia formulations support skin health during weight changes."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Prevention with gradual loss",
+        "value": "Better"
+      },
+      {
+        "label": "Existing marks",
+        "value": "Permanent"
+      },
+      {
+        "label": "Loose skin risk",
+        "value": "With rapid loss"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Will I get stretch marks from losing weight on GLP-1s?",
+        "a": "Weight loss typically doesn't cause new stretch marks. Gradual loss (1-2 lbs/week) minimizes loose skin risk."
+      }
+    ],
+    "seraviaRelevance": "SeraVia formulations support skin health and collagen during weight loss.",
+    "relatedConditions": [
+      "obesity",
+      "cellulite",
+      "aging-metabolism"
+    ],
+    "ctaText": "Find skin health and weight management specialists"
+  },
+  {
+    "slug": "sarcopenia",
+    "name": "Sarcopenia",
+    "category": "aging",
+    "description": "Age-related muscle loss affects 10% of adults over 50. GLP-1 weight loss must be carefully managed to avoid accelerating muscle loss.",
+    "sections": [
+      {
+        "heading": "Prevention Strategies",
+        "content": "Rapid weight loss on GLP-1s can worsen sarcopenia. Protein intake must increase to 1-1.2g/pound body weight. Resistance training is essential, not optional. SeraVia Muscle+ Protect provides amino acid support. Consider lower GLP-1 doses for slower, muscle-sparing weight loss. Monitor strength, not just weight."
+      },
+      {
+        "heading": "Exercise Priorities",
+        "content": "Prioritize resistance training 3-4x weekly. Focus on compound movements. Progressive overload drives muscle preservation. Balance exercises prevent falls. Physical therapy can guide safe progression."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Muscle loss risk",
+        "value": "High if not managed"
+      },
+      {
+        "label": "Prevention possible",
+        "value": "With proper protocol"
+      },
+      {
+        "label": "Protein needs",
+        "value": "1-1.2g/lb"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Can I take GLP-1s if I'm concerned about muscle loss?",
+        "a": "Yes, with careful management. High protein, resistance training, and SeraVia Muscle+ Protect can preserve muscle during weight loss."
+      }
+    ],
+    "seraviaRelevance": "SeraVia Muscle+ Protect is essential for older adults on GLP-1s to prevent sarcopenia during weight loss.",
+    "relatedConditions": [
+      "aging-metabolism",
+      "obesity",
+      "osteoporosis"
+    ],
+    "ctaText": "Find sarcopenia and weight management specialists"
+  },
+  {
+    "slug": "osteoporosis",
+    "name": "Osteoporosis",
+    "category": "aging",
+    "description": "Rapid weight loss can affect bone density. GLP-1 users with osteoporosis need careful monitoring and bone-supporting strategies.",
+    "sections": [
+      {
+        "heading": "Bone Health During Weight Loss",
+        "content": "Weight loss can reduce bone density if not managed properly. Ensure adequate calcium (1200mg) and vitamin D (2000-4000 IU). Resistance training stimulates bone formation. DEXA scans monitor bone density. SeraVia Bone+ Defense provides targeted bone nutrients. Consider lower GLP-1 doses for slower weight loss. Weight-bearing exercise is essential."
+      },
+      {
+        "heading": "Monitoring",
+        "content": "Baseline DEXA before starting GLP-1s if over 50. Repeat DEXA after 12-18 months of treatment. Continue osteoporosis medications if prescribed. Work with endocrinologist for complex cases."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Bone loss risk",
+        "value": "With rapid loss"
+      },
+      {
+        "label": "Prevention possible",
+        "value": "Yes"
+      },
+      {
+        "label": "Calcium needs",
+        "value": "1200mg/day"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Are GLP-1s safe if I have osteoporosis?",
+        "a": "Yes with monitoring. Ensure adequate calcium, vitamin D, and resistance training. SeraVia Bone+ Defense provides additional support."
+      }
+    ],
+    "seraviaRelevance": "SeraVia Bone+ Defense provides essential nutrients for bone health during GLP-1-induced weight loss.",
+    "relatedConditions": [
+      "aging-metabolism",
+      "sarcopenia",
+      "menopause-weight-gain"
+    ],
+    "ctaText": "Find bone health and weight management specialists"
+  },
+  {
+    "slug": "cancer-risk",
+    "name": "Cancer Risk Reduction",
+    "category": "weight",
+    "description": "Obesity is linked to 13 types of cancer. Weight loss from GLP-1s may reduce cancer risk, though direct cancer prevention data is still emerging.",
+    "sections": [
+      {
+        "heading": "Weight Loss and Cancer",
+        "content": "Obesity increases risk of breast, colon, endometrial, kidney, liver, and other cancers through inflammation and hormonal changes. Weight loss of 10-15% reduces cancer risk. GLP-1-induced weight loss may reduce obesity-related cancer risk. Direct cancer prevention studies are ongoing. Improved metabolic health reduces cancer-promoting inflammation."
+      },
+      {
+        "heading": "Screening",
+        "content": "Maintain age-appropriate cancer screening during weight loss. Weight loss may make some screenings easier (mammography). Discuss family history with your provider. SeraVia formulations support overall health."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Cancer types linked to obesity",
+        "value": "13"
+      },
+      {
+        "label": "Risk reduction with weight loss",
+        "value": "Significant"
+      },
+      {
+        "label": "Direct GLP-1 data",
+        "value": "Emerging"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "Will GLP-1s reduce my cancer risk?",
+        "a": "Weight loss from GLP-1s likely reduces obesity-related cancer risk, though direct prevention studies are ongoing."
+      }
+    ],
+    "seraviaRelevance": "SeraVia formulations support overall health and wellness during weight loss for comprehensive risk reduction.",
+    "relatedConditions": [
+      "obesity",
+      "chronic-inflammation",
+      "insulin-resistance"
+    ],
+    "ctaText": "Find preventive health and weight management specialists"
+  },
+  {
+    "slug": "quality-of-life",
+    "name": "Quality of Life Improvement",
+    "category": "wellness",
+    "description": "Beyond medical benefits, GLP-1 weight loss dramatically improves quality of life, energy, mobility, and self-esteem.",
+    "sections": [
+      {
+        "heading": "Life-Changing Benefits",
+        "content": "Patients report dramatic quality of life improvements on GLP-1s. Energy and vitality increase within weeks. Mobility improves—stairs, walking, activities become easier. Self-confidence and body image improve. Social engagement increases. Clothing fits better. Travel becomes easier. Sleep quality improves. Reduced joint pain enables more activity. Many describe feeling like themselves again."
+      },
+      {
+        "heading": "Psychological Benefits",
+        "content": "Reduced food obsession frees mental energy. Improved mood and reduced depression common. Better self-efficacy and empowerment. Reduced stigma and shame. SeraVia formulations support mood and energy during transformation."
+      }
+    ],
+    "approvedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyStats": [
+      {
+        "label": "Quality of life improvement",
+        "value": "Significant"
+      },
+      {
+        "label": "Energy improvement",
+        "value": "70-80% report"
+      },
+      {
+        "label": "Mobility improvement",
+        "value": "Common"
+      }
+    ],
+    "faqQuestions": [
+      {
+        "q": "How will GLP-1s affect my daily life?",
+        "a": "Most patients experience dramatically improved energy, mobility, confidence, and quality of life. Food obsession decreases, freeing mental space for other pursuits."
+      }
+    ],
+    "seraviaRelevance": "SeraVia formulations support energy, mood, and vitality during your transformation.",
+    "relatedConditions": [
+      "obesity",
+      "depression",
+      "sleep-apnea",
+      "knee-pain"
+    ],
+    "ctaText": "Start your transformation with GLP1Search.com"
+  }
+]

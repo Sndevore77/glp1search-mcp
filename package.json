@@ -1,7 +1,8 @@
 {
-  "name": "glp1search-mcp",
-  "version": "1.0.0",
-  "description": "GLP-1 medication data, provider directory, and weight loss information. Search 18,000+ verified clinics and telehealth programs.",
+  "name": "@seraviahealth/glp1search-mcp",
+  "version": "2.1.0",
+  "mcpName": "io.github.Sndevore77/glp1search",
+  "description": "GLP-1 weight loss MCP server: search 24,000+ verified GLP-1 telehealth clinics and medspas, compare semaglutide (Ozempic, Wegovy), tirzepatide (Mounjaro, Zepbound), liraglutide, and 90+ peptides. Includes pricing, dosing schedules, side effects, contraindications, FAQs, and condition data. Powered by GLP1Search.com.",
   "type": "module",
   "bin": {
     "glp1search-mcp": "./index.js"

@@ -1,161 +1,749 @@
 [
   {
-    "slug": "semaglutide",
     "name": "Semaglutide",
-    "brandNames": ["Ozempic", "Wegovy", "Rybelsus"],
-    "manufacturer": "Novo Nordisk",
-    "class": "GLP-1 receptor agonist",
-    "approvedFor": ["Type 2 diabetes (Ozempic)", "Chronic weight management (Wegovy)"],
-    "administration": "Weekly subcutaneous injection (Ozempic/Wegovy) or daily oral tablet (Rybelsus)",
-    "dosing": {
-      "weightLoss": "0.25mg weekly (weeks 1-4), titrate up to 2.4mg weekly over 16-20 weeks",
-      "diabetes": "0.25mg weekly (weeks 1-4), titrate up to 2mg weekly"
-    },
-    "averageWeightLoss": "~15% of body weight over 68 weeks (Wegovy)",
-    "commonSideEffects": ["Nausea", "Vomiting", "Diarrhea", "Constipation", "Abdominal pain"],
+    "slug": "semaglutide",
+    "brandNames": [
+      {
+        "name": "Ozempic",
+        "indication": "Type 2 Diabetes",
+        "approvalYear": 2017
+      },
+      {
+        "name": "Wegovy",
+        "indication": "Weight Management",
+        "approvalYear": 2021
+      },
+      {
+        "name": "Rybelsus",
+        "indication": "Type 2 Diabetes (oral)",
+        "approvalYear": 2019
+      }
+    ],
+    "class": "GLP-1 Receptor Agonist",
+    "averageWeightLoss": "~15% body weight over 68 weeks (Wegovy 2.4mg, STEP 1 trial). Ozempic shows ~6-10% weight loss at diabetes doses.",
+    "administration": "Subcutaneous injection (Ozempic, Wegovy) or Oral tablet (Rybelsus)",
     "compoundedAvailable": true,
-    "compoundedNote": "Compounded semaglutide available from 503A and 503B pharmacies at lower cost. FDA shortage status affects availability.",
-    "averageCost": {
-      "brand": "$1,000-$1,350/month without insurance",
-      "compounded": "$100-$400/month depending on provider and dose"
+    "averageCost": "$900-1,400 (brand); $150-450 (compounded)",
+    "approvedFor": "Ozempic: Type 2 Diabetes; Wegovy: Weight Management; Rybelsus: Type 2 Diabetes (oral)",
+    "genericName": "Semaglutide",
+    "mechanism": "Semaglutide mimics the naturally occurring hormone GLP-1, binding to GLP-1 receptors in the pancreas to stimulate insulin secretion and suppress glucagon release in a glucose-dependent manner. It also slows gastric emptying and acts on hypothalamic receptors to reduce appetite and food intake, leading to significant weight loss.",
+    "dosingSchedule": "Once weekly (injection) or Once daily (oral)",
+    "typicalDoses": {
+      "ozempic": [
+        "0.25mg",
+        "0.5mg",
+        "1mg",
+        "2mg"
+      ],
+      "wegovy": [
+        "0.25mg",
+        "0.5mg",
+        "1mg",
+        "1.7mg",
+        "2.4mg"
+      ],
+      "rybelsus": [
+        "3mg",
+        "7mg",
+        "14mg"
+      ]
     },
-    "description": "Semaglutide is the most widely prescribed GLP-1 medication for weight loss. Originally developed for type 2 diabetes as Ozempic, it was later approved at a higher dose as Wegovy specifically for chronic weight management. It works by mimicking the GLP-1 hormone, reducing appetite and slowing gastric emptying."
+    "titrationSchedule": "Wegovy: Start at 0.25mg weekly for 4 weeks, increase to 0.5mg for 4 weeks, then 1mg for 4 weeks, then 1.7mg for 4 weeks, then maintenance dose of 2.4mg weekly. Ozempic: Start at 0.25mg weekly for 4 weeks, increase to 0.5mg, may increase to 1mg or 2mg after at least 4 weeks. Rybelsus: Start at 3mg daily for 30 days, increase to 7mg, may increase to 14mg after at least 30 days.",
+    "fdaApproved": true,
+    "fdaApprovalYear": 2017,
+    "commonSideEffects": [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea",
+      "Constipation",
+      "Abdominal pain",
+      "Headache",
+      "Fatigue",
+      "Dyspepsia",
+      "Dizziness"
+    ],
+    "seriousRisks": [
+      "Pancreatitis (rare)",
+      "Thyroid C-cell tumors (observed in rodent studies; relevance to humans unknown)",
+      "Gallbladder disease including cholelithiasis",
+      "Acute kidney injury (usually secondary to dehydration from GI side effects)",
+      "Diabetic retinopathy complications (in patients with existing retinopathy)",
+      "Hypoglycemia (when used with insulin or sulfonylureas)",
+      "Suicidal ideation (under FDA investigation, no causal link established)"
+    ],
+    "contraindications": [
+      "Personal or family history of medullary thyroid carcinoma (MTC)",
+      "Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)",
+      "Known hypersensitivity to semaglutide or any excipients",
+      "History of serious hypersensitivity reaction to semaglutide"
+    ],
+    "pharmacyTypes": [
+      "Brand (retail)",
+      "Compounded 503A",
+      "Compounded 503B"
+    ],
+    "typicalMonthlyCost": {
+      "brand": "$900-1,400",
+      "compounded": "$150-450",
+      "oral": "$900-1,000"
+    },
+    "insuranceCoverage": "Often covered for Type 2 Diabetes (Ozempic). Coverage for weight management (Wegovy) varies widely by plan; many commercial plans now cover it but Medicare Part D does not cover weight loss medications. Prior authorization typically required.",
+    "halfLife": "~7 days (injection); ~1 week apparent half-life (oral, due to absorption-limited kinetics)",
+    "clinicalTrials": "STEP program (weight management: STEP 1-5, SELECT cardiovascular outcomes trial), SUSTAIN program (Type 2 Diabetes: SUSTAIN 1-10), PIONEER program (oral semaglutide: PIONEER 1-10)",
+    "keyResults": {
+      "step1": "16.9% average weight loss vs 2.4% placebo over 68 weeks",
+      "select": "20% reduction in major adverse cardiovascular events (MACE) in overweight/obese adults without diabetes",
+      "sustain6": "26% reduction in MACE in Type 2 Diabetes patients"
+    },
+    "competitors": [
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "keyAdvantages": [
+      "Once-weekly dosing (injection)",
+      "Extensive long-term safety data",
+      "Oral formulation available (Rybelsus)",
+      "Proven cardiovascular benefit (SELECT trial)",
+      "Multiple FDA-approved indications",
+      "Most widely studied GLP-1 RA for weight management"
+    ],
+    "keyDisadvantages": [
+      "GI side effects common during titration",
+      "Injection required for weight loss doses",
+      "Ongoing supply constraints",
+      "High cost without insurance",
+      "Weight regain common after discontinuation"
+    ],
+    "manufacturer": "Novo Nordisk"
   },
   {
-    "slug": "tirzepatide",
     "name": "Tirzepatide",
-    "brandNames": ["Mounjaro", "Zepbound"],
-    "manufacturer": "Eli Lilly",
-    "class": "Dual GIP/GLP-1 receptor agonist",
-    "approvedFor": ["Type 2 diabetes (Mounjaro)", "Chronic weight management (Zepbound)"],
-    "administration": "Weekly subcutaneous injection",
-    "dosing": {
-      "weightLoss": "2.5mg weekly (weeks 1-4), titrate up to 15mg weekly over 20+ weeks",
-      "diabetes": "2.5mg weekly (weeks 1-4), titrate up to 15mg weekly"
-    },
-    "averageWeightLoss": "~21% of body weight over 72 weeks (Zepbound 15mg)",
-    "commonSideEffects": ["Nausea", "Diarrhea", "Decreased appetite", "Vomiting", "Constipation"],
+    "slug": "tirzepatide",
+    "brandNames": [
+      {
+        "name": "Mounjaro",
+        "indication": "Type 2 Diabetes",
+        "approvalYear": 2022
+      },
+      {
+        "name": "Zepbound",
+        "indication": "Weight Management",
+        "approvalYear": 2023
+      }
+    ],
+    "class": "Dual GLP-1/GIP Receptor Agonist",
+    "averageWeightLoss": "~22.5% body weight over 72 weeks at 15mg dose (SURMOUNT-1 trial). Diabetes doses (Mounjaro) show ~12-15% weight loss.",
+    "administration": "Subcutaneous injection",
     "compoundedAvailable": true,
-    "compoundedNote": "Compounded tirzepatide available from 503A and 503B pharmacies. Typically more expensive than compounded semaglutide.",
-    "averageCost": {
-      "brand": "$1,000-$1,200/month without insurance",
-      "compounded": "$200-$600/month depending on provider and dose"
+    "averageCost": "$1,000-1,200 (brand); $200-500 (compounded)",
+    "approvedFor": "Mounjaro: Type 2 Diabetes; Zepbound: Weight Management",
+    "genericName": "Tirzepatide",
+    "mechanism": "Tirzepatide is a first-in-class dual incretin agonist that activates both GLP-1 and GIP (glucose-dependent insulinotropic polypeptide) receptors. GLP-1 activation stimulates insulin secretion, suppresses glucagon, slows gastric emptying, and reduces appetite. GIP activation enhances insulin sensitivity and may improve fat metabolism. The dual mechanism produces greater weight loss and glycemic control than GLP-1 agonists alone.",
+    "dosingSchedule": "Once weekly",
+    "typicalDoses": [
+      "2.5mg",
+      "5mg",
+      "7.5mg",
+      "10mg",
+      "12.5mg",
+      "15mg"
+    ],
+    "titrationSchedule": "Start at 2.5mg weekly for 4 weeks (initiation dose, not therapeutic), increase to 5mg weekly. May increase by 2.5mg increments every 4 weeks based on response and tolerability. Maximum dose: 15mg weekly.",
+    "fdaApproved": true,
+    "fdaApprovalYear": 2022,
+    "commonSideEffects": [
+      "Nausea",
+      "Diarrhea",
+      "Decreased appetite",
+      "Vomiting",
+      "Constipation",
+      "Dyspepsia",
+      "Abdominal pain",
+      "Injection site reactions"
+    ],
+    "seriousRisks": [
+      "Pancreatitis (rare)",
+      "Thyroid C-cell tumors (observed in rodent studies; relevance to humans unknown)",
+      "Gallbladder disease",
+      "Hypoglycemia (when used with insulin or sulfonylureas)",
+      "Acute kidney injury (from dehydration due to GI effects)",
+      "Severe allergic reactions including anaphylaxis"
+    ],
+    "contraindications": [
+      "Personal or family history of medullary thyroid carcinoma (MTC)",
+      "Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)",
+      "Known serious hypersensitivity to tirzepatide or any excipients"
+    ],
+    "pharmacyTypes": [
+      "Brand (retail)",
+      "Compounded 503A",
+      "Compounded 503B"
+    ],
+    "typicalMonthlyCost": {
+      "brand": "$1,000-1,200",
+      "compounded": "$200-500"
     },
-    "description": "Tirzepatide is a dual-action GIP/GLP-1 receptor agonist that has shown the highest weight loss results in clinical trials. It activates both the GIP and GLP-1 receptors, providing enhanced glucose control and appetite suppression compared to GLP-1-only medications."
+    "insuranceCoverage": "Covered by many commercial plans for Type 2 Diabetes (Mounjaro). Zepbound coverage for weight management is expanding but remains inconsistent. Prior authorization typically required. Eli Lilly offers savings cards for eligible commercial patients.",
+    "halfLife": "~5 days",
+    "clinicalTrials": "SURMOUNT program (weight management: SURMOUNT-1 through SURMOUNT-4, MMO cardiovascular outcomes trial ongoing), SURPASS program (Type 2 Diabetes: SURPASS 1-5, SURPASS-CVOT)",
+    "keyResults": {
+      "surmount1": "22.5% mean weight loss at 15mg vs 2.4% placebo over 72 weeks. 63% of participants achieved >=20% weight loss.",
+      "surpass2": "Superior A1C reduction vs semaglutide 1mg (-2.5% vs -1.9%)"
+    },
+    "competitors": [
+      "semaglutide",
+      "retatrutide",
+      "survodutide"
+    ],
+    "keyAdvantages": [
+      "Dual GLP-1/GIP mechanism produces greater weight loss than GLP-1 alone",
+      "Industry-leading weight loss results among approved medications (~22.5%)",
+      "Once-weekly dosing",
+      "Superior glycemic control vs semaglutide in head-to-head trials",
+      "Wide dose range allows individualized titration"
+    ],
+    "keyDisadvantages": [
+      "GI side effects during titration",
+      "Injection only (no oral formulation yet)",
+      "Supply shortages (though improving)",
+      "High cost without insurance",
+      "Less long-term safety data than semaglutide"
+    ],
+    "manufacturer": "Eli Lilly"
   },
   {
-    "slug": "liraglutide",
     "name": "Liraglutide",
-    "brandNames": ["Victoza", "Saxenda"],
-    "manufacturer": "Novo Nordisk",
-    "class": "GLP-1 receptor agonist",
-    "approvedFor": ["Type 2 diabetes (Victoza)", "Chronic weight management (Saxenda)"],
-    "administration": "Daily subcutaneous injection",
-    "dosing": {
-      "weightLoss": "0.6mg daily (week 1), titrate up to 3.0mg daily over 5 weeks",
-      "diabetes": "0.6mg daily (week 1), titrate up to 1.8mg daily"
-    },
-    "averageWeightLoss": "~8% of body weight over 56 weeks (Saxenda)",
-    "commonSideEffects": ["Nausea", "Diarrhea", "Constipation", "Vomiting", "Injection site reactions"],
+    "slug": "liraglutide",
+    "brandNames": [
+      {
+        "name": "Saxenda",
+        "indication": "Weight Management",
+        "approvalYear": 2014
+      },
+      {
+        "name": "Victoza",
+        "indication": "Type 2 Diabetes",
+        "approvalYear": 2010
+      }
+    ],
+    "class": "GLP-1 Receptor Agonist",
+    "averageWeightLoss": "~8% body weight over 56 weeks at 3.0mg (SCALE Obesity trial). Approximately 5-6% at diabetes doses.",
+    "administration": "Subcutaneous injection",
     "compoundedAvailable": false,
-    "averageCost": {
-      "brand": "$1,200-$1,500/month without insurance"
+    "averageCost": "$1,300-1,500 (Saxenda); $900-1,100 (Victoza) (brand); Not widely compounded (compounded)",
+    "approvedFor": "Saxenda: Weight Management; Victoza: Type 2 Diabetes",
+    "genericName": "Liraglutide",
+    "mechanism": "Liraglutide is a GLP-1 analog with 97% homology to native human GLP-1. It binds to GLP-1 receptors to stimulate glucose-dependent insulin secretion, suppress glucagon, slow gastric emptying, and promote satiety via hypothalamic appetite centers. An acyl side chain enables albumin binding, extending its half-life compared to native GLP-1.",
+    "dosingSchedule": "Once daily",
+    "typicalDoses": {
+      "saxenda": [
+        "0.6mg",
+        "1.2mg",
+        "1.8mg",
+        "2.4mg",
+        "3.0mg"
+      ],
+      "victoza": [
+        "0.6mg",
+        "1.2mg",
+        "1.8mg"
+      ]
     },
-    "description": "Liraglutide was one of the first GLP-1 medications approved for weight management (as Saxenda). It requires daily injections rather than weekly, which some patients find less convenient. While effective, it generally produces less weight loss than newer options like semaglutide and tirzepatide."
+    "titrationSchedule": "Saxenda: Start at 0.6mg daily for 1 week, increase by 0.6mg weekly until reaching 3.0mg daily maintenance dose. Victoza: Start at 0.6mg daily for 1 week, increase to 1.2mg, may increase to 1.8mg if needed.",
+    "fdaApproved": true,
+    "fdaApprovalYear": 2010,
+    "commonSideEffects": [
+      "Nausea",
+      "Diarrhea",
+      "Constipation",
+      "Vomiting",
+      "Headache",
+      "Decreased appetite",
+      "Dyspepsia",
+      "Fatigue",
+      "Dizziness",
+      "Abdominal pain"
+    ],
+    "seriousRisks": [
+      "Pancreatitis (rare)",
+      "Thyroid C-cell tumors (observed in rodent studies; relevance to humans unknown)",
+      "Gallbladder disease",
+      "Acute kidney injury",
+      "Hypoglycemia (when combined with insulin or sulfonylureas)",
+      "Increased heart rate"
+    ],
+    "contraindications": [
+      "Personal or family history of medullary thyroid carcinoma (MTC)",
+      "Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)",
+      "Known hypersensitivity to liraglutide or any excipients",
+      "Pregnancy"
+    ],
+    "pharmacyTypes": [
+      "Brand (retail)"
+    ],
+    "typicalMonthlyCost": {
+      "brand": "$1,300-1,500 (Saxenda); $900-1,100 (Victoza)",
+      "compounded": "Not widely compounded"
+    },
+    "insuranceCoverage": "Victoza is commonly covered for Type 2 Diabetes. Saxenda coverage for weight management is limited; some commercial plans cover it with prior authorization. Medicare does not cover Saxenda.",
+    "halfLife": "~13 hours",
+    "clinicalTrials": "SCALE program (weight management: SCALE Obesity, SCALE Diabetes, SCALE Maintenance, SCALE Sleep Apnea), LEADER trial (cardiovascular outcomes in diabetes)",
+    "keyResults": {
+      "scaleObesity": "8.0% mean weight loss vs 2.6% placebo over 56 weeks. 33.1% achieved >=10% weight loss.",
+      "leader": "13% reduction in major adverse cardiovascular events in Type 2 Diabetes"
+    },
+    "competitors": [
+      "semaglutide",
+      "tirzepatide"
+    ],
+    "keyAdvantages": [
+      "Longest track record of any GLP-1 for weight management (FDA approved 2014)",
+      "Extensive long-term safety data",
+      "Proven cardiovascular benefit (LEADER trial)",
+      "FDA approved for adolescents 12+ (Saxenda)"
+    ],
+    "keyDisadvantages": [
+      "Daily injection required (vs weekly for newer agents)",
+      "Lower weight loss compared to semaglutide and tirzepatide",
+      "Higher daily injection burden reduces adherence",
+      "Expensive for modest results compared to newer options",
+      "Being displaced by more effective weekly alternatives"
+    ],
+    "manufacturer": "Novo Nordisk"
   },
   {
-    "slug": "dulaglutide",
     "name": "Dulaglutide",
-    "brandNames": ["Trulicity"],
-    "manufacturer": "Eli Lilly",
-    "class": "GLP-1 receptor agonist",
-    "approvedFor": ["Type 2 diabetes"],
-    "administration": "Weekly subcutaneous injection",
-    "dosing": {
-      "diabetes": "0.75mg weekly, may increase to 1.5mg, 3.0mg, or 4.5mg weekly"
-    },
-    "averageWeightLoss": "~3-5% of body weight (not primary indication)",
-    "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting", "Abdominal pain", "Decreased appetite"],
+    "slug": "dulaglutide",
+    "brandNames": [
+      {
+        "name": "Trulicity",
+        "indication": "Type 2 Diabetes",
+        "approvalYear": 2014
+      }
+    ],
+    "class": "GLP-1 Receptor Agonist",
+    "averageWeightLoss": "~3-5% body weight (not FDA-approved for weight management; weight loss is a secondary benefit at diabetes doses)",
+    "administration": "Subcutaneous injection (pre-filled single-dose pen)",
     "compoundedAvailable": false,
-    "averageCost": {
-      "brand": "$900-$1,100/month without insurance"
+    "averageCost": "$900-1,100 (brand); Not widely compounded (compounded)",
+    "approvedFor": "Trulicity: Type 2 Diabetes",
+    "genericName": "Dulaglutide",
+    "mechanism": "Dulaglutide consists of a GLP-1 analog covalently linked to a modified human IgG4 Fc fragment via a small peptide linker. This design reduces immunogenicity and slows clearance, enabling once-weekly dosing. It activates GLP-1 receptors to enhance glucose-dependent insulin secretion, suppress glucagon release, and slow gastric emptying.",
+    "dosingSchedule": "Once weekly",
+    "typicalDoses": [
+      "0.75mg",
+      "1.5mg",
+      "3mg",
+      "4.5mg"
+    ],
+    "titrationSchedule": "Start at 0.75mg weekly for at least 4 weeks, increase to 1.5mg. If additional glycemic control needed, may increase to 3mg after at least 4 weeks, then to 4.5mg after at least 4 weeks.",
+    "fdaApproved": true,
+    "fdaApprovalYear": 2014,
+    "commonSideEffects": [
+      "Nausea",
+      "Diarrhea",
+      "Vomiting",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Dyspepsia",
+      "Fatigue"
+    ],
+    "seriousRisks": [
+      "Pancreatitis (rare)",
+      "Thyroid C-cell tumors (observed in rodent studies; relevance to humans unknown)",
+      "Hypoglycemia (when used with insulin or sulfonylureas)",
+      "Acute kidney injury",
+      "Serious allergic reactions",
+      "Gallbladder disease"
+    ],
+    "contraindications": [
+      "Personal or family history of medullary thyroid carcinoma (MTC)",
+      "Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)",
+      "Known serious hypersensitivity to dulaglutide or any excipients"
+    ],
+    "pharmacyTypes": [
+      "Brand (retail)"
+    ],
+    "typicalMonthlyCost": {
+      "brand": "$900-1,100",
+      "compounded": "Not widely compounded"
     },
-    "description": "Dulaglutide (Trulicity) is approved for type 2 diabetes but not specifically for weight management. It can produce modest weight loss as a secondary benefit. It uses a pre-filled, easy-to-use pen that some patients prefer."
+    "insuranceCoverage": "Widely covered for Type 2 Diabetes by most commercial and Medicare Part D plans. Prior authorization may be required. Not approved or covered for weight management.",
+    "halfLife": "~5 days",
+    "clinicalTrials": "AWARD program (Type 2 Diabetes: AWARD 1-11), REWIND (cardiovascular outcomes trial)",
+    "keyResults": {
+      "award1": "Superior A1C reduction vs exenatide once weekly (-1.51% vs -0.99%)",
+      "rewind": "12% reduction in major adverse cardiovascular events. Notable: enrolled lower CV risk population than other GLP-1 trials."
+    },
+    "competitors": [
+      "semaglutide",
+      "exenatide"
+    ],
+    "keyAdvantages": [
+      "Once-weekly dosing with easy-to-use pre-filled pen",
+      "Hidden needle design reduces injection anxiety",
+      "Proven cardiovascular benefit (REWIND trial)",
+      "Good insurance coverage for diabetes",
+      "Well-tolerated GI side effect profile"
+    ],
+    "keyDisadvantages": [
+      "Not FDA-approved for weight management",
+      "Modest weight loss compared to semaglutide and tirzepatide",
+      "Less potent A1C reduction than tirzepatide",
+      "No oral formulation",
+      "Declining market share as newer agents gain coverage"
+    ],
+    "manufacturer": "Eli Lilly"
   },
   {
-    "slug": "exenatide",
     "name": "Exenatide",
-    "brandNames": ["Byetta", "Bydureon"],
-    "manufacturer": "AstraZeneca",
-    "class": "GLP-1 receptor agonist",
-    "approvedFor": ["Type 2 diabetes"],
-    "administration": "Twice-daily injection (Byetta) or weekly injection (Bydureon)",
-    "dosing": {
-      "diabetes": "5mcg twice daily (Byetta) or 2mg weekly (Bydureon)"
-    },
-    "averageWeightLoss": "~2-4% of body weight (not primary indication)",
-    "commonSideEffects": ["Nausea", "Vomiting", "Diarrhea", "Dizziness", "Injection site reactions"],
+    "slug": "exenatide",
+    "brandNames": [
+      {
+        "name": "Byetta",
+        "indication": "Type 2 Diabetes (twice daily)",
+        "approvalYear": 2005
+      },
+      {
+        "name": "Bydureon",
+        "indication": "Type 2 Diabetes (once weekly)",
+        "approvalYear": 2012
+      }
+    ],
+    "class": "GLP-1 Receptor Agonist",
+    "averageWeightLoss": "~2-4% body weight (not FDA-approved for weight management; weight loss is a secondary benefit)",
+    "administration": "Subcutaneous injection",
     "compoundedAvailable": false,
-    "averageCost": {
-      "brand": "$800-$1,000/month without insurance"
+    "averageCost": "$700-900 (brand); Not widely compounded (compounded)",
+    "approvedFor": "Byetta: Type 2 Diabetes (twice daily); Bydureon: Type 2 Diabetes (once weekly)",
+    "genericName": "Exenatide",
+    "mechanism": "Exenatide is a synthetic version of exendin-4, a peptide originally discovered in the saliva of the Gila monster (Heloderma suspectum). It shares 53% homology with human GLP-1 and is resistant to degradation by DPP-4 enzyme. It activates GLP-1 receptors to stimulate glucose-dependent insulin secretion, suppress glucagon, slow gastric emptying, and promote satiety. Bydureon uses microsphere technology for sustained release.",
+    "dosingSchedule": "Twice daily (Byetta) or Once weekly (Bydureon BCise)",
+    "typicalDoses": {
+      "byetta": [
+        "5mcg twice daily",
+        "10mcg twice daily"
+      ],
+      "bydureon": [
+        "2mg once weekly"
+      ]
     },
-    "description": "Exenatide was the first GLP-1 receptor agonist approved in the US. While effective for blood sugar control, it produces less weight loss than newer GLP-1 medications and is primarily used for type 2 diabetes management."
+    "titrationSchedule": "Byetta: Start at 5mcg twice daily (within 60 minutes before morning and evening meals) for at least 1 month, then may increase to 10mcg twice daily. Bydureon: 2mg once weekly, no titration required.",
+    "fdaApproved": true,
+    "fdaApprovalYear": 2005,
+    "commonSideEffects": [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea",
+      "Dizziness",
+      "Headache",
+      "Dyspepsia",
+      "Constipation",
+      "Injection site reactions (especially Bydureon: nodules, pruritus)"
+    ],
+    "seriousRisks": [
+      "Pancreatitis (rare)",
+      "Thyroid C-cell tumors (observed in rodent studies with extended-release; relevance to humans unknown)",
+      "Acute kidney injury",
+      "Hypoglycemia (when used with sulfonylureas)",
+      "Serious allergic reactions",
+      "Injection site reactions (Bydureon: subcutaneous nodules)"
+    ],
+    "contraindications": [
+      "Personal or family history of medullary thyroid carcinoma (MTC) (Bydureon only)",
+      "Multiple Endocrine Neoplasia syndrome type 2 (MEN 2) (Bydureon only)",
+      "Known hypersensitivity to exenatide or any excipients",
+      "Severe renal impairment (eGFR <30) or end-stage renal disease"
+    ],
+    "pharmacyTypes": [
+      "Brand (retail)"
+    ],
+    "typicalMonthlyCost": {
+      "brand": "$700-900",
+      "compounded": "Not widely compounded"
+    },
+    "insuranceCoverage": "Generally covered for Type 2 Diabetes. May face step therapy requirements (try metformin first). Coverage has declined as newer GLP-1 agents have gained market share.",
+    "halfLife": "~2.4 hours (Byetta); extended release over weeks (Bydureon microspheres)",
+    "clinicalTrials": "EXSCEL (cardiovascular outcomes trial), DURATION program (extended-release studies 1-8)",
+    "keyResults": {
+      "exscel": "Did not reach statistical significance for MACE reduction (HR 0.91, p=0.06), but showed non-inferiority for cardiovascular safety",
+      "duration5": "Bydureon showed superior A1C reduction vs Byetta twice daily (-1.6% vs -0.9%)"
+    },
+    "competitors": [
+      "semaglutide",
+      "dulaglutide",
+      "liraglutide"
+    ],
+    "keyAdvantages": [
+      "First-in-class GLP-1 RA (most clinical experience)",
+      "Lower cost than newer agents",
+      "Bydureon BCise is a simple autoinjector with no mixing",
+      "Available as generic in some markets"
+    ],
+    "keyDisadvantages": [
+      "Twice daily dosing (Byetta) is burdensome",
+      "Least weight loss among GLP-1 class",
+      "Injection site nodules with Bydureon",
+      "Failed to demonstrate significant cardiovascular benefit",
+      "Largely superseded by more effective agents",
+      "Contraindicated in severe renal impairment"
+    ],
+    "manufacturer": "AstraZeneca"
   },
   {
-    "slug": "survodutide",
     "name": "Survodutide",
-    "brandNames": [],
-    "manufacturer": "Boehringer Ingelheim",
-    "class": "Dual glucagon/GLP-1 receptor agonist",
-    "approvedFor": ["In clinical trials - not yet approved"],
-    "administration": "Weekly subcutaneous injection",
-    "dosing": {
-      "trials": "Titrated up to 4.8mg or 6.0mg weekly in phase 3 trials"
-    },
-    "averageWeightLoss": "~19% of body weight in phase 2 trials",
-    "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting", "Constipation"],
+    "slug": "survodutide",
+    "brandNames": [
+      {
+        "name": "Pending FDA approval",
+        "indication": "Weight Management / MASH",
+        "approvalYear": null
+      }
+    ],
+    "class": "Dual GLP-1/Glucagon Receptor Agonist",
+    "averageWeightLoss": "~19% body weight over 46 weeks at 4.8mg in Phase 2 trial. Phase 3 SYNCHRONIZE trials ongoing with 6.0mg dose.",
+    "administration": "Subcutaneous injection",
     "compoundedAvailable": false,
-    "averageCost": {
-      "brand": "Not yet available - expected 2026"
+    "averageCost": "Pricing not yet established",
+    "approvedFor": "Pending FDA approval: Weight Management / MASH",
+    "genericName": "Survodutide",
+    "mechanism": "Survodutide is a dual agonist that activates both GLP-1 and glucagon receptors. GLP-1 activation reduces appetite, slows gastric emptying, and improves insulin secretion. Glucagon receptor activation increases energy expenditure, promotes hepatic fat oxidation, and enhances lipolysis. The combination aims to produce greater weight loss than GLP-1 alone by both reducing caloric intake and increasing caloric expenditure. The glucagon component also targets liver fat reduction, making it promising for MASH (metabolic dysfunction-associated steatohepatitis).",
+    "dosingSchedule": "Once weekly",
+    "typicalDoses": [
+      "0.6mg",
+      "2.4mg",
+      "3.6mg",
+      "4.8mg",
+      "6.0mg"
+    ],
+    "titrationSchedule": "Phase 3 trial protocol: Start at 0.6mg weekly, titrate up every 4 weeks through 2.4mg, 3.6mg, 4.8mg to a maintenance dose of 6.0mg weekly (titration period approximately 20 weeks).",
+    "fdaApproved": false,
+    "fdaApprovalYear": null,
+    "commonSideEffects": [
+      "Nausea",
+      "Diarrhea",
+      "Vomiting",
+      "Constipation",
+      "Decreased appetite",
+      "Dyspepsia"
+    ],
+    "seriousRisks": [
+      "Pancreatitis (theoretical class risk)",
+      "Increased heart rate",
+      "Hepatic effects (being monitored in trials)",
+      "Hypoglycemia",
+      "GI side effects leading to dehydration",
+      "Full safety profile still under investigation"
+    ],
+    "contraindications": [
+      "Not yet approved — contraindications will be determined through regulatory review",
+      "Likely to include MTC/MEN 2 history (consistent with GLP-1 class)"
+    ],
+    "pharmacyTypes": [
+      "Not yet available"
+    ],
+    "typicalMonthlyCost": {
+      "brand": "Pricing not yet established",
+      "compounded": "N/A"
     },
-    "description": "Survodutide is an investigational dual glucagon/GLP-1 receptor agonist in late-stage clinical trials. It works differently from tirzepatide by combining glucagon and GLP-1 activity (rather than GIP and GLP-1), which may offer advantages for liver fat reduction."
+    "insuranceCoverage": "Not yet applicable. Expected to seek FDA approval for both obesity and MASH indications.",
+    "halfLife": "~6-7 days (estimated from Phase 2 data)",
+    "clinicalTrials": "SYNCHRONIZE program: SYNCHRONIZE-1 (obesity without diabetes), SYNCHRONIZE-2 (obesity with Type 2 Diabetes), SYNCHRONIZE-3 (MASH with fibrosis). Phase 2 results published in NEJM (2024).",
+    "keyResults": {
+      "phase2Obesity": "Up to 19.0% weight loss at 4.8mg over 46 weeks vs 2.1% placebo. 44% of participants lost >=20% body weight.",
+      "phase2MASH": "Up to 83% MASH resolution rate (vs 18.2% placebo) in Phase 2b MASH trial"
+    },
+    "competitors": [
+      "tirzepatide",
+      "retatrutide",
+      "semaglutide"
+    ],
+    "keyAdvantages": [
+      "Dual mechanism increases energy expenditure (not just appetite suppression)",
+      "Strong MASH/liver fat reduction data — unique among GLP-1 class",
+      "Once-weekly dosing",
+      "Competitive weight loss approaching tirzepatide levels",
+      "Addresses metabolic liver disease — large unmet need"
+    ],
+    "keyDisadvantages": [
+      "Not yet FDA approved",
+      "Glucagon activation may raise blood glucose (offsetting GLP-1 glucose-lowering)",
+      "GI side effects appear comparable to other GLP-1 agents",
+      "Long titration period (~20 weeks to max dose)",
+      "Limited long-term safety data"
+    ],
+    "manufacturer": "Boehringer Ingelheim"
   },
   {
-    "slug": "orforglipron",
     "name": "Orforglipron",
-    "brandNames": [],
-    "manufacturer": "Eli Lilly",
-    "class": "Oral non-peptide GLP-1 receptor agonist",
-    "approvedFor": ["In clinical trials - not yet approved"],
-    "administration": "Daily oral tablet",
-    "dosing": {
-      "trials": "12mg, 24mg, 36mg, or 45mg daily in phase 3 trials"
-    },
-    "averageWeightLoss": "~14.7% of body weight at 36 weeks (45mg dose, phase 2)",
-    "commonSideEffects": ["Nausea", "Vomiting", "Diarrhea", "Decreased appetite"],
+    "slug": "orforglipron",
+    "brandNames": [
+      {
+        "name": "Pending FDA approval",
+        "indication": "Weight Management / Type 2 Diabetes",
+        "approvalYear": null
+      }
+    ],
+    "class": "GLP-1 Receptor Agonist (Non-peptide, Oral)",
+    "averageWeightLoss": "~14.7% body weight over 36 weeks at 45mg in Phase 2 trial. Phase 3 ACHIEVE program ongoing with longer duration expected to show greater loss.",
+    "administration": "Oral tablet",
     "compoundedAvailable": false,
-    "averageCost": {
-      "brand": "Not yet available - expected 2026"
+    "averageCost": "Pricing not yet established; expected to be significantly lower than injectable GLP-1s due to simpler manufacturing (brand); Non-peptide molecule may be harder to compound (compounded)",
+    "approvedFor": "Pending FDA approval: Weight Management / Type 2 Diabetes",
+    "genericName": "Orforglipron",
+    "mechanism": "Orforglipron is a first-in-class oral non-peptide GLP-1 receptor agonist. Unlike oral semaglutide (Rybelsus), which is a peptide requiring absorption enhancers and fasting, orforglipron is a small molecule that activates GLP-1 receptors with high potency. It stimulates glucose-dependent insulin secretion, suppresses glucagon, slows gastric emptying, and reduces appetite — the same mechanisms as injectable GLP-1 agents but in a more convenient oral form without fasting requirements.",
+    "dosingSchedule": "Once daily",
+    "typicalDoses": [
+      "3mg",
+      "12mg",
+      "24mg",
+      "36mg",
+      "45mg"
+    ],
+    "titrationSchedule": "Phase 3 protocol: Start at 3mg daily, increase every 4 weeks through 6mg, 12mg, 24mg, 36mg to maintenance dose of 45mg daily. Total titration period approximately 20 weeks.",
+    "fdaApproved": false,
+    "fdaApprovalYear": null,
+    "commonSideEffects": [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea",
+      "Decreased appetite",
+      "Dyspepsia",
+      "Constipation"
+    ],
+    "seriousRisks": [
+      "GI side effects (most common reason for discontinuation in Phase 2)",
+      "Pancreatitis (theoretical class risk)",
+      "Thyroid C-cell tumors (theoretical class risk, being evaluated)",
+      "Full safety profile still under investigation"
+    ],
+    "contraindications": [
+      "Not yet approved — contraindications will be determined through regulatory review",
+      "Likely to include MTC/MEN 2 history (consistent with GLP-1 class)"
+    ],
+    "pharmacyTypes": [
+      "Not yet available"
+    ],
+    "typicalMonthlyCost": {
+      "brand": "Pricing not yet established; expected to be significantly lower than injectable GLP-1s due to simpler manufacturing",
+      "compounded": "Non-peptide molecule may be harder to compound"
     },
-    "description": "Orforglipron is an investigational oral GLP-1 receptor agonist that does not require injection. Unlike Rybelsus (oral semaglutide), it is a non-peptide molecule that can be taken without fasting restrictions and may be more affordable to manufacture."
+    "insuranceCoverage": "Not yet applicable. Oral formulation expected to improve access and potentially lower costs vs injectables.",
+    "halfLife": "~25-65 hours (dose dependent)",
+    "clinicalTrials": "ACHIEVE program: ACHIEVE-1 (obesity/overweight), ACHIEVE-2 (Type 2 Diabetes), ACHIEVE-3 (obesity with Type 2 Diabetes), ACHIEVE-4 (cardiovascular outcomes). Phase 2 results published in NEJM (2023).",
+    "keyResults": {
+      "phase2Obesity": "14.7% body weight reduction at 45mg over 36 weeks vs 2.3% placebo",
+      "phase2Diabetes": "2.1% A1C reduction at 45mg over 26 weeks vs 0.4% placebo"
+    },
+    "competitors": [
+      "semaglutide",
+      "tirzepatide",
+      "danuglipron"
+    ],
+    "keyAdvantages": [
+      "Oral tablet — no injections needed",
+      "No fasting requirement (unlike oral semaglutide/Rybelsus)",
+      "Small molecule — simpler, cheaper manufacturing than peptides",
+      "Room-temperature stable (no cold chain)",
+      "Could dramatically expand GLP-1 access and lower costs",
+      "Potentially resistant to compounding competition"
+    ],
+    "keyDisadvantages": [
+      "Not yet FDA approved",
+      "GI side effect rates similar to injectable GLP-1s",
+      "Daily dosing (vs weekly injection)",
+      "Weight loss may be less than tirzepatide at current doses",
+      "Limited long-term data",
+      "Higher discontinuation rates in trials vs injectable GLP-1s"
+    ],
+    "manufacturer": "Eli Lilly"
   },
   {
-    "slug": "retatrutide",
     "name": "Retatrutide",
-    "brandNames": [],
-    "manufacturer": "Eli Lilly",
-    "class": "Triple GIP/GLP-1/glucagon receptor agonist",
-    "approvedFor": ["In clinical trials - not yet approved"],
-    "administration": "Weekly subcutaneous injection",
-    "dosing": {
-      "trials": "Titrated up to 12mg weekly in phase 2 trials"
-    },
-    "averageWeightLoss": "~24% of body weight at 48 weeks (12mg dose, phase 2)",
-    "commonSideEffects": ["Nausea", "Diarrhea", "Vomiting", "Constipation"],
+    "slug": "retatrutide",
+    "brandNames": [
+      {
+        "name": "Pending FDA approval",
+        "indication": "Weight Management / Type 2 Diabetes",
+        "approvalYear": null
+      }
+    ],
+    "class": "Triple GLP-1/GIP/Glucagon Receptor Agonist",
+    "averageWeightLoss": "~24.2% body weight over 48 weeks at 12mg in Phase 2 trial. The highest responding group showed up to 26.3% weight loss. Phase 3 TRIUMPH program may show even greater results over longer duration.",
+    "administration": "Subcutaneous injection",
     "compoundedAvailable": false,
-    "averageCost": {
-      "brand": "Not yet available - expected 2027"
+    "averageCost": "Pricing not yet established",
+    "approvedFor": "Pending FDA approval: Weight Management / Type 2 Diabetes",
+    "genericName": "Retatrutide",
+    "mechanism": "Retatrutide is a first-in-class triple incretin agonist that simultaneously activates three receptors: GLP-1 (appetite suppression, insulin secretion), GIP (enhanced insulin sensitivity, fat metabolism), and glucagon (increased energy expenditure, hepatic fat oxidation). This triple mechanism addresses obesity through three complementary pathways: reducing caloric intake (GLP-1), improving metabolic efficiency (GIP), and increasing caloric expenditure (glucagon). The combination has produced the highest weight loss of any anti-obesity medication studied to date.",
+    "dosingSchedule": "Once weekly",
+    "typicalDoses": [
+      "0.5mg",
+      "1mg",
+      "2mg",
+      "4mg",
+      "8mg",
+      "12mg"
+    ],
+    "titrationSchedule": "Phase 2 protocol: Start at 0.5mg weekly, titrate through 1mg, 2mg, 4mg, 8mg to 12mg weekly over approximately 20 weeks with dose increases every 4 weeks. Phase 3 titration schedules being finalized.",
+    "fdaApproved": false,
+    "fdaApprovalYear": null,
+    "commonSideEffects": [
+      "Nausea",
+      "Diarrhea",
+      "Vomiting",
+      "Constipation",
+      "Decreased appetite",
+      "Dyspepsia",
+      "Injection site reactions"
+    ],
+    "seriousRisks": [
+      "Pancreatitis (theoretical class risk)",
+      "Thyroid C-cell tumors (theoretical class risk, being evaluated)",
+      "Increased heart rate",
+      "Hepatic effects (glucagon component — monitoring ongoing)",
+      "Hypoglycemia",
+      "Potential hyperglycemic effect from glucagon agonism (under investigation)",
+      "Full safety profile still under investigation"
+    ],
+    "contraindications": [
+      "Not yet approved — contraindications will be determined through regulatory review",
+      "Likely to include MTC/MEN 2 history (consistent with GLP-1/GIP class)"
+    ],
+    "pharmacyTypes": [
+      "Not yet available"
+    ],
+    "typicalMonthlyCost": {
+      "brand": "Pricing not yet established",
+      "compounded": "N/A"
     },
-    "description": "Retatrutide is an investigational triple-action receptor agonist targeting GIP, GLP-1, and glucagon receptors simultaneously. Phase 2 trials showed the highest weight loss of any obesity medication tested, with participants losing up to 24% of body weight."
+    "insuranceCoverage": "Not yet applicable. Expected to seek FDA approval for obesity and potentially Type 2 Diabetes and MASH.",
+    "halfLife": "~6 days (estimated from Phase 2 pharmacokinetic data)",
+    "clinicalTrials": "TRIUMPH program: TRIUMPH-1 (obesity/overweight without diabetes), TRIUMPH-2 (obesity with Type 2 Diabetes), TRIUMPH-3 (MASH), TRIUMPH-4 (cardiovascular outcomes). Phase 2 results published in NEJM (2023).",
+    "keyResults": {
+      "phase2": "24.2% mean weight loss at 12mg over 48 weeks vs 2.1% placebo. 26% achieved >=30% body weight loss. Participants with obesity and Type 2 Diabetes lost up to 17.5%."
+    },
+    "competitors": [
+      "tirzepatide",
+      "survodutide",
+      "semaglutide"
+    ],
+    "keyAdvantages": [
+      "Highest weight loss of any anti-obesity medication studied (~24%)",
+      "Triple receptor mechanism is unique",
+      "Potential MASH indication (glucagon component reduces liver fat)",
+      "Once-weekly dosing",
+      "Could redefine treatment expectations for obesity",
+      "Phase 2 results suggest Phase 3 may show 25-30% weight loss"
+    ],
+    "keyDisadvantages": [
+      "Not yet FDA approved (likely 2027+ at earliest)",
+      "Furthest from market of pipeline candidates",
+      "GI side effects comparable to dual agonists",
+      "Glucagon component complexity (potential hyperglycemia in diabetics)",
+      "Limited safety data — only Phase 2 completed",
+      "Injection only"
+    ],
+    "manufacturer": "Eli Lilly"
   }
 ]

@@ -2,227 +2,1265 @@
   {
     "slug": "nausea",
     "name": "Nausea",
-    "frequency": "Very common (20-44% of patients)",
-    "severity": "Mild to moderate",
-    "duration": "Usually improves within 4-8 weeks as body adjusts",
-    "description": "Nausea is the most commonly reported side effect of GLP-1 medications. It occurs because these medications slow gastric emptying and affect appetite centers in the brain.",
+    "frequency": "40-50% of patients",
+    "severity": "very-common",
+    "duration": "Most common in the first 4-8 weeks and during dose increases. Typically improves significantly as the body adjusts to each dose level. Slow titration schedules reduce severity.",
+    "description": "Feeling of sickness with an inclination to vomit, especially common during dose titration periods",
     "management": [
-      "Start at the lowest dose and titrate slowly",
-      "Eat smaller, more frequent meals",
-      "Avoid fatty, greasy, or spicy foods",
-      "Stay hydrated with small sips of water",
-      "Eat bland foods like crackers or toast when nauseous",
-      "Do not lie down immediately after eating",
-      "Talk to your provider about anti-nausea medication if severe"
+      "Eat smaller, more frequent meals throughout the day",
+      "Avoid high-fat, greasy, or fried foods",
+      "Stay well hydrated with clear fluids",
+      "Eat slowly and stop eating when you feel full",
+      "Ginger tea, ginger chews, or ginger supplements may help",
+      "Avoid lying down immediately after eating",
+      "Follow the prescribed titration schedule — do not skip dose increases but do not rush them"
     ],
-    "whenToSeekHelp": "Contact your provider if nausea is severe, persistent beyond 8 weeks, or prevents you from eating or drinking.",
-    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide", "Dulaglutide", "Exenatide"]
+    "whenToSeekHelp": "If nausea is severe enough to prevent eating or drinking for more than 24 hours, is accompanied by vomiting blood or dark material, or persists beyond the first few weeks at a stable dose",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide",
+      "dulaglutide",
+      "exenatide"
+    ],
+    "category": "gastrointestinal",
+    "whyItHappens": "GLP-1 receptor agonists slow gastric emptying (the rate at which food leaves the stomach), which can trigger nausea signals to the brainstem. The medications also act on GLP-1 receptors in the brain's area postrema, a region that controls nausea and vomiting.",
+    "relatedEffects": [
+      "vomiting",
+      "decreased-appetite",
+      "bloating",
+      "sulfur-burps"
+    ],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "Contains ginger root extract and digestive enzymes to help manage GI discomfort during GLP-1 therapy",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "How long does GLP-1 nausea last?",
+        "a": "Most patients find nausea improves within 4-8 weeks as the body adjusts to each dose level. Following the recommended slow titration schedule (increasing dose every 4 weeks) significantly reduces nausea severity and duration."
+      },
+      {
+        "q": "Can you take anti-nausea medication with Ozempic or Mounjaro?",
+        "a": "Yes, your doctor may prescribe ondansetron (Zofran) or other anti-emetics for severe nausea. Over-the-counter options like ginger or vitamin B6 may also help. Always consult your provider before adding medications."
+      },
+      {
+        "q": "Does nausea mean the medication is working?",
+        "a": "Not necessarily. Nausea is a side effect of slowed gastric emptying and central nervous system activation, not a direct indicator of weight loss effectiveness. The medication works through appetite reduction and metabolic effects regardless of whether you experience nausea."
+      }
+    ]
   },
   {
     "slug": "vomiting",
     "name": "Vomiting",
-    "frequency": "Common (5-15% of patients)",
-    "severity": "Mild to moderate",
-    "duration": "Usually improves within first few weeks of each dose increase",
-    "description": "Vomiting can occur especially during dose increases. It is related to the slowed gastric emptying effect of GLP-1 medications.",
+    "frequency": "5-15% of patients",
+    "severity": "common",
+    "duration": "Most frequent during the first 4-8 weeks and when doses are increased. Usually resolves as the body adapts. Episodes are typically intermittent rather than continuous.",
+    "description": "Forceful expulsion of stomach contents, often occurring alongside nausea during dose escalation",
     "management": [
-      "Eat slowly and stop eating when full",
-      "Avoid large meals",
-      "Stay upright after eating for at least 30 minutes",
-      "Try ginger tea or ginger supplements",
-      "Consider adjusting injection timing",
-      "Your provider may slow your dose titration schedule"
+      "Eat very small portions — stop well before feeling full",
+      "Avoid foods with strong smells or high fat content",
+      "Stay upright for at least 30 minutes after eating",
+      "Sip clear liquids throughout the day to stay hydrated",
+      "Try bland foods like crackers, toast, or rice when nauseated",
+      "Ask your doctor about anti-emetic medication if vomiting is frequent"
     ],
-    "whenToSeekHelp": "Seek medical attention if you experience persistent vomiting, signs of dehydration, or vomiting blood.",
-    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide", "Dulaglutide", "Exenatide"]
+    "whenToSeekHelp": "If vomiting is severe or persistent (more than a few times per week), you see blood or dark coffee-ground material in vomit, you cannot keep down fluids for 12+ hours, or you experience signs of dehydration (dark urine, dizziness, rapid heartbeat)",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide",
+      "dulaglutide",
+      "exenatide"
+    ],
+    "category": "gastrointestinal",
+    "whyItHappens": "GLP-1 agonists activate receptors in the area postrema and nucleus tractus solitarius in the brainstem, which control the vomiting reflex. Combined with significantly delayed gastric emptying, food sitting in the stomach longer can trigger the emetic response.",
+    "relatedEffects": [
+      "nausea",
+      "dehydration",
+      "acid-reflux"
+    ],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "Digestive enzyme blend and ginger root extract support comfortable digestion during GLP-1 therapy",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "Is vomiting on Ozempic dangerous?",
+        "a": "Occasional vomiting during dose adjustments is common and typically not dangerous. However, frequent or severe vomiting can lead to dehydration and electrolyte imbalances. Contact your doctor if vomiting is persistent or you cannot keep fluids down."
+      },
+      {
+        "q": "Should I stop taking my GLP-1 medication if I keep vomiting?",
+        "a": "Do not stop your medication without consulting your doctor. They may adjust your dose, slow your titration schedule, or prescribe anti-nausea medication. Abruptly stopping can cause blood sugar fluctuations."
+      },
+      {
+        "q": "Can vomiting affect how well the medication works?",
+        "a": "Since GLP-1 medications are injected (not taken orally), vomiting does not affect absorption of the drug itself. However, if vomiting prevents you from eating or staying hydrated, it can impact your overall health and should be addressed."
+      }
+    ]
   },
   {
     "slug": "diarrhea",
     "name": "Diarrhea",
-    "frequency": "Common (10-30% of patients)",
-    "severity": "Mild to moderate",
-    "duration": "Often resolves within the first month of treatment",
-    "description": "Diarrhea occurs as GLP-1 medications affect gut motility and digestion. It is more common during the initial weeks and dose increases.",
+    "frequency": "15-30% of patients",
+    "severity": "very-common",
+    "duration": "Usually occurs in the first few weeks of treatment or after dose escalation. Most patients see improvement within 2-4 weeks at a stable dose. Persistent diarrhea beyond this window should be evaluated.",
+    "description": "Frequent loose or watery stools, often occurring early in treatment or after dose increases",
     "management": [
       "Stay well hydrated with water and electrolyte drinks",
-      "Avoid high-fat and high-fiber foods temporarily",
-      "Eat bland, easily digestible foods",
-      "Consider probiotics",
-      "Monitor for signs of dehydration"
+      "Follow a BRAT diet (bananas, rice, applesauce, toast) during episodes",
+      "Avoid high-fat, spicy, and high-fiber foods temporarily",
+      "Reduce or eliminate caffeine and alcohol intake",
+      "Consider a probiotic supplement to support gut health",
+      "Eat smaller, more frequent meals"
     ],
-    "whenToSeekHelp": "Contact your provider if diarrhea is severe, bloody, lasts more than a few days, or you show signs of dehydration.",
-    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide", "Dulaglutide", "Exenatide"]
+    "whenToSeekHelp": "If diarrhea is severe (more than 4-6 watery stools per day), lasts longer than 3 days continuously, contains blood or mucus, or is accompanied by fever, severe cramping, or signs of dehydration",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide",
+      "dulaglutide",
+      "exenatide"
+    ],
+    "category": "gastrointestinal",
+    "whyItHappens": "GLP-1 receptor agonists alter gut motility and fluid secretion in the intestines. While they slow gastric emptying, they can paradoxically speed up transit through the lower intestines. Changes in bile acid metabolism and shifts in gut microbiome composition also contribute.",
+    "relatedEffects": [
+      "abdominal-pain",
+      "dehydration",
+      "bloating"
+    ],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "Probiotic and prebiotic blend supports healthy gut flora and digestive balance during GLP-1 therapy",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "How common is diarrhea on GLP-1 medications?",
+        "a": "Diarrhea affects approximately 15-30% of patients, making it one of the more common side effects. It is reported in clinical trials for semaglutide (Ozempic/Wegovy), tirzepatide (Mounjaro/Zepbound), and liraglutide (Saxenda)."
+      },
+      {
+        "q": "Will diarrhea from Ozempic go away?",
+        "a": "Yes, for most patients diarrhea improves within 2-4 weeks as the body adjusts to each dose level. If it persists at a stable dose, your doctor may adjust treatment or investigate other causes."
+      },
+      {
+        "q": "Can GLP-1 diarrhea cause weight loss beyond the medication's effect?",
+        "a": "Diarrhea-related weight loss is primarily water weight and is not a healthy or sustainable form of weight loss. It can lead to dehydration and nutrient malabsorption. The medication's therapeutic weight loss comes from reduced appetite and metabolic changes, not GI side effects."
+      }
+    ]
   },
   {
     "slug": "constipation",
     "name": "Constipation",
-    "frequency": "Common (5-24% of patients)",
-    "severity": "Mild to moderate",
-    "duration": "May persist throughout treatment but often manageable",
-    "description": "Constipation is caused by slowed gastric emptying and reduced food intake. Eating less means less bulk moving through the digestive system.",
+    "frequency": "15-25% of patients",
+    "severity": "very-common",
+    "duration": "Can begin within the first few weeks of treatment. May persist longer than other GI side effects because reduced food intake continues throughout treatment. Often manageable with dietary adjustments.",
+    "description": "Infrequent or difficult bowel movements, often with hard or dry stools",
     "management": [
-      "Increase fiber intake gradually",
-      "Drink plenty of water throughout the day",
-      "Stay physically active",
-      "Consider a stool softener or fiber supplement",
-      "Eat fruits, vegetables, and whole grains",
-      "Establish a regular bathroom routine"
+      "Increase water intake to at least 64 oz (2 liters) per day",
+      "Add fiber-rich foods gradually (fruits, vegetables, whole grains)",
+      "Consider a fiber supplement like psyllium husk (Metamucil)",
+      "Stay physically active — regular walking helps stimulate gut motility",
+      "Try a magnesium citrate supplement (consult your doctor first)",
+      "Establish a regular bathroom routine",
+      "Avoid excessive use of stimulant laxatives"
     ],
-    "whenToSeekHelp": "Contact your provider if constipation is severe, painful, lasts more than a week, or is accompanied by bloating and vomiting.",
-    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide", "Dulaglutide"]
+    "whenToSeekHelp": "If you have not had a bowel movement in more than 3 days, experience severe abdominal pain or bloating, notice blood in your stool, or if over-the-counter remedies are not effective",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide",
+      "dulaglutide",
+      "exenatide"
+    ],
+    "category": "gastrointestinal",
+    "whyItHappens": "GLP-1 agonists significantly slow gastric emptying and can reduce overall gut motility. Combined with reduced food intake (from appetite suppression), there is less bulk moving through the intestines. Reduced fluid intake can worsen the effect.",
+    "relatedEffects": [
+      "bloating",
+      "abdominal-pain",
+      "gastroparesis"
+    ],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "Contains magnesium and prebiotic fiber to promote healthy digestion and regularity",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "Why does Ozempic cause constipation?",
+        "a": "GLP-1 medications slow the movement of food through your entire digestive tract (delayed gastric emptying). Combined with eating less food overall due to appetite suppression, there is less material and less motility to produce regular bowel movements."
+      },
+      {
+        "q": "What is the best laxative to take with GLP-1 medication?",
+        "a": "Osmotic laxatives like MiraLAX (polyethylene glycol) or magnesium citrate are generally well-tolerated. Fiber supplements like psyllium husk can also help. Avoid relying on stimulant laxatives long-term. Always check with your doctor before starting any laxative."
+      },
+      {
+        "q": "Is constipation from GLP-1 medications permanent?",
+        "a": "Not usually. Many patients find improvement with adequate hydration, fiber intake, and physical activity. Your body may also partially adapt over time. If constipation persists, your doctor can recommend specific treatments."
+      }
+    ]
   },
   {
     "slug": "abdominal-pain",
-    "name": "Abdominal Pain",
-    "frequency": "Common (5-20% of patients)",
-    "severity": "Mild to moderate",
-    "duration": "Usually temporary, improving as the body adjusts",
-    "description": "Abdominal discomfort or pain can occur as GLP-1 medications change how your digestive system processes food. It is usually related to slowed gastric emptying.",
+    "name": "Abdominal Pain / Stomach Cramps",
+    "frequency": "5-20% of patients",
+    "severity": "common",
+    "duration": "Usually occurs in the first few weeks of treatment or after dose increases. Mild cramping typically resolves within days. Persistent or severe pain warrants medical evaluation.",
+    "description": "Pain, cramping, or discomfort in the stomach or abdominal area, ranging from mild to moderate",
     "management": [
-      "Eat smaller, more frequent meals",
-      "Avoid foods that trigger discomfort",
-      "Apply a warm compress to the abdomen",
-      "Avoid lying down immediately after eating",
-      "Track which foods worsen symptoms"
+      "Eat smaller meals to avoid over-distending the stomach",
+      "Avoid carbonated beverages which add gas to the stomach",
+      "Apply a warm compress to the abdomen for cramping",
+      "Avoid eating within 2-3 hours of bedtime",
+      "Peppermint tea may help relieve mild cramping",
+      "Keep a food diary to identify trigger foods"
     ],
-    "whenToSeekHelp": "Seek immediate medical attention for severe abdominal pain, especially if accompanied by fever, as this could indicate pancreatitis.",
-    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide", "Dulaglutide", "Exenatide"]
+    "whenToSeekHelp": "Seek immediate medical attention if pain is severe or sudden, radiates to the back (possible pancreatitis), is in the upper right abdomen (possible gallbladder), is accompanied by fever, or does not improve with basic measures",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide",
+      "dulaglutide",
+      "exenatide"
+    ],
+    "category": "gastrointestinal",
+    "whyItHappens": "Delayed gastric emptying means food remains in the stomach longer, causing distension and discomfort. Altered intestinal motility can cause cramping. In rare cases, abdominal pain may signal more serious conditions like pancreatitis or gallbladder issues.",
+    "relatedEffects": [
+      "nausea",
+      "bloating",
+      "constipation",
+      "pancreatitis",
+      "gallbladder-issues"
+    ],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "Digestive enzyme complex helps break down food more efficiently, reducing stomach distension and discomfort",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "Is stomach pain normal on Ozempic?",
+        "a": "Mild to moderate stomach discomfort is common, especially during dose escalation. However, severe or persistent abdominal pain should always be evaluated by a doctor, as it can rarely indicate pancreatitis or gallbladder problems."
+      },
+      {
+        "q": "How can I tell if abdominal pain is serious?",
+        "a": "Warning signs include severe pain that radiates to the back, pain in the upper right abdomen, pain accompanied by fever or vomiting, yellowing of skin or eyes, or pain that worsens rather than improves over several days."
+      },
+      {
+        "q": "Does abdominal pain from GLP-1 medications go away?",
+        "a": "Mild cramping and discomfort typically improve within the first few weeks at each dose level. Eating smaller meals and avoiding trigger foods helps significantly. Pain that persists or worsens should be discussed with your healthcare provider."
+      }
+    ]
   },
   {
-    "slug": "injection-site-reactions",
-    "name": "Injection Site Reactions",
-    "frequency": "Common (2-10% of patients)",
-    "severity": "Mild",
-    "duration": "Usually resolves within hours to days",
-    "description": "Redness, swelling, itching, or bruising at the injection site. This is a normal immune response to subcutaneous injection.",
+    "slug": "bloating",
+    "name": "Bloating / Gas",
+    "frequency": "10-20% of patients",
+    "severity": "common",
+    "duration": "Common in the first several weeks of treatment. May persist if eating habits are not adjusted. Usually improves with dietary modifications and as the body adapts to the medication.",
+    "description": "Feeling of fullness, tightness, or swelling in the abdomen, often accompanied by increased gas or flatulence",
     "management": [
-      "Rotate injection sites (abdomen, thigh, upper arm)",
-      "Allow the medication to reach room temperature before injecting",
-      "Apply ice before and after injection",
-      "Use proper injection technique",
-      "Do not inject into areas that are red, bruised, or tender"
+      "Eat slowly and chew food thoroughly",
+      "Avoid gas-producing foods like beans, broccoli, cabbage, and onions initially",
+      "Limit carbonated beverages and chewing gum",
+      "Take a walk after meals to promote gas movement",
+      "Consider simethicone (Gas-X) for acute bloating",
+      "Try a digestive enzyme supplement with meals",
+      "Avoid drinking through straws (swallowing air)"
     ],
-    "whenToSeekHelp": "Contact your provider if you develop a large area of redness, significant swelling, or signs of infection at the injection site.",
-    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide", "Dulaglutide", "Exenatide"]
+    "whenToSeekHelp": "If bloating is severe and painful, accompanied by inability to pass gas, or associated with significant abdominal distension that does not resolve",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide",
+      "dulaglutide",
+      "exenatide"
+    ],
+    "category": "gastrointestinal",
+    "whyItHappens": "Delayed gastric emptying means food ferments longer in the stomach and intestines, producing excess gas. Changes in gut motility can trap gas in the intestines. Shifts in the gut microbiome caused by altered digestion patterns also contribute to increased gas production.",
+    "relatedEffects": [
+      "constipation",
+      "abdominal-pain",
+      "sulfur-burps",
+      "nausea"
+    ],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "Digestive enzymes and ginger extract help reduce gas production and bloating from slowed digestion",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "Why does Ozempic make you bloated?",
+        "a": "GLP-1 medications slow gastric emptying, meaning food stays in your stomach and intestines longer. This extended transit time allows more bacterial fermentation, producing excess gas. Eating large meals or gas-producing foods exacerbates the effect."
+      },
+      {
+        "q": "How do you reduce bloating on GLP-1 medication?",
+        "a": "Eat smaller meals, chew thoroughly, avoid carbonated drinks and gas-producing foods, walk after meals, and consider digestive enzymes or simethicone. A probiotic may also help balance gut bacteria and reduce gas production."
+      },
+      {
+        "q": "Is bloating a sign that GLP-1 medication is working?",
+        "a": "Bloating indicates that gastric emptying is being slowed by the medication, which is part of its mechanism. However, bloating itself is a side effect to manage, not a measure of therapeutic effectiveness."
+      }
+    ]
+  },
+  {
+    "slug": "acid-reflux",
+    "name": "Acid Reflux / GERD",
+    "frequency": "5-15% of patients",
+    "severity": "common",
+    "duration": "Can occur at any point during treatment but is most common during dose escalation. May persist if eating habits are not modified. Pre-existing GERD may worsen initially.",
+    "description": "Heartburn, acid taste in mouth, or burning sensation in the chest caused by stomach acid flowing back into the esophagus",
+    "management": [
+      "Avoid eating within 3 hours of lying down or bedtime",
+      "Elevate the head of your bed 6-8 inches",
+      "Avoid trigger foods: spicy, acidic, fatty, chocolate, caffeine, alcohol",
+      "Eat smaller, more frequent meals",
+      "Wear loose-fitting clothing around the waist",
+      "Over-the-counter antacids or H2 blockers (famotidine) may help",
+      "Do not lie down immediately after eating"
+    ],
+    "whenToSeekHelp": "If heartburn is severe or occurs daily, you have difficulty swallowing, experience unexplained weight loss (beyond intended), vomit blood, or have chest pain (rule out cardiac causes first)",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide",
+      "dulaglutide",
+      "exenatide"
+    ],
+    "category": "gastrointestinal",
+    "whyItHappens": "Delayed gastric emptying increases the volume of food and acid sitting in the stomach for extended periods. This can increase pressure on the lower esophageal sphincter, allowing acid to reflux into the esophagus. Patients who already have GERD may experience worsening symptoms.",
+    "relatedEffects": [
+      "nausea",
+      "vomiting",
+      "abdominal-pain",
+      "bloating"
+    ],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "Includes DGL licorice root and digestive support to help soothe the GI tract during GLP-1 therapy",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "Can Ozempic cause acid reflux?",
+        "a": "Yes. GLP-1 medications slow gastric emptying, which can increase the volume and pressure of stomach contents, leading to acid reflux. This is reported in 5-15% of patients in clinical trials."
+      },
+      {
+        "q": "Should I take a PPI with my GLP-1 medication?",
+        "a": "Proton pump inhibitors (like omeprazole) can be used alongside GLP-1 medications if recommended by your doctor. There are no significant drug interactions, but long-term PPI use has its own considerations. Discuss with your healthcare provider."
+      },
+      {
+        "q": "Will acid reflux from GLP-1 medications go away?",
+        "a": "Many patients see improvement as they adjust their eating habits (smaller meals, timing) and as the body adapts. If you had pre-existing GERD, it may require ongoing management. Weight loss from the medication can actually improve GERD long-term."
+      }
+    ]
   },
   {
     "slug": "headache",
     "name": "Headache",
-    "frequency": "Common (10-14% of patients)",
-    "severity": "Mild to moderate",
-    "duration": "Usually resolves within the first few weeks",
-    "description": "Headaches can occur as your body adjusts to the medication, changes in blood sugar, or from reduced food intake and dehydration.",
+    "frequency": "10-15% of patients",
+    "severity": "common",
+    "duration": "Most common in the first 2-4 weeks of treatment. Usually resolves as the body adjusts to the medication and new eating patterns are established.",
+    "description": "Mild to moderate headaches, particularly during the early weeks of treatment",
     "management": [
-      "Stay well hydrated",
-      "Maintain regular meals even if appetite is reduced",
-      "Get adequate sleep",
-      "Take over-the-counter pain relief as needed",
-      "Monitor blood sugar if diabetic"
+      "Stay well hydrated — aim for at least 64 oz of water daily",
+      "Eat regular meals even if appetite is reduced",
+      "Maintain consistent sleep patterns",
+      "Over-the-counter pain relievers like acetaminophen are generally safe",
+      "Monitor blood sugar if diabetic — headaches may signal hypoglycemia",
+      "Limit caffeine withdrawal by tapering gradually if reducing intake"
     ],
-    "whenToSeekHelp": "Contact your provider if headaches are severe, persistent, or accompanied by vision changes.",
-    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide"]
+    "whenToSeekHelp": "If headaches are severe, sudden, or unlike your usual headaches, are accompanied by vision changes, confusion, or neck stiffness, or do not respond to over-the-counter treatment",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide",
+      "dulaglutide",
+      "exenatide"
+    ],
+    "category": "neurological",
+    "whyItHappens": "Multiple factors contribute: changes in blood sugar levels as the body adjusts, dehydration from reduced fluid and food intake, altered eating patterns, and potentially direct effects on GLP-1 receptors in the central nervous system. Hypoglycemia-related headaches are more common when combined with other diabetes medications.",
+    "relatedEffects": [
+      "fatigue",
+      "dizziness",
+      "low-blood-sugar",
+      "dehydration"
+    ],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "Electrolyte and hydration support helps address dehydration-related headaches common during GLP-1 therapy",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "Are headaches a common side effect of GLP-1 medications?",
+        "a": "Yes, headaches affect approximately 10-15% of patients, particularly in the first few weeks. They are usually mild to moderate and resolve as the body adjusts. Staying hydrated and eating regularly are key prevention strategies."
+      },
+      {
+        "q": "Can GLP-1 medication cause migraines?",
+        "a": "While typical headaches are common, true migraines are not a well-established side effect. If you experience migraine-like symptoms (aura, severe throbbing pain, light sensitivity), consult your doctor as this may be unrelated to the medication."
+      },
+      {
+        "q": "How do I prevent headaches on Ozempic?",
+        "a": "Drink plenty of water throughout the day, eat small regular meals even if not hungry, avoid skipping meals, maintain consistent sleep, and manage stress. If you are reducing caffeine intake, do so gradually."
+      }
+    ]
   },
   {
     "slug": "fatigue",
-    "name": "Fatigue",
-    "frequency": "Common (5-11% of patients)",
-    "severity": "Mild to moderate",
-    "duration": "Often improves as the body adjusts over several weeks",
-    "description": "Fatigue and tiredness can result from reduced caloric intake, changes in blood sugar levels, or the body adjusting to the medication.",
+    "name": "Fatigue / Tiredness",
+    "frequency": "5-15% of patients",
+    "severity": "common",
+    "duration": "Often appears in the first several weeks as the body adjusts to lower caloric intake. May improve as the body adapts to fat-burning. Can persist if caloric deficit is too extreme or if nutritional needs are not met.",
+    "description": "Persistent tiredness, low energy, or feeling of exhaustion that may affect daily activities",
     "management": [
-      "Ensure adequate protein intake (0.8-1g per pound of body weight)",
-      "Maintain regular sleep schedule",
-      "Stay physically active with moderate exercise",
+      "Ensure adequate protein intake (aim for 0.7-1g per pound of body weight)",
       "Eat nutrient-dense foods rather than empty calories",
-      "Consider a multivitamin",
-      "Stay hydrated"
+      "Stay hydrated — dehydration worsens fatigue",
+      "Maintain regular physical activity, even light walking",
+      "Get 7-9 hours of sleep per night",
+      "Consider a multivitamin to cover potential nutritional gaps",
+      "Check iron and B12 levels with your doctor if fatigue persists"
     ],
-    "whenToSeekHelp": "Contact your provider if fatigue is severe or interfering with daily activities.",
-    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide"]
+    "whenToSeekHelp": "If fatigue is severe enough to impair daily functioning, is accompanied by shortness of breath or chest pain, comes with excessive thirst and frequent urination, or does not improve after several weeks",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide",
+      "dulaglutide",
+      "exenatide"
+    ],
+    "category": "neurological",
+    "whyItHappens": "Significantly reduced caloric intake from appetite suppression means less energy available. The body is transitioning to using fat stores for energy, which takes time. Blood sugar fluctuations, dehydration, and possible nutrient deficiencies (especially with very low food intake) also contribute.",
+    "relatedEffects": [
+      "decreased-appetite",
+      "dizziness",
+      "muscle-loss",
+      "low-blood-sugar"
+    ],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "B-vitamin complex and adaptogenic herbs support energy levels during the metabolic transition of GLP-1 therapy",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "Why does Ozempic make me so tired?",
+        "a": "Fatigue on GLP-1 medications is primarily caused by significantly reduced caloric intake. Your body is adjusting to using stored fat for energy instead of incoming food calories. Dehydration, inadequate protein, and nutrient deficiencies can worsen fatigue."
+      },
+      {
+        "q": "How do I get more energy while taking GLP-1 medication?",
+        "a": "Prioritize protein-rich foods, stay hydrated, get regular exercise (even light activity helps), ensure adequate sleep, and consider a multivitamin. If you are eating very little, focus on calorie-dense nutritious foods like nuts, avocado, and lean proteins."
+      },
+      {
+        "q": "Is fatigue on GLP-1 medication dangerous?",
+        "a": "Mild fatigue during adjustment is normal. However, severe fatigue could indicate excessive caloric restriction, dehydration, hypoglycemia, or nutrient deficiencies. If fatigue significantly impacts your daily life, consult your healthcare provider."
+      }
+    ]
+  },
+  {
+    "slug": "dizziness",
+    "name": "Dizziness",
+    "frequency": "5-10% of patients",
+    "severity": "common",
+    "duration": "Can occur at any point during treatment but is more common early on or during periods of reduced intake. Usually improves with adequate hydration and nutrition.",
+    "description": "Lightheadedness, unsteadiness, or a feeling that the room is spinning, especially when standing up quickly",
+    "management": [
+      "Stand up slowly from sitting or lying positions",
+      "Stay well hydrated throughout the day",
+      "Eat regular meals even if appetite is reduced",
+      "Avoid alcohol, which worsens dehydration and dizziness",
+      "Monitor blood sugar if you are diabetic",
+      "Avoid driving or operating machinery if experiencing dizziness",
+      "Add electrolytes to water if experiencing significant fluid loss"
+    ],
+    "whenToSeekHelp": "If dizziness is severe, causes fainting, is accompanied by chest pain or rapid heartbeat, occurs frequently, or is associated with vision changes or slurred speech",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide",
+      "dulaglutide",
+      "exenatide"
+    ],
+    "category": "neurological",
+    "whyItHappens": "Reduced food and fluid intake can lower blood pressure and blood sugar, both of which cause dizziness. Dehydration from GI side effects (vomiting, diarrhea) compounds the problem. Orthostatic hypotension (blood pressure drop when standing) is more common with lower caloric intake.",
+    "relatedEffects": [
+      "dehydration",
+      "low-blood-sugar",
+      "fatigue",
+      "headache"
+    ],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "Electrolyte blend and B-vitamins help maintain hydration and energy levels to reduce dizziness",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "Why do I feel dizzy on Ozempic?",
+        "a": "Dizziness is usually caused by dehydration, low blood sugar, or reduced blood pressure from eating and drinking less. GI side effects like vomiting and diarrhea can worsen dehydration. Ensure adequate fluid and food intake."
+      },
+      {
+        "q": "Can GLP-1 medication cause low blood pressure?",
+        "a": "GLP-1 medications can modestly reduce blood pressure, which is generally beneficial. However, combined with reduced food and fluid intake, this can sometimes cause orthostatic hypotension (dizziness when standing). This is more common if you also take blood pressure medications."
+      },
+      {
+        "q": "When should I worry about dizziness on GLP-1 medication?",
+        "a": "Occasional mild lightheadedness is usually manageable. Seek medical attention if you faint, experience severe or persistent dizziness, have an unusually rapid or slow heartbeat, or if dizziness is accompanied by other concerning symptoms."
+      }
+    ]
+  },
+  {
+    "slug": "injection-site-reactions",
+    "name": "Injection Site Reactions",
+    "frequency": "5-10% of patients",
+    "severity": "common",
+    "duration": "Usually occurs within hours of injection and resolves within a few days. Reactions may improve over time as the body becomes accustomed to the injections. Persistent or worsening reactions should be evaluated.",
+    "description": "Redness, swelling, itching, pain, or bruising at the site where the medication is injected",
+    "management": [
+      "Rotate injection sites (abdomen, thigh, upper arm) each week",
+      "Let the medication reach room temperature before injecting",
+      "Use proper injection technique (subcutaneous, not intramuscular)",
+      "Apply a cold compress after injection if sore",
+      "Do not inject into areas that are red, bruised, or tender",
+      "Avoid rubbing the injection site after administration",
+      "Use a new needle for each injection if using a pen device"
+    ],
+    "whenToSeekHelp": "If you develop a hard lump that does not go away, the injection site shows signs of infection (spreading redness, warmth, pus, fever), or you experience a widespread allergic reaction (hives, difficulty breathing, swelling of face/throat)",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide",
+      "dulaglutide",
+      "exenatide"
+    ],
+    "category": "injection-related",
+    "whyItHappens": "The injection introduces a foreign substance under the skin, which can cause a local immune response. The formulation of the medication, injection technique, and individual skin sensitivity all play a role. Subcutaneous tissue reaction to the drug vehicle or preservatives can also contribute.",
+    "relatedEffects": [],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "Anti-inflammatory support may help reduce overall inflammatory response during GLP-1 therapy",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "Where is the best place to inject GLP-1 medication?",
+        "a": "The abdomen (at least 2 inches from the navel), front of the thighs, and back of the upper arms are recommended sites. Rotate between these areas weekly. The abdomen typically provides the most consistent absorption."
+      },
+      {
+        "q": "Is a lump at the injection site normal?",
+        "a": "Small, temporary lumps can occur and usually resolve within a few days. If a lump is large, painful, growing, warm to the touch, or persists for more than a week, contact your healthcare provider."
+      },
+      {
+        "q": "Can injection site reactions be a sign of allergy?",
+        "a": "Local reactions (mild redness, itching) at the injection site are common and not necessarily allergic. However, if you develop widespread hives, swelling away from the injection site, difficulty breathing, or dizziness, seek immediate medical attention as these may indicate a systemic allergic reaction."
+      }
+    ]
+  },
+  {
+    "slug": "hair-loss",
+    "name": "Hair Loss / Thinning",
+    "frequency": "3-6% of patients",
+    "severity": "uncommon",
+    "duration": "Typically begins 3-6 months after starting treatment, corresponding to the hair growth cycle. Hair shedding may continue for several months but usually stabilizes and regrows once weight stabilizes and nutritional status improves.",
+    "description": "Diffuse hair thinning or increased hair shedding, typically noticed several months after starting treatment",
+    "management": [
+      "Ensure adequate protein intake (at least 60-80g per day)",
+      "Take a multivitamin with biotin, zinc, and iron",
+      "Avoid crash-dieting or extreme caloric restriction",
+      "Be gentle with hair — avoid tight hairstyles, excessive heat styling",
+      "Consider a biotin supplement (5,000-10,000 mcg daily)",
+      "Have your doctor check iron, ferritin, zinc, and thyroid levels",
+      "Aim for gradual, steady weight loss rather than rapid drops"
+    ],
+    "whenToSeekHelp": "If hair loss is severe or patchy (rather than diffuse), does not improve after 6-12 months, is accompanied by other symptoms (fatigue, cold intolerance, brittle nails), or if you notice bald patches",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "category": "cosmetic",
+    "whyItHappens": "Hair loss is primarily associated with rapid weight loss rather than the GLP-1 medication itself. Telogen effluvium occurs when the body undergoes significant physiological stress (like rapid caloric deficit), pushing hair follicles from the growth phase into the resting/shedding phase. Nutritional deficiencies from reduced food intake (protein, iron, zinc, biotin) also contribute.",
+    "relatedEffects": [
+      "decreased-appetite",
+      "fatigue",
+      "muscle-loss"
+    ],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "Biotin, zinc, and essential nutrients help support hair health during the rapid weight loss phase of GLP-1 therapy",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "Does Ozempic cause hair loss?",
+        "a": "Hair thinning is reported in 3-6% of patients in clinical trials. Research suggests it is primarily caused by rapid weight loss (telogen effluvium) rather than a direct drug effect. Any method of rapid weight loss, including bariatric surgery, carries similar hair loss risk."
+      },
+      {
+        "q": "Will hair grow back after GLP-1 hair loss?",
+        "a": "Yes, telogen effluvium is typically temporary. Hair usually begins to regrow once weight stabilizes and nutritional status improves, though full recovery can take 6-12 months. Ensuring adequate protein, iron, and biotin intake supports regrowth."
+      },
+      {
+        "q": "How do I prevent hair loss on Ozempic or Mounjaro?",
+        "a": "Prioritize protein intake (60-80g+ daily), take a multivitamin with biotin and zinc, avoid extreme caloric restriction, and aim for gradual weight loss. If hair loss begins, have your doctor check for iron deficiency and thyroid issues."
+      }
+    ]
   },
   {
     "slug": "gastroparesis",
-    "name": "Gastroparesis (Stomach Paralysis)",
-    "frequency": "Rare (<1% of patients)",
-    "severity": "Serious",
-    "duration": "May require medical intervention; usually resolves after stopping medication",
-    "description": "In rare cases, the slowed gastric emptying caused by GLP-1 medications can become severe enough to constitute gastroparesis, where the stomach takes much longer than normal to empty its contents.",
+    "name": "Gastroparesis (Delayed Gastric Emptying)",
+    "frequency": "1-5% of patients (severe form)",
+    "severity": "uncommon",
+    "duration": "Can occur at any dose but is more likely at higher doses. Some patients develop symptoms gradually. The effect is usually reversible after stopping or reducing the medication, though recovery may take weeks due to the long half-life of some GLP-1 drugs.",
+    "description": "Significantly delayed emptying of the stomach, causing prolonged fullness, nausea, and in severe cases, vomiting of undigested food hours after eating",
     "management": [
-      "Report symptoms to your provider immediately",
-      "Your provider may reduce your dose or pause treatment",
-      "Eat very small, frequent meals",
-      "Avoid high-fat and high-fiber foods",
-      "Stay upright during and after meals"
+      "Eat very small meals (6 small meals rather than 3 large)",
+      "Chew food thoroughly and eat slowly",
+      "Choose soft, well-cooked, or pureed foods when symptomatic",
+      "Avoid high-fiber and high-fat foods which are harder to digest",
+      "Stay upright and walk gently after meals",
+      "Stay hydrated — sip fluids throughout the day",
+      "Discuss dose reduction with your doctor if symptoms are severe"
     ],
-    "whenToSeekHelp": "Seek medical attention if you experience severe nausea/vomiting that prevents eating, significant bloating, or stomach pain lasting more than a few days.",
-    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide"]
+    "whenToSeekHelp": "If you vomit undigested food several hours after eating, cannot keep food down regularly, experience severe bloating and pain, lose weight unintentionally and rapidly, or develop signs of a bowel obstruction (severe pain, inability to pass gas or stool)",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide",
+      "dulaglutide",
+      "exenatide"
+    ],
+    "category": "gastrointestinal",
+    "whyItHappens": "GLP-1 receptor agonists are designed to slow gastric emptying as part of their mechanism of action. In most patients this effect is moderate and beneficial (reducing appetite and blood sugar spikes). However, in some patients the effect becomes excessive, leading to clinical gastroparesis where the stomach cannot empty at a functional rate.",
+    "relatedEffects": [
+      "nausea",
+      "vomiting",
+      "bloating",
+      "abdominal-pain",
+      "constipation",
+      "acid-reflux"
+    ],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "Digestive enzyme blend supports breakdown of food in the stomach, complementing the body's digestion during GLP-1 therapy",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "Can GLP-1 medication cause gastroparesis?",
+        "a": "GLP-1 medications intentionally slow gastric emptying, which is part of how they work. In a small percentage of patients, this effect becomes severe enough to be classified as gastroparesis. It is usually reversible after stopping or reducing the medication."
+      },
+      {
+        "q": "Is gastroparesis from Ozempic permanent?",
+        "a": "In most cases, gastroparesis from GLP-1 medications is reversible after discontinuation. However, due to the long half-life of semaglutide (about 7 days), it may take several weeks for gastric motility to fully normalize. Patients with pre-existing gastroparesis should use GLP-1 medications with caution."
+      },
+      {
+        "q": "How do I know if I have gastroparesis from my GLP-1 medication?",
+        "a": "Key signs include vomiting food eaten many hours earlier, feeling full after just a few bites, severe nausea that does not improve, and abdominal pain or bloating that is disproportionate to what you ate. A gastric emptying study can confirm the diagnosis."
+      }
+    ]
+  },
+  {
+    "slug": "muscle-loss",
+    "name": "Muscle Loss / Sarcopenia",
+    "frequency": "Up to 40% of weight lost may be lean mass without intervention",
+    "severity": "common",
+    "duration": "Occurs progressively throughout treatment. Becomes more noticeable as total weight loss increases. Most significant in the first 6-12 months of rapid weight loss. Can be substantially mitigated with proper nutrition and exercise.",
+    "description": "Loss of muscle mass alongside fat loss during GLP-1-mediated weight loss, potentially leading to reduced strength, metabolic rate, and functional capacity",
+    "management": [
+      "Prioritize protein intake: aim for 1.0-1.2g per pound of ideal body weight daily",
+      "Engage in resistance training (strength exercises) at least 2-3 times per week",
+      "Spread protein intake across all meals (25-40g per meal)",
+      "Consider a high-quality protein supplement if eating enough is difficult",
+      "Include leucine-rich protein sources (whey, eggs, chicken, fish)",
+      "Do not skip meals — even small protein-rich meals matter",
+      "Work with a dietitian to create a balanced meal plan",
+      "Consider creatine monohydrate supplementation (5g daily) — well-studied for muscle preservation"
+    ],
+    "whenToSeekHelp": "If you notice significant weakness, difficulty with daily activities (climbing stairs, carrying groceries), muscle cramps or pain, or if you are losing weight very rapidly (more than 1-2% of body weight per week)",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "category": "musculoskeletal",
+    "whyItHappens": "When the body is in a significant caloric deficit, it breaks down both fat and muscle for energy. GLP-1 medications cause substantial appetite suppression, often leading to inadequate protein intake. Without resistance exercise and sufficient protein, the body preferentially loses lean mass. Studies show 25-40% of total weight lost on GLP-1 medications can be lean (muscle) mass.",
+    "relatedEffects": [
+      "decreased-appetite",
+      "fatigue",
+      "ozempic-face"
+    ],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "Complete protein and amino acid support designed to help preserve lean muscle mass during GLP-1-mediated weight loss",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "How much muscle do you lose on Ozempic?",
+        "a": "Clinical studies show that without intervention, 25-40% of total weight lost on GLP-1 medications can be lean mass (muscle). For someone who loses 30 lbs, that could mean 8-12 lbs of muscle. Resistance training and adequate protein can significantly reduce this ratio."
+      },
+      {
+        "q": "How do you prevent muscle loss on GLP-1 medication?",
+        "a": "The two most important strategies are: (1) adequate protein intake (1.0-1.2g per pound of ideal body weight daily) and (2) regular resistance training (strength exercises 2-3 times per week). These can reduce lean mass loss to 10-15% of total weight lost."
+      },
+      {
+        "q": "Can you build muscle while taking GLP-1 medication?",
+        "a": "It is difficult to build significant new muscle while in a caloric deficit. The primary goal should be preserving existing muscle through protein and resistance training. Once weight stabilizes and caloric intake normalizes, muscle building becomes more feasible."
+      }
+    ]
+  },
+  {
+    "slug": "gallbladder-issues",
+    "name": "Gallbladder Issues / Gallstones",
+    "frequency": "1-3% of patients",
+    "severity": "uncommon",
+    "duration": "Risk increases during periods of active, rapid weight loss — typically the first 6-12 months of treatment. Gallstones may be asymptomatic or can cause sudden, severe pain. Risk persists as long as weight loss is ongoing.",
+    "description": "Formation of gallstones (cholelithiasis) or inflammation of the gallbladder (cholecystitis), causing pain in the upper right abdomen",
+    "management": [
+      "Do not skip meals — regular eating stimulates gallbladder contraction",
+      "Include small amounts of healthy fats in your diet to keep bile flowing",
+      "Stay hydrated",
+      "Maintain a moderate rate of weight loss when possible",
+      "Report any upper right abdominal pain to your doctor promptly",
+      "Some doctors may recommend ursodiol (ursodeoxycholic acid) for prevention in high-risk patients"
+    ],
+    "whenToSeekHelp": "Seek immediate medical attention for severe pain in the upper right abdomen (especially after eating), pain that radiates to the right shoulder or back, nausea and vomiting with abdominal pain, fever with abdominal pain, or yellowing of skin or eyes (jaundice)",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide",
+      "dulaglutide"
+    ],
+    "category": "serious",
+    "whyItHappens": "Rapid weight loss is a well-known risk factor for gallstone formation. When the body breaks down fat rapidly, the liver secretes extra cholesterol into bile, which can crystallize into stones. Reduced food intake also means the gallbladder contracts less frequently, allowing bile to stagnate and stones to form. This risk exists with any method of rapid weight loss.",
+    "relatedEffects": [
+      "abdominal-pain",
+      "nausea",
+      "vomiting"
+    ],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "Includes healthy fat metabolism support to complement a balanced approach to GLP-1 weight management",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "Can Ozempic cause gallstones?",
+        "a": "GLP-1 medications do not directly cause gallstones, but the rapid weight loss they produce is a well-known risk factor for gallstone formation. Clinical trials for semaglutide reported gallbladder-related events in 1-3% of patients. This risk exists with any method of significant weight loss."
+      },
+      {
+        "q": "What are the signs of gallstones on GLP-1 medication?",
+        "a": "Watch for sudden, intense pain in the upper right abdomen (often after eating fatty foods), pain radiating to the right shoulder blade, nausea and vomiting with abdominal pain, and in severe cases, fever or jaundice. Many gallstones are asymptomatic."
+      },
+      {
+        "q": "How do you prevent gallstones while losing weight on GLP-1?",
+        "a": "Eat regular meals (do not skip), include small amounts of healthy fats to stimulate bile flow, stay hydrated, and aim for steady rather than extremely rapid weight loss. Your doctor may prescribe ursodiol for prevention if you are at high risk."
+      }
+    ]
   },
   {
     "slug": "pancreatitis",
     "name": "Pancreatitis",
-    "frequency": "Rare (<0.5% of patients)",
-    "severity": "Serious - requires immediate medical attention",
-    "duration": "Requires treatment; medication must be discontinued",
-    "description": "Acute pancreatitis (inflammation of the pancreas) is a rare but serious potential side effect of GLP-1 medications. The exact mechanism is not fully understood.",
+    "frequency": "0.1-0.4% of patients",
+    "severity": "rare",
+    "duration": "Can occur at any point during treatment but has been reported most often in the first few months. Onset is typically sudden. Patients with a history of pancreatitis are at higher risk.",
+    "description": "Inflammation of the pancreas causing severe abdominal pain that radiates to the back, requiring immediate medical attention",
     "management": [
-      "Stop the medication immediately and contact your provider",
-      "This requires emergency medical treatment",
-      "Do not restart GLP-1 medication without medical clearance",
-      "Monitor for symptoms during treatment"
+      "Know the warning signs: severe abdominal pain radiating to the back",
+      "Avoid excessive alcohol consumption (independent risk factor)",
+      "Report any history of pancreatitis to your prescriber before starting",
+      "Seek emergency care immediately if you suspect pancreatitis",
+      "Maintain healthy triglyceride levels (very high triglycerides increase risk)"
     ],
-    "whenToSeekHelp": "Seek emergency medical care immediately if you experience severe abdominal pain that radiates to your back, especially with nausea, vomiting, and fever.",
-    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide", "Dulaglutide", "Exenatide"]
+    "whenToSeekHelp": "Seek IMMEDIATE emergency medical attention for severe, persistent abdominal pain (especially radiating to the back), pain that worsens after eating, nausea and vomiting with severe abdominal pain, fever with abdominal pain, or a rapid heartbeat with abdominal pain. This is a medical emergency.",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide",
+      "dulaglutide",
+      "exenatide"
+    ],
+    "category": "serious",
+    "whyItHappens": "The exact mechanism is not fully understood. GLP-1 receptor agonists stimulate the pancreas to produce insulin, and this increased pancreatic activity may, in rare cases, lead to inflammation. Some researchers theorize that GLP-1 agonists may cause pancreatic duct obstruction or direct acinar cell injury. A history of pancreatitis or gallstones increases risk.",
+    "relatedEffects": [
+      "abdominal-pain",
+      "nausea",
+      "vomiting"
+    ],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "Overall digestive health support for patients on GLP-1 therapy — consult your doctor for any signs of pancreatitis",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "How common is pancreatitis from GLP-1 medications?",
+        "a": "Pancreatitis is rare, occurring in approximately 0.1-0.4% of patients in clinical trials. While the FDA includes pancreatitis as a warning on all GLP-1 medication labels, large-scale studies have not conclusively proven a significantly elevated risk compared to the general population."
+      },
+      {
+        "q": "What does pancreatitis pain feel like?",
+        "a": "Pancreatitis typically causes severe, steady pain in the upper abdomen that often radiates straight through to the back. The pain usually worsens after eating, may be accompanied by nausea and vomiting, and does not improve with antacids or position changes. It is distinctly different from typical GI discomfort."
+      },
+      {
+        "q": "Can I take GLP-1 medication if I have had pancreatitis before?",
+        "a": "A history of pancreatitis is a relative contraindication for GLP-1 medications. Some prescribers may still use them with close monitoring, while others may choose alternative treatments. This is an important discussion to have with your healthcare provider before starting therapy."
+      }
+    ]
   },
   {
-    "slug": "gallbladder-problems",
-    "name": "Gallbladder Problems",
-    "frequency": "Uncommon (1-3% of patients)",
-    "severity": "Moderate to serious",
-    "duration": "May require medical or surgical treatment",
-    "description": "Rapid weight loss from any cause, including GLP-1 medications, can increase the risk of gallstones and gallbladder inflammation (cholecystitis).",
+    "slug": "low-blood-sugar",
+    "name": "Low Blood Sugar (Hypoglycemia)",
+    "frequency": "1-5% when used alone; higher when combined with insulin or sulfonylureas",
+    "severity": "uncommon",
+    "duration": "Can occur at any time but is most common after meals are skipped, during or after exercise, or when combined with other blood-sugar-lowering medications. Risk increases with dose escalation.",
+    "description": "Blood sugar dropping below normal levels, causing shakiness, sweating, confusion, rapid heartbeat, and in severe cases, loss of consciousness",
     "management": [
-      "Report any right upper abdominal pain to your provider",
-      "Maintain adequate fat intake (do not go extremely low fat)",
-      "Lose weight gradually rather than rapidly",
-      "Stay hydrated"
+      "Eat regular meals and snacks — do not skip meals",
+      "Carry fast-acting glucose (glucose tablets, juice) at all times if diabetic",
+      "Learn the 15-15 rule: take 15g of fast-acting carbs, recheck in 15 minutes",
+      "Monitor blood sugar regularly if diabetic, especially during dose changes",
+      "Discuss reducing insulin or sulfonylurea doses with your doctor when starting GLP-1",
+      "Be cautious with alcohol, which can lower blood sugar independently",
+      "Wear a medical ID bracelet if at risk for severe hypoglycemia"
     ],
-    "whenToSeekHelp": "Contact your provider if you experience pain in the upper right abdomen, especially after eating, with nausea or fever.",
-    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide"]
+    "whenToSeekHelp": "Seek immediate help if blood sugar drops below 54 mg/dL, you experience confusion or loss of consciousness, symptoms do not resolve after treating with glucose, or episodes occur frequently. Call 911 for severe hypoglycemia with altered consciousness.",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide",
+      "dulaglutide",
+      "exenatide"
+    ],
+    "category": "metabolic",
+    "whyItHappens": "GLP-1 receptor agonists stimulate insulin secretion in a glucose-dependent manner, meaning they primarily increase insulin when blood sugar is elevated. This makes standalone hypoglycemia uncommon. However, when combined with other diabetes medications (especially insulin or sulfonylureas that are not glucose-dependent), the combined effect can drive blood sugar too low. Non-diabetic patients on GLP-1s for weight loss rarely experience true hypoglycemia.",
+    "relatedEffects": [
+      "dizziness",
+      "fatigue",
+      "headache"
+    ],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "Balanced nutritional support helps maintain steady energy levels between meals during GLP-1 therapy",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "Can Ozempic cause low blood sugar in non-diabetic patients?",
+        "a": "True hypoglycemia (blood sugar below 70 mg/dL) is uncommon in non-diabetic patients because GLP-1 medications stimulate insulin in a glucose-dependent manner. However, some patients may feel shaky or weak from significantly reduced food intake, which is different from clinical hypoglycemia."
+      },
+      {
+        "q": "Is it safe to take Ozempic with insulin?",
+        "a": "Yes, but insulin doses often need to be reduced when starting a GLP-1 medication. The combined effect on blood sugar can be significant. Your doctor should proactively adjust your insulin dose to prevent hypoglycemia. Close blood sugar monitoring is essential."
+      },
+      {
+        "q": "What should I do if my blood sugar drops too low on GLP-1 medication?",
+        "a": "Follow the 15-15 rule: consume 15 grams of fast-acting carbohydrates (4 glucose tablets, 4 oz juice, or 1 tablespoon of sugar), wait 15 minutes, and recheck. If still low, repeat. If severely low or losing consciousness, someone should administer glucagon and call 911."
+      }
+    ]
   },
   {
-    "slug": "hair-loss",
-    "name": "Hair Loss (Telogen Effluvium)",
-    "frequency": "Uncommon but frequently reported anecdotally",
-    "severity": "Mild to moderate",
-    "duration": "Usually temporary; hair regrowth occurs over 3-6 months",
-    "description": "Hair loss associated with GLP-1 medications is typically caused by rapid weight loss and caloric restriction rather than the medication directly. This type of hair loss (telogen effluvium) is triggered by physiological stress on the body.",
+    "slug": "ozempic-face",
+    "name": "\"Ozempic Face\" (Facial Volume Loss)",
+    "frequency": "Noticeable in most patients with significant weight loss (>15% body weight)",
+    "severity": "common",
+    "duration": "Becomes noticeable after significant weight loss, typically once 15-20+ pounds have been lost. More pronounced with rapid loss. May continue to develop throughout the active weight loss phase. Some improvement may occur as weight stabilizes.",
+    "description": "Loss of facial fat and volume leading to a gaunt, hollow, or aged appearance — sagging skin, prominent cheekbones, under-eye hollows, and deeper nasolabial folds",
     "management": [
-      "Ensure adequate protein intake (critical for hair health)",
-      "Take a biotin supplement",
-      "Maintain adequate caloric intake (not too aggressive a deficit)",
-      "Consider a multivitamin with iron, zinc, and vitamin D",
-      "Be patient - hair typically regrows once weight stabilizes",
-      "Consult a dermatologist if concerned"
+      "Maintain adequate protein intake to support skin elasticity",
+      "Stay hydrated — dehydration worsens the appearance of volume loss",
+      "Use a good moisturizer and sunscreen (UV damage worsens skin laxity)",
+      "Consider collagen peptide supplementation",
+      "Facial exercises may help maintain some muscle tone",
+      "Consult a dermatologist about hyaluronic acid fillers if desired",
+      "Aim for gradual rather than extremely rapid weight loss when possible",
+      "Retinol or tretinoin can improve skin quality and elasticity"
     ],
-    "whenToSeekHelp": "Consult your provider if hair loss is significant or does not improve after 6 months.",
-    "affectedMedications": ["Semaglutide", "Tirzepatide"]
+    "whenToSeekHelp": "If facial changes are causing significant distress, consult a dermatologist or cosmetic specialist. There is no medical urgency, but supportive treatments are available. Discuss with your prescriber if the cosmetic impact is affecting your willingness to continue treatment.",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "category": "cosmetic",
+    "whyItHappens": "Rapid, significant fat loss affects the face just as it does the rest of the body. The face has fat pads that provide youthful fullness, and these are reduced during weight loss. Unlike gradual weight loss where skin has time to adapt, rapid loss can leave excess skin. Older patients and those who lose more weight are more affected because skin elasticity decreases with age.",
+    "relatedEffects": [
+      "muscle-loss",
+      "hair-loss",
+      "decreased-appetite"
+    ],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "Collagen peptides and vitamin C support skin elasticity and health during GLP-1-mediated weight loss",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "What is Ozempic face?",
+        "a": "\"Ozempic face\" is a colloquial term for facial volume loss that occurs with significant weight loss on GLP-1 medications. As fat is lost from facial fat pads, the face can appear more gaunt, hollow, or aged. It is not unique to Ozempic — any method of significant rapid weight loss can cause similar facial changes."
+      },
+      {
+        "q": "Can you prevent Ozempic face?",
+        "a": "You cannot completely prevent facial fat loss during weight loss, but you can minimize its impact: maintain adequate protein and hydration, use sunscreen, consider collagen supplements, and aim for gradual weight loss. Dermal fillers can restore volume if desired."
+      },
+      {
+        "q": "Does Ozempic face go away?",
+        "a": "Some facial fullness may return once weight stabilizes and the body redistributes remaining fat stores, but significant volume loss is often permanent without intervention. Hyaluronic acid dermal fillers, PRP treatments, and microneedling are cosmetic options to restore facial volume."
+      }
+    ]
   },
   {
-    "slug": "muscle-loss",
-    "name": "Muscle Loss (Lean Mass Reduction)",
-    "frequency": "Common with significant weight loss",
-    "severity": "Moderate",
-    "duration": "Ongoing concern during weight loss phase",
-    "description": "When losing weight with GLP-1 medications, 25-40% of weight lost may come from lean muscle mass rather than fat. This is a concern for maintaining metabolic health and physical function.",
+    "slug": "changes-in-taste",
+    "name": "Changes in Taste",
+    "frequency": "2-5% of patients",
+    "severity": "uncommon",
+    "duration": "Can occur at any point but most commonly reported in the first few months of treatment. May be intermittent. Often improves over time but can persist in some patients.",
+    "description": "Altered taste perception (dysgeusia) — foods may taste metallic, bitter, bland, or different than usual",
     "management": [
-      "Resistance training 2-4 times per week is critical",
-      "Consume 1.0-1.2g protein per pound of ideal body weight daily",
-      "Spread protein intake across all meals",
-      "Consider creatine supplementation",
-      "Work with a personal trainer if possible",
-      "Do not reduce calories too aggressively"
+      "Try different foods and seasonings to find what tastes good",
+      "Use herbs, spices, and citrus to enhance flavor naturally",
+      "Ensure adequate zinc intake (zinc deficiency worsens taste changes)",
+      "Stay hydrated — dry mouth can worsen taste disturbances",
+      "Rinse mouth with baking soda solution if experiencing metallic taste",
+      "Practice good oral hygiene — brush tongue as well as teeth",
+      "Try eating foods at different temperatures"
     ],
-    "whenToSeekHelp": "Discuss with your provider if you notice significant weakness or functional decline.",
-    "affectedMedications": ["Semaglutide", "Tirzepatide", "Liraglutide"]
+    "whenToSeekHelp": "If taste changes are severe enough to affect nutrition (cannot tolerate eating), persist for more than a few months, or are accompanied by smell changes or other neurological symptoms",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "category": "neurological",
+    "whyItHappens": "GLP-1 receptors are present in taste buds and the gustatory cortex of the brain. Activation of these receptors can alter taste signaling. Additionally, reduced zinc levels from lower food intake, changes in saliva composition, and altered gut-brain signaling may all contribute to taste changes.",
+    "relatedEffects": [
+      "decreased-appetite",
+      "nausea"
+    ],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "Zinc and essential mineral support help maintain normal taste function during GLP-1 therapy",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "Can GLP-1 medication change how food tastes?",
+        "a": "Yes, taste changes (dysgeusia) are reported in 2-5% of patients. Foods may taste metallic, unusually bitter, or bland. This is thought to be related to GLP-1 receptors in taste buds and the brain's taste-processing areas."
+      },
+      {
+        "q": "Why does everything taste bad on Ozempic?",
+        "a": "GLP-1 receptor activation can alter taste signaling in your taste buds and brain. Combined with changes in saliva, potential zinc deficiency from reduced food intake, and altered gut-brain communication, taste perception can shift significantly."
+      },
+      {
+        "q": "Do taste changes from GLP-1 medication go away?",
+        "a": "For most patients, taste changes are temporary and improve over weeks to months. Ensuring adequate zinc intake and staying hydrated may help. If taste changes severely impact your ability to eat, discuss with your doctor."
+      }
+    ]
+  },
+  {
+    "slug": "decreased-appetite",
+    "name": "Decreased Appetite (Beyond Intended)",
+    "frequency": "30-50% of patients report significant appetite loss",
+    "severity": "very-common",
+    "duration": "Most pronounced during the first weeks at each new dose level. Usually moderates over time, but for some patients, profound appetite loss persists throughout treatment. May require dose adjustment.",
+    "description": "Extreme reduction in appetite or food aversion that goes beyond the therapeutic intent, sometimes making it difficult to eat enough to meet basic nutritional needs",
+    "management": [
+      "Set meal reminders — eat on a schedule even if not hungry",
+      "Focus on calorie-dense, nutrient-rich foods (nuts, nut butter, avocado, cheese)",
+      "Prioritize protein at every meal to prevent muscle loss",
+      "Drink smoothies or protein shakes if solid food is unappealing",
+      "Eat small portions frequently rather than trying to eat full meals",
+      "Keep easy-to-eat snacks accessible (Greek yogurt, protein bars)",
+      "Discuss dose reduction with your doctor if unable to meet basic nutrition"
+    ],
+    "whenToSeekHelp": "If you are eating fewer than 800-1000 calories per day consistently, losing weight too rapidly (more than 3-4 lbs per week), experiencing weakness, hair loss, or dizziness from inadequate nutrition, or developing an aversion to all food",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide",
+      "dulaglutide",
+      "exenatide"
+    ],
+    "category": "metabolic",
+    "whyItHappens": "GLP-1 agonists work by activating appetite-suppressing pathways in the hypothalamus (the brain's hunger center), slowing gastric emptying (so you feel full longer), and altering reward signaling related to food. In some patients, these effects are so strong that eating becomes unpleasant or they develop aversions to previously enjoyed foods.",
+    "relatedEffects": [
+      "muscle-loss",
+      "fatigue",
+      "hair-loss",
+      "nausea",
+      "ozempic-face"
+    ],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "Concentrated nutritional support helps ensure essential vitamin and mineral intake even with reduced appetite",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "Is it normal to not want to eat at all on Ozempic?",
+        "a": "Significant appetite reduction is the primary mechanism of GLP-1 medications for weight loss. However, if you cannot eat enough to meet basic nutritional needs (minimum 800-1000 calories for most adults), your dose may need adjustment. Some appetite loss is expected; complete food aversion is not the goal."
+      },
+      {
+        "q": "How many calories should I eat on GLP-1 medication?",
+        "a": "Most healthcare providers recommend a minimum of 1,200-1,500 calories per day for women and 1,500-1,800 for men, with at least 60-80g of protein daily. Eating too little can cause muscle loss, nutrient deficiencies, hair loss, and metabolic slowdown."
+      },
+      {
+        "q": "Can extreme appetite loss on GLP-1 be harmful?",
+        "a": "Yes. While reduced appetite is therapeutic, extreme appetite suppression leading to very low caloric intake can cause muscle wasting, nutrient deficiencies, gallstone formation, hair loss, fatigue, and metabolic adaptation (slowed metabolism). Discuss with your doctor if you are struggling to eat."
+      }
+    ]
+  },
+  {
+    "slug": "sulfur-burps",
+    "name": "Sulfur Burps",
+    "frequency": "10-20% of patients",
+    "severity": "common",
+    "duration": "Most common during the first weeks of treatment and after dose increases. Often triggered by specific foods. Usually improves with dietary modifications and as the body adjusts.",
+    "description": "Burps that taste and smell like rotten eggs (hydrogen sulfide), sometimes accompanied by nausea or an upset stomach",
+    "management": [
+      "Reduce sulfur-rich foods: eggs, red meat, dairy, broccoli, cauliflower, garlic, onions",
+      "Eat smaller meals to reduce fermentation time",
+      "Avoid carbonated beverages",
+      "Try eating more slowly and chewing thoroughly",
+      "Stay upright after eating",
+      "Consider a probiotic to improve gut bacteria balance",
+      "Pepto-Bismol (bismuth subsalicylate) can reduce sulfur gas — check with your doctor first"
+    ],
+    "whenToSeekHelp": "If sulfur burps are persistent and severe, accompanied by vomiting, diarrhea, or significant abdominal pain, or if they do not improve with dietary changes",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide",
+      "dulaglutide"
+    ],
+    "category": "gastrointestinal",
+    "whyItHappens": "Delayed gastric emptying causes food to sit in the stomach and upper intestine longer than normal, allowing bacteria more time to ferment food and produce hydrogen sulfide gas. Sulfur-containing foods (eggs, meat, cruciferous vegetables, dairy) are particularly prone to producing this gas during extended digestion times.",
+    "relatedEffects": [
+      "bloating",
+      "nausea",
+      "acid-reflux",
+      "gastroparesis"
+    ],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "Digestive enzymes and probiotics help reduce fermentation and gas production during GLP-1 therapy",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "Why does Ozempic cause sulfur burps?",
+        "a": "GLP-1 medications slow gastric emptying, meaning food stays in your stomach and upper GI tract longer. This gives bacteria more time to break down sulfur-containing amino acids in food, producing hydrogen sulfide gas — the characteristic rotten egg smell."
+      },
+      {
+        "q": "How do I stop sulfur burps from Ozempic?",
+        "a": "Reduce sulfur-rich foods (eggs, red meat, cruciferous vegetables, dairy), eat smaller meals, avoid carbonated drinks, and try a probiotic. Bismuth subsalicylate (Pepto-Bismol) can help bind sulfur compounds, but check with your doctor before regular use."
+      },
+      {
+        "q": "Are sulfur burps from GLP-1 medication harmful?",
+        "a": "While unpleasant and socially uncomfortable, sulfur burps themselves are not medically harmful. They are a quality-of-life issue caused by delayed digestion. If accompanied by severe pain, vomiting, or other symptoms, consult your doctor."
+      }
+    ]
+  },
+  {
+    "slug": "dehydration",
+    "name": "Dehydration",
+    "frequency": "10-20% of patients may experience some degree of dehydration",
+    "severity": "common",
+    "duration": "Risk is highest during early treatment when GI side effects are most active and eating/drinking patterns are disrupted. Can occur at any time if fluid intake is not maintained.",
+    "description": "Insufficient fluid levels in the body, caused by reduced fluid intake from appetite suppression combined with fluid losses from GI side effects",
+    "management": [
+      "Aim for at least 64 oz (2 liters) of water daily — more if experiencing GI symptoms",
+      "Set regular hydration reminders on your phone",
+      "Add electrolytes to water, especially if experiencing vomiting or diarrhea",
+      "Eat hydrating foods: cucumbers, watermelon, soup broth",
+      "Monitor urine color — pale yellow indicates good hydration",
+      "Sip fluids throughout the day rather than large amounts at once",
+      "Avoid excessive caffeine and alcohol, which are diuretics",
+      "Replace fluids immediately if vomiting or diarrhea occurs"
+    ],
+    "whenToSeekHelp": "Seek medical attention if urine is dark amber or you are urinating very infrequently, you experience severe thirst, dry mouth, or dizziness, you have rapid heartbeat or low blood pressure, or you cannot keep any fluids down for more than 12 hours",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide",
+      "dulaglutide",
+      "exenatide"
+    ],
+    "category": "metabolic",
+    "whyItHappens": "Multiple factors converge: appetite suppression reduces overall food and fluid intake; GI side effects like vomiting and diarrhea cause direct fluid loss; some patients forget to drink when not hungry; and the body releases water during fat metabolism and glycogen depletion.",
+    "relatedEffects": [
+      "vomiting",
+      "diarrhea",
+      "dizziness",
+      "headache",
+      "kidney-issues"
+    ],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "Electrolyte and mineral blend designed to support optimal hydration during GLP-1 therapy",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "How much water should I drink on GLP-1 medication?",
+        "a": "Aim for at least 64 oz (2 liters) daily as a baseline. If you experience vomiting or diarrhea, increase intake further. Some healthcare providers recommend half your body weight in ounces daily. Using electrolyte supplements can improve fluid retention."
+      },
+      {
+        "q": "Can dehydration on Ozempic be dangerous?",
+        "a": "Yes. Severe dehydration can cause kidney injury (acute kidney injury has been reported in GLP-1 users with dehydration), dangerous electrolyte imbalances, dizziness and falls, and in extreme cases, hospitalization. Maintaining adequate hydration is essential."
+      },
+      {
+        "q": "What are the signs of dehydration on GLP-1 medication?",
+        "a": "Watch for dark urine, decreased urination, dry mouth and lips, headache, dizziness when standing, fatigue, rapid heartbeat, and muscle cramps. If you notice these signs, increase fluid and electrolyte intake immediately."
+      }
+    ]
+  },
+  {
+    "slug": "kidney-issues",
+    "name": "Kidney Issues",
+    "frequency": "0.1-0.5% of patients (acute kidney injury)",
+    "severity": "rare",
+    "duration": "Acute kidney injury is most likely during episodes of severe dehydration (from vomiting, diarrhea, or illness) early in treatment. Patients with pre-existing kidney disease should have renal function monitored regularly.",
+    "description": "Kidney function impairment, including acute kidney injury (AKI), primarily caused by severe dehydration from GI side effects",
+    "management": [
+      "Maintain excellent hydration at all times",
+      "Seek medical attention promptly for severe vomiting or diarrhea",
+      "Avoid NSAIDs (ibuprofen, naproxen) when possible — they can stress kidneys",
+      "Have kidney function (creatinine, GFR) monitored regularly if you have risk factors",
+      "Report any significant changes in urination (decreased output, dark urine, foamy urine)",
+      "Discuss kidney risks with your doctor if you have pre-existing kidney disease"
+    ],
+    "whenToSeekHelp": "Seek immediate medical attention if you notice significantly decreased urination, swelling in legs or ankles, persistent nausea/vomiting that prevents fluid intake, dark or bloody urine, or severe flank pain",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide",
+      "dulaglutide",
+      "exenatide"
+    ],
+    "category": "serious",
+    "whyItHappens": "Acute kidney injury in GLP-1 users is primarily dehydration-mediated. Severe or prolonged vomiting, diarrhea, or inadequate fluid intake reduces blood flow to the kidneys. Pre-existing chronic kidney disease, use of NSAIDs, ACE inhibitors, or diuretics further increases risk. Direct nephrotoxicity from GLP-1 medications has not been established — in fact, some data suggest GLP-1 agonists may be kidney-protective long-term.",
+    "relatedEffects": [
+      "dehydration",
+      "vomiting",
+      "diarrhea"
+    ],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "Comprehensive hydration and electrolyte support helps protect kidney health during GLP-1 therapy",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "Can GLP-1 medications damage your kidneys?",
+        "a": "GLP-1 medications are not directly toxic to the kidneys. However, severe dehydration from GI side effects (vomiting, diarrhea) can cause acute kidney injury. Interestingly, studies suggest GLP-1 agonists may actually be protective for kidney function long-term by improving blood sugar control and reducing inflammation."
+      },
+      {
+        "q": "Should I get my kidneys checked on GLP-1 medication?",
+        "a": "Routine kidney monitoring is recommended if you have pre-existing kidney disease, diabetes, hypertension, or take medications that affect kidney function (ACE inhibitors, ARBs, diuretics, NSAIDs). For otherwise healthy patients, standard annual bloodwork is usually sufficient."
+      },
+      {
+        "q": "Is Ozempic safe for people with kidney disease?",
+        "a": "GLP-1 medications can generally be used in patients with mild to moderate kidney disease, and some may even be beneficial for kidney outcomes. However, extra caution is needed to prevent dehydration, and dose adjustments may be required. Consult a nephrologist for severe kidney disease."
+      }
+    ]
+  },
+  {
+    "slug": "depression-mood-changes",
+    "name": "Depression / Mood Changes",
+    "frequency": "1-5% of patients",
+    "severity": "uncommon",
+    "duration": "Can occur at any point during treatment. Some patients notice mood changes within the first few weeks, while others develop them over months. May be related to specific life circumstances interacting with treatment effects.",
+    "description": "Changes in mood including depression, anxiety, irritability, or emotional flatness, which may be new or a worsening of pre-existing conditions",
+    "management": [
+      "Monitor your mood regularly — keep a mood journal",
+      "Maintain social connections and support systems",
+      "Continue or start regular physical exercise (proven mood booster)",
+      "Ensure adequate nutrition — severe caloric restriction can worsen mood",
+      "Seek therapy or counseling if struggling with body image changes",
+      "Discuss mood changes with your prescriber early",
+      "Do not stop medication abruptly without medical guidance",
+      "Consider that grief over changing food relationships is normal and valid"
+    ],
+    "whenToSeekHelp": "Seek help immediately if you experience suicidal thoughts or self-harm ideation, severe depression or inability to function, panic attacks, or a drastic personality change. Contact the 988 Suicide and Crisis Lifeline (call or text 988) in the US if in crisis.",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide"
+    ],
+    "category": "neurological",
+    "whyItHappens": "Multiple pathways may be involved: GLP-1 receptors are present in brain regions that regulate mood (hippocampus, amygdala); dramatic dietary changes and rapid body composition shifts can affect neurotransmitter production (serotonin, dopamine); loss of food as an emotional comfort/reward; changes in gut microbiome affecting the gut-brain axis; and the psychological impact of rapid physical transformation.",
+    "relatedEffects": [
+      "fatigue",
+      "decreased-appetite",
+      "changes-in-taste"
+    ],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "B-vitamins and adaptogenic herbs support nervous system health and emotional balance during GLP-1 therapy",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "Can Ozempic cause depression?",
+        "a": "Mood changes including depression are reported by some patients. The FDA has been reviewing post-marketing reports of suicidal ideation with GLP-1 medications, though clinical trials have not shown a statistically significant increased risk. If you experience mood changes, report them to your healthcare provider."
+      },
+      {
+        "q": "Why do I feel sad or emotionally flat on GLP-1 medication?",
+        "a": "Several factors may contribute: loss of food as an emotional comfort, neurochemical changes from reduced caloric intake (affecting serotonin and dopamine), rapid body changes challenging identity, GLP-1 receptor effects in mood-regulating brain areas, and gut microbiome shifts affecting the gut-brain axis."
+      },
+      {
+        "q": "Should I stop GLP-1 medication if I feel depressed?",
+        "a": "Do not stop medication abruptly without consulting your doctor. Mood changes have multiple potential causes and may be manageable with therapy, lifestyle adjustments, or dose changes. Your prescriber can help determine the best course of action."
+      }
+    ]
+  },
+  {
+    "slug": "thyroid-concerns",
+    "name": "Thyroid Concerns",
+    "frequency": "Observed in animal studies; human incidence not established (FDA black box warning)",
+    "severity": "rare",
+    "duration": "In rodent studies, tumors developed with chronic long-term exposure. There is no established timeline for human risk. The FDA warning applies for the entire duration of treatment.",
+    "description": "Potential risk of thyroid C-cell tumors, including medullary thyroid carcinoma (MTC), based on findings in rodent studies. Carries an FDA black box warning.",
+    "management": [
+      "Disclose any personal or family history of medullary thyroid carcinoma (MTC) to your doctor",
+      "Disclose any personal or family history of Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)",
+      "Be aware of thyroid cancer symptoms: a lump or swelling in the neck",
+      "Report persistent hoarseness, difficulty swallowing, or shortness of breath",
+      "Follow your doctor's monitoring recommendations"
+    ],
+    "whenToSeekHelp": "Report any lump or swelling in the neck, persistent hoarseness or voice changes, difficulty swallowing, or shortness of breath. These may be signs of thyroid issues unrelated to medication, but they should always be evaluated.",
+    "affectedMedications": [
+      "semaglutide",
+      "tirzepatide",
+      "liraglutide",
+      "dulaglutide",
+      "exenatide"
+    ],
+    "category": "serious",
+    "whyItHappens": "In animal studies (rats and mice), GLP-1 receptor agonists caused dose-dependent thyroid C-cell tumors, including medullary thyroid carcinoma. This is thought to be related to GLP-1 receptor activation on thyroid C-cells, which stimulates calcitonin release. However, human thyroid C-cells have significantly fewer GLP-1 receptors than rodents, and decades of human data have not shown a clear increased risk in humans. The black box warning remains as a precaution.",
+    "relatedEffects": [],
+    "seraviaProduct": {
+      "name": "GLP-1 Support",
+      "benefit": "Selenium and iodine support for overall thyroid health during GLP-1 therapy — always discuss thyroid concerns with your doctor",
+      "url": "https://seraviahealth.com"
+    },
+    "faqQuestions": [
+      {
+        "q": "Does Ozempic cause thyroid cancer?",
+        "a": "GLP-1 medications carry an FDA black box warning about thyroid C-cell tumors based on rodent studies. However, human thyroid cells have far fewer GLP-1 receptors than rodent cells, and large human studies have not confirmed an increased thyroid cancer risk. The warning is precautionary. Patients with a history of medullary thyroid carcinoma or MEN 2 should not use GLP-1 medications."
+      },
+      {
+        "q": "Who should NOT take GLP-1 medication due to thyroid risk?",
+        "a": "GLP-1 receptor agonists are contraindicated in patients with a personal or family history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN 2). If you have any thyroid cancer history, discuss it thoroughly with your doctor."
+      },
+      {
+        "q": "Should I get thyroid screening while on GLP-1 medication?",
+        "a": "Routine thyroid cancer screening specifically for GLP-1 use is not currently recommended by major medical organizations. However, you should report any neck lumps, voice changes, or swallowing difficulties to your doctor. Standard thyroid function tests (TSH) during regular checkups are reasonable."
+      }
+    ]
   }
 ]
