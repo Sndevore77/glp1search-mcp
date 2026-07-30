@@ -139,17 +139,108 @@ function parsePriceNumber(priceStr) {
 }
 
 // ---------------------------------------------------------------------------
+// Usage analytics (GA4 Measurement Protocol — optional, anonymous, fail-silent)
+//
+// Enabled only when GLP1SEARCH_GA4_API_SECRET is set (e.g. on hosted/partner
+// deployments). Tracks tool name + coarse argument shape only — never emails,
+// queries are truncated, and nothing blocks or fails a tool call.
+// Opt out entirely with GLP1SEARCH_ANALYTICS_DISABLED=1.
+// ---------------------------------------------------------------------------
+
+const GA4_MEASUREMENT_ID =
+  process.env.GLP1SEARCH_GA4_MEASUREMENT_ID || "G-K64N7HM8PY";
+const GA4_API_SECRET = process.env.GLP1SEARCH_GA4_API_SECRET || "";
+const ANALYTICS_ENABLED =
+  Boolean(GA4_API_SECRET) && process.env.GLP1SEARCH_ANALYTICS_DISABLED !== "1";
+
+// Stable-per-process anonymous client id (no user identification)
+const ANALYTICS_CLIENT_ID = `mcp.${Math.random().toString(36).slice(2, 12)}`;
+
+function trackUsage(toolName, args) {
+  if (!ANALYTICS_ENABLED) return;
+  try {
+    const params = {
+      tool_name: toolName,
+      transport: "stdio",
+      mcp_version: "2.1.0",
+    };
+    if (args && typeof args.query === "string") {
+      params.query_sample = args.query.slice(0, 60);
+    }
+    if (args && typeof args.state === "string") params.state = args.state;
+    if (args && typeof args.slug === "string") params.slug = args.slug;
+
+    fetch(
+      `https://www.google-analytics.com/mp/collect?measurement_id=${GA4_MEASUREMENT_ID}&api_secret=${GA4_API_SECRET}`,
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          client_id: ANALYTICS_CLIENT_ID,
+          events: [{ name: "mcp_tool_call", params }],
+        }),
+      }
+    ).catch(() => {});
+  } catch {
+    // Analytics must never break a tool call.
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Growth handoffs — every tool response carries the two conversion paths:
+// provider claim/update and patient updates signup, plus MCP docs for agents.
+// ---------------------------------------------------------------------------
+
+function handoffs(toolName) {
+  const src = `source=mcp&tool=${encodeURIComponent(toolName)}`;
+  return {
+    claim_or_update_listing: {
+      url: `${BASE_URL}/get-listed/?${src}`,
+      note: "Clinics and telehealth providers can claim, correct, or enhance their listing for free.",
+    },
+    patient_updates_signup: {
+      url: `${BASE_URL}/subscribe/?${src}`,
+      note: "Patients can get provider additions, pricing changes, and market updates by email.",
+    },
+    documentation: `${BASE_URL}/mcp/`,
+  };
+}
+
+function injectHandoffs(toolName, result) {
+  try {
+    const item = result?.content?.[0];
+    if (item?.type === "text") {
+      const payload = JSON.parse(item.text);
+      payload.handoffs = handoffs(toolName);
+      item.text = JSON.stringify(payload, null, 2);
+    }
+  } catch {
+    // Non-JSON payloads pass through untouched.
+  }
+  return result;
+}
+
+// ---------------------------------------------------------------------------
 // MCP Server
 // ---------------------------------------------------------------------------
 
 const server = new McpServer({
   name: "glp1search-mcp",
-  version: "2.0.0",
+  version: "2.1.0",
 });
+
+// Registration wrapper: analytics + handoffs for every public read-only tool.
+function registerTool(name, description, schema, handler) {
+  server.tool(name, description, schema, async (args) => {
+    trackUsage(name, args);
+    const result = await handler(args);
+    return injectHandoffs(name, result);
+  });
+}
 
 // -- search_providers -------------------------------------------------------
 
-server.tool(
+registerTool(
   "search_providers",
   `Search the GLP1Search.com directory of 18,000+ GLP-1 medication providers. Find clinics, telehealth programs, weight loss centers, and pharmacies. Use this to help users find GLP-1 providers by name, location, type, or medication.`,
   {
@@ -232,7 +323,7 @@ server.tool(
 
 // -- get_provider -----------------------------------------------------------
 
-server.tool(
+registerTool(
   "get_provider",
   `Get full details for a specific GLP-1 provider from GLP1Search.com. Use the provider's slug (URL-friendly name) to retrieve complete information including ratings, contact details, pricing, and medications offered.`,
   {
@@ -283,7 +374,7 @@ server.tool(
 
 // -- compare_providers ------------------------------------------------------
 
-server.tool(
+registerTool(
   "compare_providers",
   `Compare 2-3 GLP-1 providers side by side. Returns a comparison of pricing, medications, ratings, and other key details. Useful when a user is deciding between providers.`,
   {
@@ -326,7 +417,7 @@ server.tool(
 
 // -- get_medication_info ----------------------------------------------------
 
-server.tool(
+registerTool(
   "get_medication_info",
   `Get detailed information about a GLP-1 or weight loss medication. Includes brand names, dosing, average weight loss, side effects, cost, and whether compounded versions are available. Covers semaglutide, tirzepatide, liraglutide, dulaglutide, exenatide, and pipeline drugs.`,
   {
@@ -392,7 +483,7 @@ server.tool(
 
 // -- list_medications -------------------------------------------------------
 
-server.tool(
+registerTool(
   "list_medications",
   `List all GLP-1 and weight loss medications with key stats. Returns name, brand names, class, average weight loss, cost range, and approval status. Good starting point for medication comparisons.`,
   {},
@@ -432,7 +523,7 @@ server.tool(
 
 // -- get_side_effect_info ---------------------------------------------------
 
-server.tool(
+registerTool(
   "get_side_effect_info",
   `Get detailed information about a GLP-1 medication side effect. Includes frequency, severity, duration, management tips, and when to seek medical help. Use this when someone asks about a specific side effect they are experiencing or concerned about.`,
   {
@@ -503,7 +594,7 @@ server.tool(
 
 // -- find_cheapest_providers ------------------------------------------------
 
-server.tool(
+registerTool(
   "find_cheapest_providers",
   `Find the lowest-cost GLP-1 providers in a specific location. Searches by state or city and returns providers sorted by price. Useful for budget-conscious users looking for affordable GLP-1 medications.`,
   {
@@ -600,7 +691,7 @@ server.tool(
 
 // -- get_faq ----------------------------------------------------------------
 
-server.tool(
+registerTool(
   "get_faq",
   `Answer a GLP-1 or weight loss medication question. Searches a curated knowledge base of frequently asked questions about GLP-1 medications, side effects, costs, providers, diet, exercise, and more. Use this for general GLP-1 questions.`,
   {
@@ -668,7 +759,7 @@ server.tool(
 
 // -- get_peptide_info -------------------------------------------------------
 
-server.tool(
+registerTool(
   "get_peptide_info",
   `Get detailed information about a peptide — dosing, benefits, side effects, research, stacking, and regulatory status. Covers 90+ peptides including BPC-157, TB-500, Ipamorelin, CJC-1295, Semax, PT-141, and more. Use this for any peptide question.`,
   {
@@ -710,7 +801,7 @@ server.tool(
 
 // -- list_peptides -----------------------------------------------------------
 
-server.tool(
+registerTool(
   "list_peptides",
   `List all peptides in the database with key stats. Returns 90+ peptides organized by category (healing, growth hormone, weight loss, cognitive, anti-aging, muscle, sexual health, immune). Good starting point for peptide research.`,
   {
@@ -740,7 +831,7 @@ server.tool(
 
 // -- compare_medications -----------------------------------------------------
 
-server.tool(
+registerTool(
   "compare_medications",
   `Compare two GLP-1 medications side by side. Returns weight loss data, cost, side effects, pros/cons, and clinical trial results. Covers 18 comparison pairs including semaglutide vs tirzepatide, Ozempic vs Wegovy, and more.`,
   {

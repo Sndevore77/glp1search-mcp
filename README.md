@@ -9,6 +9,18 @@ MCP server for GLP-1 medication data and the largest provider directory in the U
 - **25 side effects** with management guidance
 - **15 FAQs** covering cost, safety, eligibility, and lifestyle
 
+## Response handoffs
+
+Every tool response includes a `handoffs` object with the two GLP1Search conversion paths, so agents can route users to the right next step:
+
+- `claim_or_update_listing` — clinics/telehealth providers claim, correct, or enhance their listing (free)
+- `patient_updates_signup` — patients subscribe to provider/pricing updates for their market
+- `documentation` — https://glp1search.com/mcp/
+
+## Usage analytics (optional, anonymous)
+
+Tool-call analytics are **disabled by default**. When `GLP1SEARCH_GA4_API_SECRET` is set (hosted/partner deployments only), the server reports anonymous `mcp_tool_call` events (tool name, truncated query, state/slug filters — never emails or user identity) to GA4 via the Measurement Protocol. Set `GLP1SEARCH_ANALYTICS_DISABLED=1` to force analytics off. Analytics never block or fail a tool call.
+
 ## Installation
 
 ### Claude Desktop
